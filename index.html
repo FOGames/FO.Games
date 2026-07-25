@@ -1,121 +1,175 @@
-<!DOCTYPE HTML>
-<html lang="AR">
-
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-COMPATIBLE" content="IE=EDGE">
-    <meta name="VIEWPORT" content="width=DEVICE-width,initial-scale=1.0">
-    <meta name="description" content="FO.Games - .منصه العاب اونلاين مجانيه ، استمتع بافضل العاب المتصفح بدون تحميل">
-    <link rel="stylesheet" href="style.css" />
-    <title>FO.Games</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZ0LRGTJJK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FO.Games - منصة الألعاب</title>
+    
+    <!-- PWA Web Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1d24">
 
-  gtag('config', 'G-MZ0LRGTJJK');
-</script>
-<link rel="icon" href="favicon.png" type="image/png">
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+    
+    <!-- QRCode Lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <!-- CSS مع الإصدار v=4.0 لكسر الكاش -->
+    <link rel="stylesheet" href="style.css?v=5.0">
 </head>
-
 <body>
-    <div class="content">
-        <img width="200"; border-radius: 8px; src=banner.png>
-        <div align="right" class="hander-link">
-            <a href="New.html">جديد</a>
-            <br />
-            <a href="Best.html">افضل</a>
-            <br />
-            <a href="Race.html" target="_parent">سباق</a>
-            <br />
-            <a href="Girls.html">فتيات</a>
-        </div>
-    </div>
-    <div class="hero-section">
-        <div class="content-side">
-            <h1>
-                اهلا بك في موقع العاب مجانيه اونلاين
-            </h1>
-            <h1>
-                استمتع بوقتك
-            </h1>
-            <div class="sarsh">
-                <button>بحث</button>
-                <input type="text" placeholder="...ابدأ الكتابه" />
+
+    <!-- Header / Navbar -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo" onclick="window.location.reload()">
+                <i class="fa-solid fa-gamepad"></i> FO.Games
+            </div>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="ابحث عن لعبة...">
+            </div>
+
+            <div class="header-actions">
+                <!-- قائمة أفضل 10 لغات -->
+                <div class="custom-lang-selector">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="langSelect" onchange="changeLanguage(this.value)">
+                        <option value="ar">العربية 🇪🇬</option>
+                        <option value="en">English 🇺🇸</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="es">Español 🇪🇸</option>
+                        <option value="de">Deutsch 🇩🇪</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="zh-CN">中文 🇨🇳</option>
+                        <option value="ja">日本語 🇯🇵</option>
+                        <option value="pt">Português 🇵🇹</option>
+                    </select>
+                </div>
+
+                <!-- زر تثبيت التطبيق -->
+                <button id="install-btn" class="install-btn">
+                    <i class="fa-solid fa-download"></i> <span>تثبيت</span>
+                </button>
+
+                <!-- زر مشاركة الموقع -->
+                <button class="action-btn share-site-btn" onclick="sharePlatform()" title="مشاركة الموقع">
+                    <i class="fa-solid fa-share-nodes"></i> <span>مشاركة</span>
+                </button>
+
+                <!-- الوضع الليلي -->
+                <button class="action-btn" onclick="toggleTheme()" title="تغيير المظهر">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </button>
+
+                <!-- وضع الأطفال -->
+                <button class="action-btn kids-btn" onclick="toggleKidsMode()" title="وضع الأطفال">
+                    <i class="fa-solid fa-child"></i> <span id="kids-label">الأطفال: إيقاف</span>
+                </button>
+
+                <!-- QR Code للموقع -->
+                <button class="action-btn" onclick="toggleMainQRCode()" title="QR Code">
+                    <i class="fa-solid fa-qrcode"></i>
+                </button>
             </div>
         </div>
-        <div class="hander">
-            <img src="https://i.pinimg.com/736x/ca/00/1d/ca001d19bc43902e83ac9c692555e978.jpg" width="200"
-                align="left" />
-        </div>
-    </div>
-    <div>
-        <div class="Games-links" style="text-align: center; margin-top: 20px;">
-              <iframe src="https://play.famobi.com/garden-bloom" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/giant-rush" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/teeth-runner" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/thief-puzzle" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/emoji-fun" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/bottle-flip" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/moto-x3m-pool-party" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/jelly-run-2048" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/om-nom-run" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/bubble-tower-3d" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/cannon-balls-3d" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/tower-crash-3d" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/element-blocks" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/zoo-boom" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/bubble-woods" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/3d-free-kick" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/8-ball-billiards-classic" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/archery-world-tour" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/totemia-cursed-marbles" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/table-tennis-world-tour" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/solitaire-klondike" width="185" height="300"></iframe>
-            <iframe src="https://play.famobi.com/onet-connect-classic" width="185" height="300"></iframe>
-        </div>
-    </div>
-    <div class="content">
-        <div align="right" class="hander-link">
-            <br />
-            <a href="For Puzzles.html">لغز</a>
-            <br />
-            <a href="Sports.html">رياضه</a>
-            <br />
-            <a href="Cards.html">بطاقات</a> 
-            <br />
-            <a href="Jump and Run.html">اقفز و اركض</a>
-            <br />
-            <a href="Arcade Games.html">العاب الاركيد</a>
-            <br />
-            <a href="multiplayer.html">متعدد اللاعبين</a>
-            <br />
-            <a href="match 3.html">المباراه 3</a>
-            <br />
-            <a href="bubble shooter.html">لعب اطلاق الفقاعات</a>
-            <br />
-            <a href="card games.html">العاب الورق</a>
-            <br />
-            <a href="All Games.html">جميع الالعاب</a>
-            <br />
-            <a href="privacy.html">سياسة الخصوصيه</a>
-            <br />
-            <a href="Contact Us.html">اتصل بنا</a>
-            <br />
-            <p>مع تحياتي </p>
-            <br />
-        </div>
-    </div>
-</body>
+    </header>
 
+    <!-- عنصر ترجمة جوجل المباشر الخفي -->
+    <div id="google_translate_element" style="display:none;"></div>
+
+    <!-- Resume Banner -->
+    <div id="resume-banner" class="resume-banner" style="display: none;">
+        <span>هل تريد متابعة اللعب: <strong id="resume-title"></strong>؟</span>
+        <button onclick="resumeLastGame()" class="btn-resume">استئناف</button>
+    </div>
+
+    <!-- Main Container -->
+    <main class="main-content">
+        <!-- Featured Section (شريط الأخبار التلفزيوني للألعاب المميزة) -->
+        <section class="featured-section">
+            <h2><i class="fa-solid fa-fire"></i> <span>ألعاب مميزة</span></h2>
+            <div class="ticker-wrapper">
+                <div id="featured-slider-container" class="ticker-track"></div>
+            </div>
+        </section>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">الكل</button>
+            <button class="filter-tab" data-filter="popular">الشائعة</button>
+            <button class="filter-tab" data-filter="new">جديد</button>
+            <button class="filter-tab" data-filter="played">لعبتها مؤخراً</button>
+            <button class="filter-tab" data-filter="favorites">المفضلة</button>
+            <button class="filter-tab" data-filter="desktop">كمبيوتر</button>
+            <button class="filter-tab" data-filter="mobile">موبايل</button>
+            <button class="filter-tab random-btn" onclick="playRandomGame()"><i class="fa-solid fa-shuffle"></i> <span>لعبة عشوائية</span></button>
+        </div>
+
+        <!-- Genres Categories Horizontal Scroll -->
+        <div class="genres-wrapper">
+            <button class="scroll-btn left" id="scrollLeft"><i class="fa-solid fa-chevron-right"></i></button>
+            <div id="genres-container" class="genres-container"></div>
+            <button class="scroll-btn right" id="scrollRight"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <!-- Games Grid Holder -->
+        <section id="games-holder" class="games-grid"></section>
+    </main>
+
+    <!-- Modal Game Player -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content game-modal-content">
+            <div class="modal-header">
+                <h3 id="m-title">عنوان اللعبة</h3>
+                <div class="modal-controls">
+                    <button id="btn-fav-modal" onclick="toggleFavCurrent()"><i class="fa-solid fa-heart"></i></button>
+                    <button onclick="shareCurrentGame()"><i class="fa-solid fa-share-nodes"></i></button>
+                    <button onclick="toggleGameQRCode()"><i class="fa-solid fa-qrcode"></i></button>
+                    <button id="btn-fullscreen"><i class="fa-solid fa-expand"></i></button>
+                    <button class="close-btn" onclick="closeGame()">&times;</button>
+                </div>
+            </div>
+            
+            <div class="iframe-wrapper" id="iframe-container">
+                <iframe id="gameIframe" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div id="qr-container" class="qr-box" style="display: none;">
+                <div id="qrcode"></div>
+            </div>
+
+            <div class="game-details">
+                <p><strong>الوصف:</strong> <span id="m-desc"></span></p>
+                <p><strong>طريقة اللعب:</strong> <span id="m-howto"></span></p>
+                <div class="game-meta">
+                    <span><strong>الاتجاه:</strong> <span id="m-orient"></span></span> | 
+                    <span><strong>مشتريات:</strong> <span id="m-purchases"></span></span> | 
+                    <span><strong>الأجهزة:</strong> <span id="m-devices"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main QR Modal -->
+    <div id="main-qr-modal" class="modal">
+        <div class="modal-content mini-modal">
+            <div class="modal-header">
+                <h3>رابط المنصة QR</h3>
+                <span class="close-btn" onclick="toggleMainQRCode()">&times;</span>
+            </div>
+            <div id="main-qrcode" class="qr-flex"></div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 FO.Games - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <!-- JS مع الإصدار v=4.0 -->
+    <script src="script.js?v=4.0"></script>
+</body>
 </html>

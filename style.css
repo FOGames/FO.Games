@@ -1,153 +1,573 @@
-<style>
-.Games-links {
-    padding: 0 0 0 100px;
+/* ==========================================================================
+   1. المتغيرات والأساسيات (Variables & General Reset)
+   ========================================================================== */
+:root {
+    --bg-main: #0f1115;
+    --bg-card: #1a1d24;
+    --bg-header: #161920;
+    --accent: #6366f1;
+    --accent-hover: #4f46e5;
+    --text: #f3f4f6;
+    --text-muted: #9ca3af;
+    --border: #2d3748;
+    --shadow: rgba(0, 0, 0, 0.4);
 }
 
-body {
+body.light {
+    --bg-main: #f3f4f6;
+    --bg-card: #ffffff;
+    --bg-header: #ffffff;
+    --text: #1f2937;
+    --text-muted: #6b7280;
+    --border: #e5e7eb;
+    --shadow: rgba(0, 0, 0, 0.08);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
     margin: 0;
-
-    .mirza-regular {
-        font-family: "Mirza", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .mirza-medium {
-        font-family: "Mirza", serif;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    .mirza-semibold {
-        font-family: "Mirza", serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-
-    .mirza-bold {
-        font-family: "Mirza", serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-.hander {
+/* 🚫 منع السكرول الأفقي بالكامل على جميع الأجهزة */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    background-color: var(--bg-main);
+    color: var(--text);
+    direction: rtl;
+    top: 0px !important;
+}
+
+/* إخفاء إطارات جوجل المترجم المزعجة */
+.goog-te-banner-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd, .goog-te-balloon-frame {
+    display: none !important;
+}
+
+/* ==========================================================================
+   2. الهيدر والشريط العلوي (Header & Actions)
+   ========================================================================== */
+.main-header {
+    background-color: var(--bg-header);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    text-align: right;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 15px;
-    color: white;
-    background-color: oklch(49.488% 0.18828 260.248);
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
 }
 
-.hander-link a {
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
 
-    color: white;
-    padding: 0px 25px;
-    text-decoration: none;
+.search-box {
+    position: relative;
+    flex: 1;
+    max-width: 350px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 38px 8px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background-color: var(--bg-main);
+    color: var(--text);
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* قائمة اللغات والأزرار */
+.custom-lang-selector {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 8px;
+    gap: 6px;
+    color: var(--text);
+}
+
+.custom-lang-selector select {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 0.85rem;
+    font-family: 'Tajawal', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.custom-lang-selector select option {
+    background-color: var(--bg-card);
+    color: var(--text);
+}
+
+.install-btn {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #ffffff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
+
+.action-btn {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+}
+
+.action-btn:hover {
+    border-color: var(--accent);
+}
+
+.share-site-btn {
+    background-color: var(--accent);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+/* ==========================================================================
+   3. المحتوى الرئيسي والشريط المتحرك (Main & Featured Ticker)
+   ========================================================================== */
+.resume-banner {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-resume {
+    background-color: #fff;
+    color: var(--accent);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-content {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* شريط الأخبار التلفزيوني للمميز */
+.featured-section {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.featured-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent);
+}
+
+.ticker-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ticker-track {
+    display: inline-flex;
+    gap: 15px;
+    will-change: transform;
+    animation: tickerAnimation 30s linear infinite;
+}
+
+.ticker-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes tickerAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50%); }
+}
+
+.slide-card {
+    width: 210px;
+    height: 118px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 4px 10px var(--shadow);
+    flex-shrink: 0;
+}
+
+.slide-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* التنسيق والفلترة */
+.filter-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.filter-tab {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.filter-tab.active {
+    background-color: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+}
+
+.random-btn {
+    background-color: #ec4899;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.genres-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.genres-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 5px 0;
+}
+
+.genres-container::-webkit-scrollbar { display: none; }
+
+.genre-chip {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.genre-chip.active {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.scroll-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* ==========================================================================
+   4. شبكة الألعاب (5 ألعاب على الكمبيوتر - مستطيلة 16:9)
+   ========================================================================== */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 🎯 5 ألعاب بالضبط للكمبيوتر */
+    gap: 15px;
+}
+
+.game-card {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    position: relative;
+}
+
+.media-holder {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* 📐 نسبة مستطيلة */
+    position: relative;
+    overflow: hidden;
+}
+
+.game-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
     display: block;
 }
 
-.hander-link a:hover {
-    background-color: #0091ff;
-    border-radius: 15px;
+.game-card:hover .game-img {
+    transform: scale(1.08);
 }
 
-.hander-link button {
-    background-color: hsl(312, 38%, 66%);
-    border-radius: 50px;
-    color: white;
-    border: 0;
-    padding: 5px 15px;
+/* Hover Overlay */
+.card-info-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.88);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8px 10px;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    z-index: 10;
 }
 
-.hander-link button:hover {
-    background-color: lab(67.64% -8.46 -50.25);
+.game-card:hover .card-info-overlay {
+    opacity: 1;
+    visibility: visible;
 }
 
-.sarsh input {
-    border-radius: 50px;
-    border: none;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+.game-title-overlay {
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.hero-section {
+.game-genres-overlay {
+    font-size: 0.7rem;
+    color: #cbd5e1;
+}
+
+#loading-trigger {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 20px;
+    color: var(--text-muted);
+}
+
+/* ==========================================================================
+   5. النوافذ المنبثقة (Modals & Footer)
+   ========================================================================== */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: var(--bg-card);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 20px;
+    border: 1px solid var(--border);
+    position: relative;
+}
+
+.mini-modal { max-width: 400px; }
+
+.modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px 20px 10px;
-    background-color: oklch(49.488% 0.18828 260.248);
-    color: white;
-    flex-direction: row-reverse;
+    margin-bottom: 15px;
 }
 
-.content-side {
+.modal-controls {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
+    gap: 10px;
+    align-items: center;
 }
 
-.content {
-    background-color: oklch(49.488% 0.18828 260.248);
-    padding: 0 35px 0 25px;
-}
-
-.sarsh button {
-    border-radius: 50px;
+.modal-controls button, .close-btn {
+    background: none;
     border: none;
-    height: 30px;
-    padding: 5px 20px;
+    color: var(--text);
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
-/*responsivness*/
-/*medium screen + tablet*/
-@media(max-width: 1000px) {
-    .content {
-        background-color: oklch(49.488% 0.18828 260.248);
-        border: 0;
-        width: 90%;
-        padding: 5%;
-    }
+.iframe-wrapper {
+    width: 100%;
+    height: 500px;
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+}
 
-    .hander-link a {
-        margin-right: 20px;
-        padding: 8px;
-    }
+.iframe-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
 
-    .content-side {
-        font-size: 40%;
+.game-details {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.qr-flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   6. التجاوب الكامل مع الموبايل (Responsive Media Queries)
+   ========================================================================== */
+@media (max-width: 992px) {
+    .games-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/*mobaile*/
-@media(max-width: 690px) {
-    .content {
-        background-color: oklch oklch(49.488% 0.18828 260.248) border: 0;
-        width: 90%;
-        padding: 5%;
+@media (max-width: 768px) {
+    .main-header {
+        padding: 10px 12px;
     }
 
-    .hander-link a {
-        margin-right: 15px;
-        padding: 3px;
+    .header-container {
+        flex-wrap: wrap;
+        gap: 8px;
     }
 
-    .content-side {
-        font-size: 40%;
-
+    .logo {
+        font-size: 1.2rem;
     }
-    .hero-section {
-        flex-direction: column;
-        align-items: center;
+
+    .header-actions {
+        order: 2;
+        justify-content: flex-end;
+        gap: 6px;
+    }
+
+    .search-box {
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 4px;
+    }
+
+    .action-btn, .install-btn, .custom-lang-selector {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+    }
+
+    /* إخفاء نصوص الأزرار المزدحمة في الموبايل */
+    .kids-btn span, .share-site-btn span {
+        display: none;
+    }
+
+    /* لعبتين في الصف على الموبايل */
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* ضبط حجم شاشة اللعبة المنبثقة على الموبايل لتكون داخل الشاشة */
+    .modal-content {
+        width: 95% !important;
+        max-width: 95% !important;
+        padding: 12px;
+        margin: 0 auto;
+    }
+
+    .iframe-wrapper {
+        height: 280px;
     }
 }
 
-
-
-</style>
+/* ===== تعديل ازرار المودال ===== */
+.modal-controls button {
+    background: #2563eb !important; color: #fff !important; border: none !important;
+    width: 40px !important; height: 40px !important; border-radius: 10px !important;
+    font-size: 18px !important; display: flex !important; align-items: center !important; justify-content: center !important;
+}
+.modal-header .close-btn { background: #ef4444 !important; }
+#btn-fav-modal.active { background: #ef4444 !important; }

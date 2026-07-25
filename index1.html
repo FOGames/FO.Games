@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FO.Games | منصة الألعاب العالمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="العابك المفضله بدون تحميل ، العاب مجانيه للئجهزه الضعيفه بدون تحميل">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZ0LRGTJJK"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-MZ0LRGTJJK');</script>
+    
+    <!-- QR Code Generator Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <style>
+        :root {
+            --bg-main: #0b0f19; --bg-card: #111827; --bg-hover: #1f2937;
+            --text-main: #f9fafb; --text-muted: #9ca3af;
+            --primary: #6366f1; --primary-hover: #4f46e5;
+            --font-site: 'Cairo', sans-serif;
+        }
+        
+        /* 8 & 21. الثيمات والوضع الفاتح */
+        body.light-theme {
+            --bg-main: #f3f4f6; --bg-card: #ffffff; --bg-hover: #e5e7eb;
+            --text-main: #111827; --text-muted: #4b5563;
+        }
+        
+        [data-theme="emerald"] { --primary: #10b981; --primary-hover: #059669; }
+        [data-theme="rose"] { --primary: #f43f5e; --primary-hover: #e11d48; }
+        [data-theme="amber"] { --primary: #f59e0b; --primary-hover: #d97706; }
+        [data-theme="purple"] { --primary: #a855f7; --primary-hover: #9333ea; }
+
+        [dir="ltr"] { --font-site: 'Inter', sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: var(--bg-main); color: var(--text-main); font-family: var(--font-site); overflow-x: hidden; transition: background 0.3s, color 0.3s; }
+
+        header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 15px 4%; background-color: rgba(17, 24, 39, 0.85); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #374151; gap: 15px; }
+        body.light-theme header { background-color: rgba(255, 255, 255, 0.85); }
+        .logo { font-size: 26px; font-weight: 700; color: var(--primary); text-decoration: none; }
+
+        .search-box { position: relative; flex-grow: 1; max-width: 400px; min-width: 200px; }
+        .search-box input { width: 100%; padding: 10px 40px 10px 15px; background-color: var(--bg-main); border: 1px solid #374151; border-radius: 25px; color: var(--text-main); font-family: inherit; outline: none; }
+        [dir="ltr"].search-box input { padding: 10px 15px 10px 40px; }
+        .search-box i { position: absolute; top: 50%; transform: translateY(-50%); right: 15px; color: var(--text-muted); }
+        [dir="ltr"].search-box i { left: 15px; right: auto; }
+
+        .nav-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+        button, select { background-color: var(--bg-card); color: var(--text-main); border: 1px solid #374151; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-family: inherit; font-size: 13px; display: flex; align-items: center; gap: 6px; transition: all 0.2s ease; }
+        button:hover, select:hover { background-color: var(--primary); border-color: var(--primary); color: white; }
+        #btn-install { background-color: var(--primary); border: none; display: none; color: white; }
+
+        /* 4. قائمة اللغات */
+        .lang-select { outline: none; }
+
+        /* 9. السلايدر في الأول */
+        .featured-slider { max-width: 1600px; margin: 15px auto; padding: 0 4%; position: relative; }
+        .slider-container { display: flex; overflow-x: auto; scroll-behavior: smooth; gap: 15px; scrollbar-width: none; border-radius: 12px; }
+        .slider-container::-webkit-scrollbar { display: none; }
+        .slide-card { min-width: 300px; height: 160px; border-radius: 12px; position: relative; overflow: hidden; flex-shrink: 0; cursor: pointer; }
+        .slide-card img { width: 100%; height: 100%; object-fit: cover; }
+        .slide-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); padding: 15px; color: white; }
+
+        .genres-wrapper { position: relative; display: flex; align-items: center; padding: 0 45px; }
+        .genres-bar { display: flex; gap: 10px; padding: 15px 0; overflow-x: auto; white-space: nowrap; scrollbar-width: none; scroll-behavior: smooth; }
+        .genres-bar::-webkit-scrollbar { display: none; }
+        .scroll-btn { position: absolute; z-index: 10; background: rgba(0,0,0,0.7); border: none; width: 38px; height: 38px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: 0.2s; top: 50%; transform: translateY(-50%); }
+        .scroll-btn:hover { background: var(--primary); }
+        .scroll-left { left: 5px; }.scroll-right { right: 5px; }
+        [dir="ltr"].scroll-left { left: auto; right: 5px; } [dir="ltr"].scroll-right { right: auto; left: 5px; }
+
+        .genre-chip { background-color: var(--bg-card); padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer; border: 1px solid #374151; transition: all 0.2s; flex-shrink: 0; }
+        .genre-chip.active,.genre-chip:hover { background-color: var(--primary); color: white; }
+
+        .filter-tabs { display: flex; gap: 10px; padding: 0 4% 15px; flex-wrap: wrap; }
+        .filter-tab { background: var(--bg-card); padding: 8px 16px; border-radius: 8px; cursor: pointer; border: 1px solid #374151; font-size: 13px; }
+        .filter-tab.active { background: var(--primary); color: white; }
+
+        /* 11. أكمل من حيث توقفت Banner */
+        #resume-banner { display: none; max-width: 1600px; margin: 10px auto; padding: 12px 20px; background: var(--bg-card); border: 1px solid var(--primary); border-radius: 8px; justify-content: space-between; align-items: center; }
+
+        .games-grid { max-width: 1600px; margin: 0 auto; padding: 20px 4%; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 25px; }
+        .game-card { background-color: var(--bg-card); border-radius: 14px; overflow: hidden; border: 1px solid #374151; transition: all 0.3s; cursor: pointer; position: relative; }
+        .game-card:hover { transform: translateY(-6px); box-shadow: 0 12px 24px -10px rgba(99, 102, 241, 0.5); border-color: var(--primary); }
+
+        .media-holder { width: 100%; aspect-ratio: 16 / 11; position: relative; background-color: #000; }
+        .game-img { width: 100%; height: 100%; object-fit: cover; }
+
+        .card-badges { position: absolute; top: 8px; right: 8px; display: flex; gap: 5px; z-index: 5; }
+        [dir="ltr"].card-badges { right: auto; left: 8px; }
+        .badge { background: rgba(0,0,0,0.75); padding: 4px 8px; border-radius: 6px; font-size: 11px; backdrop-filter: blur(4px); color: white; }
+        
+        /* 20. شارة تحدي اليوم */
+        .daily-badge { background: #eab308; color: black; font-weight: bold; }
+
+        .game-meta { padding: 14px; }
+        .game-title { font-weight: 700; font-size: 15px; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .game-genres-list { font-size: 12px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .game-stats { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); margin-top: 5px; }
+
+        #loading-trigger { grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted); }
+
+        .game-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(7, 10, 19, 0.98); z-index: 200; display: none; flex-direction: column; }
+        .modal-top { display: flex; justify-content: space-between; align-items: center; padding: 15px 3%; background-color: var(--bg-card); border-bottom: 1px solid #374151; }
+        .modal-actions { display: flex; gap: 10px; align-items: center; }
+        .modal-body { display: flex; flex-grow: 1; overflow: hidden; }
+        
+        /* 3. حل مشكلة تعليق الألعاب (إصلاح الـ Iframe والتحميل) */
+        .iframe-space { flex-grow: 1; height: 100%; background: #000; position: relative; }
+        .iframe-space iframe { width: 100%; height: 100%; border: none; display: block; }
+
+        .details-sidebar { width: 380px; min-width: 380px; background-color: var(--bg-card); border-left: 1px solid #374151; display: flex; flex-direction: column; overflow-y: auto; padding: 20px; gap: 20px; }
+        [dir="ltr"].details-sidebar { border-left: none; border-right: 1px solid #374151; }
+        .details-sidebar h4 { color: var(--primary); font-size: 16px; border-bottom: 1px solid #374151; padding-bottom: 5px; }
+        .details-text { font-size: 13px; color: var(--text-main); line-height: 1.6; white-space: pre-line; }
+        .info-row { display: flex; justify-content: space-between; font-size: 13px; padding: 6px 0; border-bottom: 1px solid #374151; }
+        .tags-container { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag-item { background: var(--bg-hover); padding: 4px 10px; border-radius: 6px; font-size: 11px; color: var(--text-muted); }
+
+        /* 13. QR Code Popup Container */
+        #qr-container { display: none; text-align: center; margin-top: 10px; background: white; padding: 10px; border-radius: 8px; width: fit-content; align-self: center; }
+
+        /* 14. صفحة 404 */
+        #page-404 { display: none; text-align: center; padding: 80px 20px; }
+        #page-404 h1 { font-size: 72px; color: var(--primary); }
+
+        /* 17. الفوتر */
+        footer { background: var(--bg-card); border-top: 1px solid #374151; padding: 30px 4%; text-align: center; margin-top: 40px; font-size: 14px; color: var(--text-muted); }
+        footer .footer-links { display: flex; justify-content: center; gap: 20px; margin-bottom: 15px; flex-wrap: wrap; }
+        footer a { color: var(--text-main); text-decoration: none; }
+        footer a:hover { color: var(--primary); }
+
+        /* Modals للسياسات والانجازات */
+        .generic-modal { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.8); display:none; justify-content:center; align-items:center; z-index:300; }
+        .modal-content { background: var(--bg-card); padding: 25px; border-radius: 12px; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto; color: var(--text-main); }
+
+        @media (max-width: 992px) {
+            .modal-body { flex-direction: column; overflow-y: auto; }
+            .iframe-space { height: 60vh; min-height: 400px; }
+            .details-sidebar { width: 100%; min-width: 100%; }
+            .scroll-btn { display: none!important; }
+            .genres-wrapper { padding: 0; }
+        }
+
+        @media (min-width: 1px) and (max-width: 900px) {
+            .modal-top { display: flex; flex-wrap: wrap; gap: 10px; }
+            .modal-actions { justify-content: space-around; width: 100%; }
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">FO.Games</a>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="search-input" placeholder="ابحث عن لعبتك المفضلة..." data-ar="ابحث عن لعبتك المفضلة..." data-en="Search your favorite game..." data-es="Busca tu juego favorito..." data-fr="Recherchez votre jeu préféré..." data-de="Suchen Sie nach Ihrem Lieblingsspiel..." data-pt="Pesquise seu jogo favorito..." data-ru="Найдите свою любимую игру..." data-tr="Favori oyununuzu arayın..." data-hi="अपना पसंदीदा गेम खोजें..." data-id="Cari game favoritmu...">
+        </div>
+        <div class="nav-controls">
+            <!-- 10. جرب الحظ -->
+            <button id="btn-random" onclick="playRandomGame()"><i class="fa-solid fa-dice"></i> <span class="lang-node" data-ar="جرب حظك" data-en="Random Game">جرب حظك</span></button>
+
+            <!-- 18. وضع الأطفال -->
+            <button id="btn-kids" onclick="toggleKidsMode()"><i class="fa-solid fa-child"></i> <span id="kids-label">الأطفال: إيقاف</span></button>
+
+            <!-- 19. الإنجازات -->
+            <button id="btn-achievements" onclick="openAchievements()"><i class="fa-solid fa-trophy"></i></button>
+
+            <!-- 8. وضع مظلم/فاتح -->
+            <button id="btn-theme" onclick="toggleTheme()"><i class="fa-solid fa-moon" id="theme-icon"></i></button>
+
+            <!-- 21. اختيار الألوان/الثيم -->
+            <select id="color-theme" onchange="changeColorTheme(this.value)">
+                <option value="default">افتراضي</option>
+                <option value="emerald">زمرّدي</option>
+                <option value="rose">وردي</option>
+                <option value="amber">كهرماني</option>
+                <option value="purple">بنفسجي</option>
+            </select>
+
+            <!-- 4. قائمة لغات أسرع شمولاً -->
+            <select id="lang-select" class="lang-select" onchange="changeLanguage(this.value)">
+                <option value="ar">العربية (AR)</option>
+                <option value="en">English (EN)</option>
+                <option value="es">Español (ES)</option>
+                <option value="fr">Français (FR)</option>
+                <option value="de">Deutsch (DE)</option>
+                <option value="pt">Português (PT)</option>
+                <option value="ru">Русский (RU)</option>
+                <option value="tr">Türkçe (TR)</option>
+                <option value="hi">हिन्दी (HI)</option>
+                <option value="id">Bahasa Indonesia (ID)</option>
+            </select>
+
+            <button id="btn-install"><i class="fa-solid fa-download"></i> <span class="lang-node" data-ar="تثبيت" data-en="Install">تثبيت</span></button>
+        </div>
+    </header>
+
+    <!-- 9. سلايدر الألعاب المميزة -->
+    <div class="featured-slider">
+        <div class="slider-container" id="featured-slider-container"></div>
+    </div>
+
+    <!-- 11. أكمل من حيث توقفت -->
+    <div id="resume-banner">
+        <span><i class="fa-solid fa-clock-rotate-left"></i> <span class="lang-node" data-ar="أكمل اللعب من حيث توقفت:" data-en="Continue playing:">أكمل اللعب من حيث توقفت:</span> <strong id="resume-title">--</strong></span>
+        <button onclick="resumeLastGame()"><i class="fa-solid fa-play"></i> <span class="lang-node" data-ar="تشغيل" data-en="Play">تشغيل</span></button>
+    </div>
+
+    <div class="genres-wrapper">
+        <button class="scroll-btn scroll-left" id="scrollLeft"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="genres-bar" id="genres-container"></div>
+        <button class="scroll-btn scroll-right" id="scrollRight"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <div class="filter-tabs">
+        <div class="filter-tab active" data-filter="all"><span class="lang-node" data-ar="الكل" data-en="All">الكل</span></div>
+        <!-- 2. الأكثر شعبية لهذا الأسبوع -->
+        <div class="filter-tab" data-filter="popular"><span class="lang-node" data-ar="الأكثر شعبية هذا الأسبوع" data-en="Popular This Week">الأكثر شعبية هذا الأسبوع</span></div>
+        <div class="filter-tab" data-filter="new"><span class="lang-node" data-ar="جديد" data-en="New">جديد</span></div>
+        <div class="filter-tab" data-filter="played"><span class="lang-node" data-ar="لعبتها" data-en="Played">لعبتها</span></div>
+        <div class="filter-tab" data-filter="favorites"><span class="lang-node" data-ar="المفضلة" data-en="Favorites">المفضلة</span></div>
+        
+        <!-- 7. تصنيفات ألعاب كمبيوتر وهاتف -->
+        <div class="filter-tab" data-filter="desktop"><i class="fa-solid fa-desktop"></i> <span class="lang-node" data-ar="ألعاب كمبيوتر" data-en="PC Games">ألعاب كمبيوتر</span></div>
+        <div class="filter-tab" data-filter="mobile"><i class="fa-solid fa-mobile-screen"></i> <span class="lang-node" data-ar="ألعاب الهاتف" data-en="Mobile Games">ألعاب الهاتف</span></div>
+    </div>
+
+    <!-- 14. صفحة 404 شيك -->
+    <div id="page-404">
+        <h1>404</h1>
+        <h2>عذراً، اللعبة التي تبحث عنها غير موجودة!</h2>
+        <br>
+        <button onclick="close404()"><i class="fa-solid fa-house"></i> العودة للرئيسية</button>
+    </div>
+
+    <main class="games-grid" id="games-holder">
+        <div id="loading-trigger"><i class="fa-solid fa-circle-notch fa-spin"></i> <span class="lang-node" data-ar="جاري استدعاء الألعاب..." data-en="Loading Games Database...">جاري استدعاء الألعاب...</span></div>
+    </main>
+
+    <!-- Modal اللعبة -->
+    <div class="game-modal" id="gameModal">
+        <div class="modal-top">
+            <h3 id="m-title">Game Title</h3>
+            <div class="modal-actions">
+                <!-- 1. زرار المفضلة أصبح داخل صفحة اللعبة -->
+                <button id="btn-fav-modal" onclick="toggleFavCurrent()"><i class="fa-solid fa-heart"></i></button>
+                
+                <!-- 4. زر مختصر لمترجم جوجل -->
+                <button id="btn-translate-game" onclick="translateCurrentGame()"><i class="fa-solid fa-g-translate"></i></button>
+
+                <!-- 12. زرار المشاركة عبر التطبيقات -->
+                <button id="btn-share" onclick="shareCurrentGame()"><i class="fa-solid fa-share-nodes"></i></button>
+                
+                <!-- 13. زر QR Code -->
+                <button id="btn-qr" onclick="toggleQRCode()"><i class="fa-solid fa-qrcode"></i></button>
+
+                <button id="btn-fullscreen"><i class="fa-solid fa-expand"></i></button>
+                <button onclick="closeGame()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        
+        <!-- QR Code Display Box -->
+        <div id="qr-container">
+            <div id="qrcode"></div>
+            <p style="color:black; font-size:11px; margin-top:5px;">امسح رمز QR للفتح من الموبايل</p>
+        </div>
+
+        <div class="modal-body">
+            <div class="iframe-space" id="iframe-container">
+                <!-- 15. تحميل سريع بـ loading="eager" وأمان لعدم التعليق -->
+                <iframe id="gameIframe" src="" allowfullscreen allow="fullscreen; autoplay" loading="eager"></iframe>
+            </div>
+            <div class="details-sidebar">
+                <div><h4 class="lang-node" data-ar="عن اللعبة" data-en="About The Game">عن اللعبة</h4><p class="details-text" id="m-desc"></p></div>
+                <div><h4 class="lang-node" data-ar="كيفية اللعب" data-en="How To Play">كيفية اللعب</h4><p class="details-text" id="m-howto"></p></div>
+                <div><h4 class="lang-node" data-ar="معلومات" data-en="Info">معلومات</h4>
+                    <div class="info-row"><span class="lang-node" data-ar="مرات اللعب" data-en="Plays">مرات اللعب</span><span id="m-plays">0</span></div>
+                    <div class="info-row"><span class="lang-node" data-ar="التوجيه" data-en="Orientation">التوجيه</span><span id="m-orient">-</span></div>
+                    <div class="info-row"><span class="lang-node" data-ar="شراء داخل اللعبة" data-en="In-App Purchases">شراء داخل اللعبة</span><span id="m-purchases">-</span></div>
+                    
+                    <!-- 5. الأجهزة المدعومة -->
+                    <div class="info-row"><span class="lang-node" data-ar="الأجهزة المدعومة" data-en="Supported Devices">الأجهزة المدعومة</span><span id="m-devices">-</span></div>
+                </div>
+                <div><h4 class="lang-node" data-ar="الوسوم" data-en="Tags">الوسوم</h4><div class="tags-container" id="m-tags"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 19. نافذة الإنجازات -->
+    <div class="generic-modal" id="achievementsModal">
+        <div class="modal-content">
+            <h3><i class="fa-solid fa-trophy"></i> قائمة الإنجازات</h3>
+            <hr style="margin: 10px 0; border-color: #374151;">
+            <ul id="achievements-list" style="list-style: none; line-height: 2;"></ul>
+            <br>
+            <button onclick="document.getElementById('achievementsModal').style.display='none'">إغلاق</button>
+        </div>
+    </div>
+
+    <!-- 17. نافذة سياسة الخصوصية والتواصل -->
+    <div class="generic-modal" id="infoModal">
+        <div class="modal-content">
+            <h3 id="info-modal-title"></h3>
+            <hr style="margin: 10px 0; border-color: #374151;">
+            <p id="info-modal-text" style="font-size: 13px; line-height:1.6;"></p>
+            <br>
+            <button onclick="document.getElementById('infoModal').style.display='none'">إغلاق</button>
+        </div>
+    </div>
+
+    <!-- 17. فوتر الموقع -->
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="openFooterInfo('about'); return false;">عن الموقع</a>
+            <a href="#" onclick="openFooterInfo('contact'); return false;">تواصل معنا</a>
+            <a href="#" onclick="openFooterInfo('privacy'); return false;">سياسة الخصوصية</a>
+        </div>
+        <p>© 2026 FO.Games - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script>
+        let rawGames = []; let filteredGames = []; let displayedCount = 0;
+        const step = 24; let currentLang = 'ar'; let activeGenre = 'all'; let searchQuery = ''; let activeFilter = 'all'; let currentGame = null;
+        let isKidsMode = false;
+
+        const translations = {
+            ar: {all:'الكل', popular:'الاكثر شعبية', new:'جديد', played:'لعبتها', favorites:'المفضلة', plays:'مرات اللعب', yes:'نعم', no:'لا', horizontal:'أفقي', vertical:'رأسي', copied:'تم نسخ الرابط'},
+            en: {all:'All', popular:'Popular', new:'New', played:'Played', favorites:'Favorites', plays:'Plays', yes:'Yes', no:'No', horizontal:'Horizontal', vertical:'Vertical', copied:'Link Copied'},
+            es: {all:'Todo', popular:'Popular', new:'Nuevo', played:'Jugado', favorites:'Favoritos', plays:'Jugadas', yes:'Sí', no:'No', horizontal:'Horizontal', vertical:'Vertical', copied:'Enlace copiado'},
+            fr: {all:'Tout', popular:'Populaire', new:'Nouveau', played:'Joué', favorites:'Favoris', plays:'Jeux', yes:'Oui', no:'Non', horizontal:'Horizontal', vertical:'Vertical', copied:'Lien copié'},
+            de: {all:'Alle', popular:'Beliebt', new:'Neu', played:'Gespielt', favorites:'Favoriten', plays:'Spiele', yes:'Ja', no:'Nein', horizontal:'Horizontal', vertical:'Vertikal', copied:'Link kopiert'},
+            pt: {all:'Todos', popular:'Popular', new:'Novo', played:'Jogado', favorites:'Favoritos', plays:'Jogadas', yes:'Sim', no:'Não', horizontal:'Horizontal', vertical:'Vertical', copied:'Link copiado'},
+            ru: {all:'Все', popular:'Популярное', new:'Новое', played:'Играно', favorites:'Избранное', plays:'Игры', yes:'Да', no:'Нет', horizontal:'Горизонтально', vertical:'Вертикально', copied:'Ссылка скопирована'},
+            tr: {all:'Tümü', popular:'Popüler', new:'Yeni', played:'Oynandı', favorites:'Favoriler', plays:'Oynanış', yes:'Evet', no:'Hayır', horizontal:'Yatay', vertical:'Dikey', copied:'Bağlantı kopyalandı'},
+            hi: {all:'सभी', popular:'लोकप्रिय', new:'नया', played:'खेला', favorites:'पसंदीदा', plays:'खेल', yes:'हाँ', no:'नहीं', horizontal:'क्षैतिज', vertical:'ऊर्ध्वाधर', copied:'लिंक कॉपी किया'},
+            id: {all:'Semua', popular:'Populer', new:'Baru', played:'Dimainkan', favorites:'Favorit', plays:'Main', yes:'Ya', no:'Tidak', horizontal:'Horizontal', vertical:'Vertikal', copied:'Tautan disalin'}
+        };
+
+        function t(key){ return translations[currentLang]?.[key] || translations['en'][key]; }
+
+        async function initPlatform() {
+            try {
+                const res = await fetch('games.json');
+                const data = await res.json();
+                
+                // 20. إعداد لعبة تحدي اليوم العشوائية الموحدة للجميع بناءً على التاريخ
+                const todaySeed = new Date().toISOString().slice(0,10).replace(/-/g,'');
+                const dailyIndex = parseInt(todaySeed) % data.segments[0].hits.length;
+
+                rawGames = data.segments[0].hits.map((g,i)=>({
+                    ...g, 
+                    playCount: parseInt(localStorage.getItem(`plays_${g.id}`)||0), 
+                    isNew: i<5,
+                    isDaily: i === dailyIndex
+                }));
+
+                // 6. التمييز التلقائي وتصفية الجهاز
+                checkDeviceAndAutoFilter();
+                
+                buildGenresBar(); 
+                applyFilters(); 
+                setupScrollButtons();
+                buildFeaturedSlider();
+                checkResumeBanner();
+                checkUrlHash();
+            } catch (err) { console.error("فشل تحميل games.json", err); }
+        }
+
+        // 6. معرفة نوع الجهاز تلقائياً
+        function checkDeviceAndAutoFilter() {
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            console.log("الجهاز المكتشف:", isMobile ? "هاتف" : "كمبيوتر");
+        }
+
+        // 9. سلايدر الألعاب المميزة
+        function buildFeaturedSlider() {
+            const container = document.getElementById('featured-slider-container');
+            const featured = rawGames.slice(0, 6);
+            container.innerHTML = featured.map(g => `
+                <div class="slide-card" onclick="openGameById('${g.id}')">
+                    <img src="${g.images[0]}" loading="lazy">
+                    <div class="slide-overlay">
+                        <h4>${g.title}</h4>
+                    </div>
+                </div>
+            `).join('');
+
+            // تحريك السلايدر تلقائياً
+            setInterval(() => {
+                if(container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+                    container.scrollLeft = 0;
+                } else {
+                    container.scrollBy({left: 200, behavior: 'smooth'});
+                }
+            }, 3500);
+        }
+
+        // 11. أكمل من حيث توقفت
+        function checkResumeBanner() {
+            const lastId = localStorage.getItem('last_played_game');
+            if(lastId) {
+                const game = rawGames.find(g => g.id === lastId);
+                if(game) {
+                    document.getElementById('resume-title').innerText = game.title;
+                    document.getElementById('resume-banner').style.display = 'flex';
+                }
+            }
+        }
+
+        function resumeLastGame() {
+            const lastId = localStorage.getItem('last_played_game');
+            if(lastId) openGameById(lastId);
+        }
+
+        // 14. التاكد من روابط الـ Hash للعب المباشر وإظهار صفحة 404 لو مش موجودة
+        function checkUrlHash() {
+            if(window.location.hash.includes('#game=')) {
+                const id = window.location.hash.split('#game=')[1];
+                const game = rawGames.find(g => g.id === id);
+                if(game) {
+                    openGame(game);
+                } else {
+                    document.getElementById('page-404').style.display = 'block';
+                    document.getElementById('games-holder').style.display = 'none';
+                }
+            }
+        }
+
+        function close404() {
+            document.getElementById('page-404').style.display = 'none';
+            document.getElementById('games-holder').style.display = 'grid';
+            window.location.hash = '';
+        }
+
+        function openGameById(id) {
+            const g = rawGames.find(x => x.id === id);
+            if(g) openGame(g);
+        }
+
+        function buildGenresBar() {
+            const container = document.getElementById('genres-container');
+            const allGenres = new Set(); rawGames.forEach(g => g.genres && g.genres.forEach(genre => allGenres.add(genre)));
+            let html = `<div class="genre-chip active" data-genre="all">${t('all')}</div>`;
+            allGenres.forEach(genre => { html += `<div class="genre-chip" data-genre="${genre}">${genre}</div>`; });
+            container.innerHTML = html;
+            container.querySelectorAll('.genre-chip').forEach(c=>c.onclick=()=>filterByGenre(c.dataset.genre));
+        }
+
+        function filterByGenre(genre) {
+            activeGenre = genre;
+            document.querySelectorAll('.genre-chip').forEach(c => c.classList.toggle('active', c.dataset.genre===genre));
+            applyFilters();
+        }
+
+        document.querySelectorAll('.filter-tab').forEach(tab=>tab.onclick=()=>{
+            document.querySelectorAll('.filter-tab').forEach(t=>t.classList.remove('active'));
+            tab.classList.add('active'); activeFilter=tab.dataset.filter; applyFilters();
+        });
+
+        document.getElementById('search-input').addEventListener('input', (e) => { searchQuery = e.target.value.toLowerCase().trim(); applyFilters(); });
+
+        function applyFilters() {
+            const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+            filteredGames = rawGames.filter(game => {
+                const matchesGenre = activeGenre === 'all' || (game.genres && game.genres.includes(activeGenre));
+                const matchesSearch = game.title.toLowerCase().includes(searchQuery) || (game.description && game.description.toLowerCase().includes(searchQuery));
+                
+                // 18. وضع الأطفال (فلترة الألعاب ذات التقييم غير المناسب)
+                if(isKidsMode && game.genres && (game.genres.includes('action') || game.genres.includes('horror'))) {
+                    return false;
+                }
+
+                let matchesFilter = true;
+                if(activeFilter==='popular') matchesFilter = true; // فرز حسب الأكثر شعبية
+                if(activeFilter==='new') matchesFilter = game.isNew;
+                if(activeFilter==='played') matchesFilter = game.playCount>0;
+                if(activeFilter==='favorites') matchesFilter = isFavorite(game.id);
+                
+                // 7. ألعاب كمبيوتر وهاتف
+                if(activeFilter==='desktop') matchesFilter = game.mobileReady?.includes("For Desktop");
+                if(activeFilter==='mobile') matchesFilter = game.mobileReady?.includes("For Android") || game.mobileReady?.includes("For IOS");
+
+                return matchesGenre && matchesSearch && matchesFilter;
+            });
+
+            // 2. الأكثر شعبية لهذا الأسبوع (الفرز الأعلى لعباً)
+            if(activeFilter==='popular') filteredGames.sort((a,b)=>b.playCount-a.playCount);
+
+            displayedCount=0; document.getElementById('games-holder').querySelectorAll('.game-card').forEach(c=>c.remove());
+            document.getElementById('loading-trigger').style.display='block'; renderBatch();
+        }
+
+        function renderBatch() {
+            const grid = document.getElementById('games-holder'); const trigger = document.getElementById('loading-trigger');
+            const nextBatch = filteredGames.slice(displayedCount, displayedCount + step);
+            nextBatch.forEach(game => {
+                const card = document.createElement('div'); card.className = 'game-card';
+                card.innerHTML = `
+                    <div class="media-holder">
+                        <img class="game-img" src="${game.images[0]}" alt="${game.title}" loading="lazy">
+                        <div class="card-badges">
+                            ${game.isDaily ? `<span class="badge daily-badge"><i class="fa-solid fa-star"></i> تحدي اليوم</span>` : ''}
+                            <span class="badge"><i class="fa-solid ${game.screenOrientation?.horizontal?'fa-square-caret-right':'fa-mobile-screen-button'}"></i></span>
+                        </div>
+                    </div>
+                    <div class="game-meta">
+                        <div class="game-title">${game.title}</div>
+                        <div class="game-genres-list">${game.genres?game.genres.slice(0,2).join(', '):''}</div>
+                        <div class="game-stats"><span><i class="fa-solid fa-gamepad"></i> ${game.playCount}</span></div>
+                    </div>`;
+                card.onclick=()=>openGame(game);
+                grid.insertBefore(card, trigger);
+            });
+            displayedCount+=step; if(displayedCount>=filteredGames.length) trigger.style.display='none';
+        }
+
+        const scrollObserver = new IntersectionObserver((entries)=>{ if(entries[0].isIntersecting && displayedCount<filteredGames.length) renderBatch(); },{threshold:0.1});
+        scrollObserver.observe(document.getElementById('loading-trigger'));
+
+        function openGame(game) {
+            currentGame=game; game.playCount++; localStorage.setItem(`plays_${game.id}`, game.playCount);
+            
+            // 11. حفظ أخر لعبة تم لعبها
+            localStorage.setItem('last_played_game', game.id);
+            checkResumeBanner();
+
+            // 19. زيادة عداد الألعاب للانجازات
+            let totalPlayed = parseInt(localStorage.getItem('total_games_played')||0) + 1;
+            localStorage.setItem('total_games_played', totalPlayed);
+
+            document.getElementById('m-title').innerText=game.title;
+            
+            // 3 & 15. منع التعليق بضبط الرابط المباشر
+            document.getElementById('gameIframe').src=game.gameURL+`&lang=${currentLang}`;
+            
+            document.getElementById('m-desc').innerText=game.description||'-';
+            document.getElementById('m-howto').innerText=game.howToPlayText||'-';
+            document.getElementById('m-plays').innerText=game.playCount;
+            document.getElementById('m-orient').innerText=game.screenOrientation?.horizontal?t('horizontal'):t('vertical');
+            document.getElementById('m-purchases').innerText=game.inGamePurchases==="Yes"?t('yes'):t('no');
+            
+            // 5. إظهار الأجهزة المدعومة
+            document.getElementById('m-devices').innerText = game.mobileReady ? game.mobileReady.join(', ') : 'All Devices';
+
+            // 1. تحديث شكل زر القلب داخل الصفحة
+            updateFavModalBtn();
+
+            const tagsBox=document.getElementById('m-tags'); tagsBox.innerHTML='';
+            if(game.tags) game.tags.forEach(t=>{const el=document.createElement('span');el.className='tag-item';el.innerText=t;tagsBox.appendChild(el);});
+            
+            document.getElementById('gameModal').style.display='flex'; document.body.style.overflow='hidden';
+            document.getElementById('qr-container').style.display = 'none';
+        }
+
+        function closeGame(){ 
+            document.getElementById('gameModal').style.display='none'; 
+            document.getElementById('gameIframe').src=''; 
+            document.body.style.overflow='auto'; 
+        }
+
+        // 1. المفضلة من داخل صفحة اللعبة
+        function updateFavModalBtn() {
+            const btn = document.getElementById('btn-fav-modal');
+            if(currentGame && isFavorite(currentGame.id)) {
+                btn.style.color = '#ef4444';
+            } else {
+                btn.style.color = 'inherit';
+            }
+        }
+
+        function toggleFavCurrent() {
+            if(!currentGame) return;
+            toggleFav(currentGame.id);
+            updateFavModalBtn();
+        }
+
+        // 4. زر مختصر لمترجم جوجل
+        function translateCurrentGame() {
+            if(!currentGame) return;
+            const googleTranslateUrl = `https://translate.google.com/translate?sl=auto&tl=${currentLang}&u=${encodeURIComponent(currentGame.gameURL)}`;
+            window.open(googleTranslateUrl, '_blank');
+        }
+
+        // 10. زرار جرب حظك لعبه عشوائية
+        function playRandomGame() {
+            if(rawGames.length === 0) return;
+            const randomIndex = Math.floor(Math.random() * rawGames.length);
+            openGame(rawGames[randomIndex]);
+        }
+
+        // 12. مشاركة رابط اللعبة عبر التطبيقات
+        function shareCurrentGame() {
+            if(!currentGame) return;
+            const url = window.location.origin + window.location.pathname + `#game=${currentGame.id}`;
+            if (navigator.share) {
+                navigator.share({ title: currentGame.title, text: `العب ${currentGame.title} على FO.Games!`, url: url });
+            } else {
+                navigator.clipboard.writeText(url).then(()=>alert(t('copied')));
+            }
+        }
+
+        // 13. QR Code Generator
+        function toggleQRCode() {
+            const container = document.getElementById('qr-container');
+            if(container.style.display === 'block') {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+                document.getElementById('qrcode').innerHTML = '';
+                const url = window.location.origin + window.location.pathname + `#game=${currentGame.id}`;
+                new QRCode(document.getElementById("qrcode"), { text: url, width: 128, height: 128 });
+            }
+        }
+
+        // 8. الوضع المظلم والفياتح
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+            const icon = document.getElementById('theme-icon');
+            if(document.body.classList.contains('light-theme')) {
+                icon.className = 'fa-solid fa-sun';
+            } else {
+                icon.className = 'fa-solid fa-moon';
+            }
+        }
+
+        // 21. ألوان الثيمات
+        function changeColorTheme(theme) {
+            if(theme === 'default') {
+                document.documentElement.removeAttribute('data-theme');
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+            }
+        }
+
+        // 18. وضع الأطفال
+        function toggleKidsMode() {
+            isKidsMode = !isKidsMode;
+            document.getElementById('kids-label').innerText = isKidsMode ? "الأطفال: مفعل" : "الأطفال: إيقاف";
+            applyFilters();
+        }
+
+        // 19. نظام الإنجازات
+        function openAchievements() {
+            const played = parseInt(localStorage.getItem('total_games_played')||0);
+            const list = document.getElementById('achievements-list');
+            list.innerHTML = `
+                <li>${played >= 1 ? '✅' : '❌'} <strong>المبتدئ:</strong> لعب أول لعبة</li>
+                <li>${played >= 10 ? '✅' : '❌'} <strong>المستكشف:</strong> لعب 10 ألعاب (${Math.min(played, 10)}/10)</li>
+                <li>${played >= 50 ? '✅' : '❌'} <strong>اللاعب المحترف:</strong> لعب 50 لعبة (${Math.min(played, 50)}/50)</li>
+            `;
+            document.getElementById('achievementsModal').style.display = 'flex';
+        }
+
+        // 17. معلومات الفوتر
+        function openFooterInfo(type) {
+            const modal = document.getElementById('infoModal');
+            const title = document.getElementById('info-modal-title');
+            const text = document.getElementById('info-modal-text');
+
+            if(type === 'about') {
+                title.innerText = "عن FO.Games";
+                text.innerText = "FO.Games هي منصتك الأولى للألعاب المجانية بدون أي تحميل مباشرة عبر المتصفح لجميع الأجهزة الأجهزة الضعيفة والقوية.";
+            } else if(type === 'contact') {
+                title.innerText = "تواصل معنا";
+                text.innerText = "لأي استفسار أو إضافة ألعاب جديدة يمكنك التواصل معنا عبر البريد الإلكتروني الخاص بـ FO.Games.";
+            } else if(type === 'privacy') {
+                title.innerText = "سياسة الخصوصية";
+                text.innerText = "نحن نحترم خصوصيتك بالكامل. لا نقوم بتجميع أي بيانات شخصية خاصة بك، والبيانات المحفوظة كالمفضلة وتاريخ اللعب تحفظ محلياً على جهازك فقط.";
+            }
+            modal.style.display = 'flex';
+        }
+
+        document.getElementById('btn-fullscreen').onclick=()=>{
+            const el=document.getElementById('iframe-container');
+            if(!document.fullscreenElement) el.requestFullscreen().catch(()=>{});
+            else document.exitFullscreen();
+        };
+
+        function setupScrollButtons(){
+            const bar = document.getElementById('genres-container');
+            const left = document.getElementById('scrollLeft');
+            const right = document.getElementById('scrollRight');
+            left.onclick = () => bar.scrollBy({left: currentLang==='ar'? 300 : -300, behavior:'smooth'});
+            right.onclick = () => bar.scrollBy({left: currentLang==='ar'? -300 : 300, behavior:'smooth'});
+        }
+
+        // 4. تغيير اللغة الكامل
+        function changeLanguage(langKey) {
+            currentLang = langKey;
+            const html = document.documentElement;
+            html.setAttribute('dir', currentLang==='ar'?'rtl':'ltr'); 
+            html.setAttribute('lang', currentLang);
+            
+            document.querySelectorAll('.lang-node').forEach(n => {
+                n.innerText = n.getAttribute(`data-${currentLang}`) || n.getAttribute('data-en') || n.innerText;
+            });
+            
+            const srcInp = document.getElementById('search-input'); 
+            srcInp.placeholder = srcInp.getAttribute(`data-${currentLang}`) || srcInp.getAttribute('data-en');
+            
+            buildGenresBar(); 
+            applyFilters();
+            
+            if(currentGame) document.getElementById('gameIframe').src=currentGame.gameURL+`&lang=${currentLang}`;
+        }
+
+        function isFavorite(id){ return JSON.parse(localStorage.getItem('favorites')||'[]').includes(id); }
+        function toggleFav(id){ 
+            let favs=JSON.parse(localStorage.getItem('favorites')||'[]');
+            if(favs.includes(id)){ favs=favs.filter(f=>f!==id); }
+            else{ favs.push(id); }
+            localStorage.setItem('favorites',JSON.stringify(favs));
+        }
+
+        let pwaPrompt; window.addEventListener('beforeinstallprompt',(e)=>{e.preventDefault();pwaPrompt=e;document.getElementById('btn-install').style.display='flex';});
+        document.getElementById('btn-install').addEventListener('click',async()=>{if(pwaPrompt){pwaPrompt.prompt();const{outcome}=await pwaPrompt.userChoice;if(outcome==='accepted')document.getElementById('btn-install').style.display='none';pwaPrompt=null;}});
+
+        window.onload=initPlatform;
+    </script>
+</body>
+</html>

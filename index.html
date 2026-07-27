@@ -3,175 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FO.Games - منصة الألعاب</title>
-    <meta name="description" content="Free Online Games | العاب مجانيه اونلاين | العب عبر الانترنت">
-    
-    <!-- PWA Web Manifest -->
+    <title>FO.Games | منصة الألعاب العالمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./icon.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#1a1d24">
+    <meta name="description" content="ألعابك المفضلة بدون تحميل، ألعاب مجانية للأجهزة الضعيفة">
 
-    <!-- FontAwesome & Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZ0LRGTJJK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MZ0LRGTJJK');
+    </script>
     
-    <!-- QRCode Lib -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
-    <!-- CSS مع الإصدار v=4.0 لكسر الكاش -->
-    <link rel="stylesheet" href="style.css?v=5.0">
-    <link rel="icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="google_translate_element" style="display:none;"></div>
 
-    <!-- Header / Navbar -->
-    <header class="main-header">
-        <div class="header-container">
-            <div class="logo" onclick="window.location.reload()">
-                <i class="fa-solid fa-gamepad"></i> FO.Games
-            </div>
-
-            <div class="search-box">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="search-input" placeholder="ابحث عن لعبة...">
-            </div>
-
-            <div class="header-actions">
-                <!-- قائمة أفضل 10 لغات -->
-                <div class="custom-lang-selector">
-                    <i class="fa-solid fa-globe"></i>
-                    <select id="langSelect" onchange="changeLanguage(this.value)">
-                        <option value="ar">العربية 🇪🇬</option>
-                        <option value="en">English 🇺🇸</option>
-                        <option value="fr">Français 🇫🇷</option>
-                        <option value="es">Español 🇪🇸</option>
-                        <option value="de">Deutsch 🇩🇪</option>
-                        <option value="it">Italiano 🇮🇹</option>
-                        <option value="ru">Русский 🇷🇺</option>
-                        <option value="zh-CN">中文 🇨🇳</option>
-                        <option value="ja">日本語 🇯🇵</option>
-                        <option value="pt">Português 🇵🇹</option>
-                    </select>
-                </div>
-
-                <!-- زر تثبيت التطبيق -->
-                <button id="install-btn" class="install-btn">
-                    <i class="fa-solid fa-download"></i> <span>تثبيت</span>
-                </button>
-
-                <!-- زر مشاركة الموقع -->
-                <button class="action-btn share-site-btn" onclick="sharePlatform()" title="مشاركة الموقع">
-                    <i class="fa-solid fa-share-nodes"></i> <span>مشاركة</span>
-                </button>
-
-                <!-- الوضع الليلي -->
-                <button class="action-btn" onclick="toggleTheme()" title="تغيير المظهر">
-                    <i class="fa-solid fa-moon" id="theme-icon"></i>
-                </button>
-
-                <!-- وضع الأطفال -->
-                <button class="action-btn kids-btn" onclick="toggleKidsMode()" title="وضع الأطفال">
-                    <i class="fa-solid fa-child"></i> <span id="kids-label">الأطفال: إيقاف</span>
-                </button>
-
-                <!-- QR Code للموقع -->
-                <button class="action-btn" onclick="toggleMainQRCode()" title="QR Code">
-                    <i class="fa-solid fa-qrcode"></i>
-                </button>
-            </div>
+    <header>
+        <a href="#" class="logo">FO.Games</a>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="search-input" placeholder="ابحث عن لعبتك المفضلة...">
+        </div>
+        <div class="nav-controls">
+            <button id="btn-random" onclick="playRandomGame()"><i class="fa-solid fa-dice"></i> <span>جرب حظك</span></button>
+            <button id="btn-kids" onclick="toggleKidsMode()"><i class="fa-solid fa-child"></i> <span id="kids-label">الأطفال: إيقاف</span></button>
+            <button onclick="sharePlatform()"><i class="fa-solid fa-share-nodes"></i> <span>مشاركة</span></button>
+            <button onclick="toggleMainQRCode()"><i class="fa-solid fa-qrcode"></i> <span>QR</span></button>
+            <button id="btn-theme" onclick="toggleTheme()"><i class="fa-solid fa-moon" id="theme-icon"></i></button>
+            <button class="btn-translate-custom" onclick="openTranslateModal()">
+                <i class="fa-solid fa-language"></i> <span>الترجمة</span>
+            </button>
+            <button id="btn-install" style="display:none;"><i class="fa-solid fa-download"></i> <span>تثبيت</span></button>
         </div>
     </header>
 
-    <!-- عنصر ترجمة جوجل المباشر الخفي -->
-    <div id="google_translate_element" style="display:none;"></div>
-
-    <!-- Resume Banner -->
-    <div id="resume-banner" class="resume-banner" style="display: none;">
-        <span>هل تريد متابعة اللعب: <strong id="resume-title"></strong>؟</span>
-        <button onclick="resumeLastGame()" class="btn-resume">استئناف</button>
+    <div class="generic-modal" id="translateModal">
+        <div class="modal-content text-center max-w-translate">
+            <h3><i class="fa-solid fa-language"></i> اختر لغة الترجمة</h3>
+            <hr class="modal-divider">
+            <p class="modal-subtext">اختر اللغة وسيتم تطبيق الترجمة فوراً:</p>
+            <div class="lang-options-grid">
+                <button onclick="selectLanguage('ar')">🇸🇦 العربية</button>
+                <button onclick="selectLanguage('en')">🇺🇸 English</button>
+                <button onclick="selectLanguage('fr')">🇫🇷 Français</button>
+                <button onclick="selectLanguage('de')">🇩🇪 Deutsch</button>
+                <button onclick="selectLanguage('es')">🇪🇸 Español</button>
+                <button onclick="selectLanguage('ru')">🇷🇺 Русский</button>
+            </div>
+            <br>
+            <button class="btn-modal-close" onclick="closeTranslateModal()">إغلاق</button>
+        </div>
     </div>
 
-    <!-- Main Container -->
-    <main class="main-content">
-        <!-- Featured Section (شريط الأخبار التلفزيوني للألعاب المميزة) -->
-        <section class="featured-section">
-            <h2><i class="fa-solid fa-fire"></i> <span>ألعاب مميزة</span></h2>
-            <div class="ticker-wrapper">
-                <div id="featured-slider-container" class="ticker-track"></div>
-            </div>
-        </section>
-
-        <!-- Filter Tabs -->
-        <div class="filter-tabs">
-            <button class="filter-tab active" data-filter="all">الكل</button>
-            <button class="filter-tab" data-filter="popular">الشائعة</button>
-            <button class="filter-tab" data-filter="new">جديد</button>
-            <button class="filter-tab" data-filter="played">لعبتها مؤخراً</button>
-            <button class="filter-tab" data-filter="favorites">المفضلة</button>
-            <button class="filter-tab" data-filter="desktop">كمبيوتر</button>
-            <button class="filter-tab" data-filter="mobile">موبايل</button>
-            <button class="filter-tab random-btn" onclick="playRandomGame()"><i class="fa-solid fa-shuffle"></i> <span>لعبة عشوائية</span></button>
+    <div id="main-qr-modal" class="generic-modal">
+        <div class="modal-content text-center">
+            <h3>رمز QR الخاص بالمنصة</h3>
+            <hr class="modal-divider">
+            <div id="main-qrcode" class="qr-box"></div>
+            <p class="modal-subtext">امسح الرمز لفتح المنصة مباشرة على الهاتف</p>
+            <br>
+            <button class="btn-modal-close" onclick="toggleMainQRCode()">إغلاق</button>
         </div>
+    </div>
 
-        <!-- Genres Categories Horizontal Scroll -->
-        <div class="genres-wrapper">
-            <button class="scroll-btn left" id="scrollLeft"><i class="fa-solid fa-chevron-right"></i></button>
-            <div id="genres-container" class="genres-container"></div>
-            <button class="scroll-btn right" id="scrollRight"><i class="fa-solid fa-chevron-left"></i></button>
-        </div>
+    <div class="featured-slider">
+        <div class="slider-track" id="featured-slider-container"></div>
+    </div>
 
-        <!-- Games Grid Holder -->
-        <section id="games-holder" class="games-grid"></section>
+    <div id="resume-banner" style="display:none;">
+        <span><i class="fa-solid fa-clock-rotate-left"></i> <span>أكمل اللعب من حيث توقفت:</span> <strong id="resume-title">--</strong></span>
+        <button onclick="resumeLastGame()"><i class="fa-solid fa-play"></i> <span>تشغيل</span></button>
+    </div>
+
+    <div class="genres-wrapper">
+        <button class="scroll-btn scroll-left" id="scrollLeft"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="genres-bar" id="genres-container"></div>
+        <button class="scroll-btn scroll-right" id="scrollRight"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <div class="filter-tabs">
+        <div class="filter-tab active" data-filter="all">الكل</div>
+        <div class="filter-tab" data-filter="popular">الأكثر شعبية</div>
+        <div class="filter-tab" data-filter="new">جديد</div>
+        <div class="filter-tab" data-filter="played">لعبتها</div>
+        <div class="filter-tab" data-filter="favorites">المفضلة</div>
+        <div class="filter-tab" data-filter="desktop"><i class="fa-solid fa-desktop"></i> كمبيوتر</div>
+        <div class="filter-tab" data-filter="mobile"><i class="fa-solid fa-mobile-screen"></i> الهاتف</div>
+    </div>
+
+    <div id="page-404" style="display:none;">
+        <h1>404</h1>
+        <h2>عذراً، اللعبة التي تبحث عنها غير موجودة!</h2>
+        <br>
+        <button onclick="close404()"><i class="fa-solid fa-house"></i> العودة للرئيسية</button>
+    </div>
+
+    <main class="games-grid" id="games-holder">
+        <div id="loading-trigger"><i class="fa-solid fa-circle-notch fa-spin"></i> <span>جاري استدعاء الألعاب...</span></div>
     </main>
 
-    <!-- Modal Game Player -->
-    <div id="gameModal" class="modal">
-        <div class="modal-content game-modal-content">
-            <div class="modal-header">
-                <h3 id="m-title">عنوان اللعبة</h3>
-                <div class="modal-controls">
-                    <button id="btn-fav-modal" onclick="toggleFavCurrent()"><i class="fa-solid fa-heart"></i></button>
-                    <button onclick="shareCurrentGame()"><i class="fa-solid fa-share-nodes"></i></button>
-                    <button onclick="toggleGameQRCode()"><i class="fa-solid fa-qrcode"></i></button>
-                    <button id="btn-fullscreen"><i class="fa-solid fa-expand"></i></button>
-                    <button class="close-btn" onclick="closeGame()">&times;</button>
+    <div class="game-modal" id="gameModal" style="display:none;">
+        <div class="modal-top">
+            <h3 id="m-title">Game Title</h3>
+            <div class="modal-actions">
+                <button class="modal-icon-btn" id="btn-fav-modal" onclick="toggleFavCurrent()" title="المفضلة"><i class="fa-solid fa-heart"></i></button>
+                <!-- <button class="modal-icon-btn btn-translate-game" onclick="openTranslateModal()" title="ترجمة"><i class="fa-solid fa-language"></i></button> -->
+                <button class="modal-icon-btn" id="btn-share" onclick="shareCurrentGame()" title="مشاركة"><i class="fa-solid fa-share-nodes"></i></button>
+                <button class="modal-icon-btn" id="btn-qr" onclick="toggleGameQRCode()" title="رمز QR"><i class="fa-solid fa-qrcode"></i></button>
+                <button class="modal-icon-btn" id="btn-fullscreen" title="ملء الشاشة"><i class="fa-solid fa-expand"></i></button>
+                <button class="modal-icon-btn btn-close-modal" onclick="closeGame()" title="إغلاق"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <div id="qr-container" style="display:none;">
+            <div id="qrcode"></div>
+            <p class="qr-text">امسح رمز QR للفتح من الموبايل</p>
+        </div>
+        <div class="modal-body">
+            <div class="iframe-space" id="iframe-container">
+                <iframe id="gameIframe" src="" allowfullscreen allow="fullscreen; autoplay" loading="eager"></iframe>
+            </div>
+            <div class="details-sidebar">
+                <div><h4>عن اللعبة</h4><p class="details-text" id="m-desc"></p></div>
+                <div><h4>كيفية اللعب</h4><p class="details-text" id="m-howto"></p></div>
+                <div><h4>معلومات</h4>
+                    <div class="info-row"><span>التوجيه</span><span id="m-orient">-</span></div>
+                    <div class="info-row"><span>شراء داخل اللعبة</span><span id="m-purchases">-</span></div>
+                    <div class="info-row"><span>الأجهزة المدعومة</span><span id="m-devices">-</span></div>
                 </div>
-            </div>
-            
-            <div class="iframe-wrapper" id="iframe-container">
-                <iframe id="gameIframe" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-            <div id="qr-container" class="qr-box" style="display: none;">
-                <div id="qrcode"></div>
-            </div>
-
-            <div class="game-details">
-                <p><strong>الوصف:</strong> <span id="m-desc"></span></p>
-                <p><strong>طريقة اللعب:</strong> <span id="m-howto"></span></p>
-                <div class="game-meta">
-                    <span><strong>الاتجاه:</strong> <span id="m-orient"></span></span> | 
-                    <span><strong>مشتريات:</strong> <span id="m-purchases"></span></span> | 
-                    <span><strong>الأجهزة:</strong> <span id="m-devices"></span></span>
-                </div>
+                <div><h4>الوسوم</h4><div class="tags-container" id="m-tags"></div></div>
             </div>
         </div>
     </div>
 
-    <!-- Main QR Modal -->
-    <div id="main-qr-modal" class="modal">
-        <div class="modal-content mini-modal">
-            <div class="modal-header">
-                <h3>رابط المنصة QR</h3>
-                <span class="close-btn" onclick="toggleMainQRCode()">&times;</span>
-            </div>
-            <div id="main-qrcode" class="qr-flex"></div>
+    <div class="generic-modal" id="infoModal" style="display:none;">
+        <div class="modal-content">
+            <h3 id="info-modal-title"></h3>
+            <hr class="modal-divider">
+            <p id="info-modal-text" class="info-modal-desc"></p>
+            <br>
+            <button class="btn-modal-close" onclick="document.getElementById('infoModal').style.display='none'">إغلاق</button>
         </div>
     </div>
 
-    <footer class="main-footer">
-        <p>&copy; 2026 FO.Games - جميع الحقوق محفوظة</p>
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="openFooterInfo('about'); return false;">عن الموقع</a>
+            <a href="#" onclick="openFooterInfo('contact'); return false;">تواصل معنا</a>
+            <a href="#" onclick="openFooterInfo('privacy'); return false;">سياسة الخصوصية</a>
+        </div>
+        <p>© 2026 FO.Games - جميع الحقوق محفوظة</p>
     </footer>
 
-    <!-- JS مع الإصدار v=4.0 -->
-    <script src="script.js?v=4.0"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ar',
+                includedLanguages: 'ar,en,fr,de,es,ru',
+                autoDisplay: false,
+                layout: 0
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
 </body>
 </html>

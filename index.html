@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+            const key = 'fo_initial_hard_reload_done';
+            if (!localStorage.getItem(key)) {
+                localStorage.setItem(key, '1');
+                const url = new URL(window.location.href);
+                url.searchParams.set('_hard_reload', Date.now().toString());
+                window.location.replace(url.toString());
+            }
+        })();
+    </script>
     <title>FO.Games |Free Online Games - ألعاب أونلاين مجاناً بدون تسجيل</title>
     <meta property="og:site_name" content="FO.Games">
     <meta property="og:title" content="FO.Games |Free Online Games - ألعاب أونلاين مجاناً بدون تسجيل">
@@ -102,7 +113,7 @@
     <div id="resume-banner" style="display:none;">
         <span><i class="fa-solid fa-clock-rotate-left"></i> <span>أكمل اللعب من حيث توقفت:</span> <strong
                 id="resume-title">--</strong></span>
-        <button onclick="resumeLastGame()"><i class="fa-solid fa-play"></i> <span>تشغيل</span></button>
+        <button id="btn-open" onclick="resumeLastGame()"><i class="fa-solid fa-play"></i> <span>تشغيل</span></button>
     </div>
 
     <div class="genres-wrapper">

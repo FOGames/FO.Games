@@ -4,31 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        (function () {
-            const key = 'fo_initial_hard_reload_done';
-            if (!localStorage.getItem(key)) {
-                localStorage.setItem(key, '1');
-                const url = new URL(window.location.href);
-                url.searchParams.set('_hard_reload', Date.now().toString());
-                window.location.replace(url.toString());
-            }
-        })();
-    </script>
-    <title>FO.Games |Free Online Games - ألعاب أونلاين مجاناً بدون تسجيل</title>
+    <title>Free Online Games - Play Now on FO.Games</title>
     <meta property="og:site_name" content="FO.Games">
     <meta property="og:title" content="FO.Games |Free Online Games - ألعاب أونلاين مجاناً بدون تسجيل">
+
+    <meta property="og:image" content="https://fogames.github.io/FO.Games/android-chrome-512x512.png">
+
+    <meta name="twitter:image" content="https://fogames.github.io/FO.Games/android-chrome-512x512.png">
+
+    <link rel="icon" href="/FO.Games/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/FO.Games/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/FO.Games/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/FO.Games/apple-touch-icon.png">
+
+    <meta name="twitter:card" content="summary_large_image">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- رابط مطلق كامل بالـ HTTPS ومحدد فيه المقاس والنوع -->
-    <link rel="icon" type="image/png" sizes="512x512" href="https://fogames.github.io/FO.Games/icon.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="https://fogames.github.io/FO.Games/icon.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="description" content="ألعابك المفضلة بدون تحميل، ألعاب مجانية للأجهزة الضعيفة">
+    <meta name="description" content="Play thousands of free online games instantly. No download required. Enjoy action, racing, puzzle, sports, and more on FO.Games.">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZ0LRGTJJK"></script>
     <script>

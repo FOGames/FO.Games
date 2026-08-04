@@ -163,6 +163,17 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
 #qr-container { padding: 15px; background: #1e293b; text-align: center; border-bottom: 1px solid #334155; }
 .qr-text { font-size: 12px; color: #94a3b8; margin-top: 8px; }
 
+.similar-games-section { margin: 24px 20px; }
+.similar-games-section h2 { display: flex; align-items: center; gap: 10px; color: #f8fafc; font-size: 20px; margin-bottom: 16px; }
+.similar-games-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.similar-game-card { background: #1e293b; border-radius: 16px; overflow: hidden; border: 1px solid #334155; text-decoration: none; color: #f8fafc; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: transform 0.22s ease, border-color 0.22s ease; display: block; }
+.similar-game-card:hover { transform: translateY(-3px); border-color: #38bdf8; }
+.similar-game-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.similar-game-body { padding: 14px; }
+.similar-game-body h3 { font-size: 15px; margin-bottom: 8px; line-height: 1.3; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.similar-game-card .tag-item { background: rgba(56,189,248,0.14); color: #cbd5e1; padding: 5px 8px; font-size: 11px; border-radius: 999px; }
+
 /* النوافذ المساعدة */
 .generic-modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); z-index: 3000; display: none; align-items: center; justify-content: center; }
 .modal-content { background: #1e293b; padding: 25px; border-radius: 12px; width: 90%; max-width: 450px; border: 1px solid #334155; }

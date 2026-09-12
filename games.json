@@ -14,8 +14,957 @@
   "segments": [
     {
       "title": "Specially for you",
-      "count": 2141,
+      "count": 2162,
       "hits": [
+        {
+          "id": "125219",
+          "slug": "princess-dental-dentist-games",
+          "title": "Princess Dental: Dentist Games",
+          "description": "Welcome to the city dental clinic, where princesses come for their smiles! Help adorable princess patients take care of their teeth and solve different dental problems. 🪥 Examine their teeth, clean plaque, treat cavities, and use various dentist tools to make their smiles healthy and beautiful again. Each princess has a different dental problem, making every treatment a new challenge. ✨ Take good care of your patients and become their favorite dentist!",
+          "howToPlayText": "👸 Choose a princess patient and start the dental check-up.\n🔍 Examine her teeth to find cavities, dirt, and other problems.\n🦷 Select the correct dentist tool for each treatment.\n🪥 Clean and repair the teeth step by step.\n💉 Use different tools carefully to complete each dental procedure.\n😁 Make sure all dental problems are treated and give the princess a beautiful smile!\n⭐ Complete treatments to meet more princess patients and take on new dental challenges.",
+          "gameURL": "https://playgama.com/export/game/princess-dental-dentist-games?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/princess-dental-dentist-games",
+          "genres": [
+            "simulation",
+            "girls",
+            "kids",
+            "doctor",
+            "princess",
+            "educational",
+            "point-and-click"
+          ],
+          "tags": [
+            "cleaning-games",
+            "1-player-games",
+            "baby-games",
+            "simple-games",
+            "children-games",
+            "dentist-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/princess-dental-dentist-games/big_preview/aab345c324ba497aafa66da6fc092ed6?width=448",
+            "https://static.playgama.com/p-img/pg/princess-dental-dentist-games/icon/0863fa0d3d034bf1a30ae2be16d36435?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/princess-dental-dentist-games?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125218",
+          "slug": "hill-climber",
+          "title": "Hill Climber",
+          "description": "Hill Climber is a simple yet challenging physics-based casual driving game where the goal is to drive as far as possible without having an accident or running out of fuel! Controls are minimal, but finding the right balance between braking and accelerating is crucial, especially when navigating hills. Buckle up and get ready for the (hopefully not) bumpy ride.",
+          "howToPlayText": "Desktop:\nUse arrow keys to accelerate and apply brake.\nOn Mobile:\nTap on paddles to accelerate and apply brake.",
+          "gameURL": "https://playgama.com/export/game/hill-climber?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/hill-climber",
+          "genres": [
+            "racing",
+            "arcade",
+            "car",
+            "driving",
+            "physics"
+          ],
+          "tags": [
+            "race-games",
+            "2d-games",
+            "casual-games",
+            "avoid-games",
+            "vehicles-games",
+            "challenging-games",
+            "webgl-games",
+            "challenge-games",
+            "1-player-games",
+            "arcade-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/hill-climber/big_preview/84430a8e8b944dfe824abf4a23cd9942?width=448",
+            "https://static.playgama.com/p-img/pg/hill-climber/icon/ffa1cc4168264d0bb77bfe4bf8808b41?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "pt-PT"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/hill-climber?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125215",
+          "slug": "mosquito-fight-number-battle",
+          "title": "Mosquito Fight: Number Battle",
+          "description": "🦟 Mosquito Fight: Number Battle is a fast-paced .io arena where size, numbers, and survival decide who becomes the ultimate mosquito! Fly across the arena, collect colorful energy dots, grow stronger, and challenge rival mosquitoes. 🔢⚡ Watch your number rise as you gather more energy, but stay alert—one wrong move can send you straight back to the start! Circle around opponents, steal valuable resources, outsmart stronger enemies, and climb the leaderboard. 🏆 Simple controls, quick matches, and chaotic battles make every round exciting. Are you ready to become the biggest and most feared mosquito in the arena? 🦟🔥",
+          "howToPlayText": "🕹️ Move: Use your mouse or touch controls to guide your mosquito around the arena.\n🔵 Collect: Fly through colorful dots and energy to increase your number and become stronger.\n⚔️ Battle: Challenge other mosquitoes and use smart movement to make them crash or lose their advantage.\n🚀 Boost: Use your speed boost at the right moment to escape danger, chase enemies, or grab valuable energy.\n💥 Survive: Avoid dangerous collisions and stronger opponents while looking for the safest path to grow.\n🏆 Climb the Leaderboard: The higher your number and score, the higher you rank. Keep growing, dominate the arena, and fight your way to #1! 🦟👑",
+          "gameURL": "https://playgama.com/export/game/mosquito-fight-number-battle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/mosquito-fight-number-battle",
+          "genres": [
+            "io",
+            "action",
+            "number",
+            "survival"
+          ],
+          "tags": [
+            "2d-games",
+            "fast-paced-games",
+            "arena-games",
+            "collecting-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/mosquito-fight-number-battle/big_preview/e83a252e8a304e528095a26fb38afcd1?width=448",
+            "https://static.playgama.com/p-img/pg/mosquito-fight-number-battle/icon/e0b5ddb713a745caa2b050f8c9fb4274?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/mosquito-fight-number-battle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125210",
+          "slug": "colortrail-3d",
+          "title": "ColorTrail 3D",
+          "description": "Welcome to Color Trail 3D — a fun and satisfying hyper-casual arcade game where every move paints the path with color!\n\nControl your cube, move through exciting 3D tracks, and fill every path while avoiding dangerous obstacles and traps. Test your timing, reflexes, and precision as the levels become faster and more challenging.",
+          "howToPlayText": "Mouse: Hold the Left Mouse Button to move player.\nMobile: Touch and hold on the screen to move the player.",
+          "gameURL": "https://playgama.com/export/game/colortrail-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/colortrail-3d",
+          "genres": [
+            "arcade",
+            "skill",
+            "3d"
+          ],
+          "tags": [
+            "cube-games",
+            "reaction-games",
+            "fast-paced-games",
+            "avoid-games",
+            "obstacles-games",
+            "challenging-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/colortrail-3d/big_preview/ad75ec1d69d840ab86b54f70f771ee9f?width=448",
+            "https://static.playgama.com/p-img/pg/colortrail-3d/icon/52847623af5b4d50920372a6dd2bd08b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/colortrail-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125209",
+          "slug": "planko",
+          "title": "Planko",
+          "description": "Planko is a strategy game where you need to make the ball travel from one point to another. By tapping on the targets you can make the planks move by making them fall. Be sure to make sure you make them fall at the right time to ensure you don't miss your chance.",
+          "howToPlayText": "Your goal is simple: get the red ball safely to the green target.\n\nEach level is a small physics puzzle made up of balls, planks, platforms, and obstacles. The red ball moves with gravity, but its path is often blocked by other balls.\n\nTap the removable balls in the correct order to make them disappear. Removing one can change the balance of the level, allowing the red ball to roll, slide, bounce, or fall onto the planks below.\n\nThink before you tap. Removing the wrong ball too early could send the red ball in the wrong direction or make it miss the target completely.\n\nPlan your moves, clear the right obstacles, and use the planks to guide the ball all the way to the finish.\n\nSimple to understand, but each new level introduces a different puzzle to solve.",
+          "gameURL": "https://playgama.com/export/game/planko?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/planko",
+          "genres": [
+            "puzzle",
+            "physics",
+            "logic"
+          ],
+          "tags": [
+            "brain-training-games",
+            "mind-games",
+            "gravity-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/planko/big_preview/83ee6878cdb241afb2b67cc1c06f5188?width=448",
+            "https://static.playgama.com/p-img/pg/planko/icon/a68ccc13df364a28abf3dbbf74bec74b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/planko?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125208",
+          "slug": "summer-punch-party",
+          "title": "Summer Punch Party",
+          "description": "Summer Punch Party is a fast-paced first-person action game where you punch waves of enemies across sunny tropical islands. Unlock ridiculous gloves, send opponents flying with hilarious ragdoll physics, and prove that sometimes the best summer activity is punching trouble directly into the ocean!",
+          "howToPlayText": "Move around the island, survive the enemy waves, and defeat the required number of enemies to complete each level. Punch enemies directly or launch nearby objects into the crowd—throwing enemies into the ocean is also a perfectly respectable strategy! Complete levels to unlock new islands and boxing weapons.\nDesktop Controls:\nWASD — Move\nMouse — Look and aim\nLeft Mouse Button — Punch\nE — Open or close weapon selection\nR — Open or close settings  \nMobile Controls:\nLeft joystick — Move\nDrag the right side — Look and aim\nGlove button — Punch\nOn-screen menu buttons — Weapons and settings",
+          "gameURL": "https://playgama.com/export/game/summer-punch-party?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/summer-punch-party",
+          "genres": [
+            "action",
+            "arcade",
+            "fighting"
+          ],
+          "tags": [
+            "fast-paced-games",
+            "addictive-games",
+            "wtf-games",
+            "smash-games",
+            "1-player-games",
+            "action-fighting"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/summer-punch-party/big_preview/ad5b3a75655445bf9e37efd34bb806a5?width=448",
+            "https://static.playgama.com/p-img/pg/summer-punch-party/icon/5e9ef41f8598482187fe73534b96b33e?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/summer-punch-party?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125207",
+          "slug": "open-city-suv-car-stunts",
+          "title": "Open City SUV Car Stunts",
+          "description": "Get Behind the Wheel and Enjoy an Amazing Realistic SUV Simulator!\n\nJump off ramps, perform crazy stunts, overcome obstacles, and explore a huge open city — all without worrying about the rules of the road!\n\nIn Free Ride Mode, you can enjoy complete freedom with plenty of ramps, jumps, obstacles, and places to perform incredible car stunts.\n\nWant to enjoy the scenery? Take your SUV and explore the city, discover hidden locations, and find new places to jump, crash, and show off your driving skills!\n\nBut there’s more than just stunts.\n\nYour main mission is to deliver illegal packages throughout the city while staying one step ahead of the police. Complete risky deliveries, avoid police chases, hide from the cops, and escape before they catch you!\n\nChoose from detailed SUVs with visual and performance tuning. Customize your vehicle and build the perfect off-road machine for both stunts and dangerous deliveries.\n\nEnjoy complete freedom, explore the open city, perform insane SUV stunts, deliver illegal packages, and escape the cops in Open City SUV!\n",
+          "howToPlayText": "W / Up Arrow accelerate\nS / Down Arrow brake\nA / Left Arrow steer left\nD / Right Arrow steer right\nSpace handbrake",
+          "gameURL": "https://playgama.com/export/game/open-city-suv-car-stunts?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/open-city-suv-car-stunts",
+          "genres": [
+            "racing",
+            "simulation",
+            "3d",
+            "car",
+            "driving",
+            "police"
+          ],
+          "tags": [
+            "race-games",
+            "stunt-games",
+            "customization-games",
+            "delivery-games",
+            "vehicles-games",
+            "car-tuning-games",
+            "webgl-games",
+            "amazing-games",
+            "1-player-games",
+            "open-world-games",
+            "realistic-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/open-city-suv-car-stunts/big_preview/9f9444a694644996a7733212f5a1822f?width=448",
+            "https://static.playgama.com/p-img/pg/open-city-suv-car-stunts/icon/596accb307c54becac9277c34fc0aa4c?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "16784d090f544e91943fa7e659c6de87",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/open-city-suv-car-stunts?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125205",
+          "slug": "nummerge-clash",
+          "title": "NumMerge Clash",
+          "description": "A dynamic number puzzle where you connect adjacent cards with matching values. Tap a card to merge it with all neighbors of the same value, increase its worth, and clear space for new cards falling from above. Use energy for tactical moves: swap adjacent cards or remove obstacles. Simple at first glance, this mechanic hides deep strategy: plan your moves, adapt to the shifting board, and chase high scores under limited conditions.",
+          "howToPlayText": "Become a Master of Number Combinations!\nYour main goal is to achieve the highest score and survive as long as possible. Connect adjacent cards with matching values, increase their worth, and clear space for new cards. The game ends when there are no available moves left and you lack energy for tactical actions. Plan your strategy, watch the upcoming card queue, and use tactical moves to avoid deadlocks!\nControls:\nDesktop Controls:\nLeft Click on Card: Merge the card with all neighbors of the same value.\nLong Press on Card: View card description and properties.\nSwap Button: Activate mode to swap two adjacent cards.\nDestroy Button: Remove selected card using energy.\n“+” Button near Card Queue: Open shop and buy cards with coins.\nMobile Controls:\nTap on Card: Merge the card with all neighbors of the same value.\nLong Press on Card: View card description and properties.\nEnergy Panel: Select swap or destroy mode.\nDestroy Button: Remove selected card using energy.\n“+” Button near Card Queue: Open shop and buy cards with coins.",
+          "gameURL": "https://playgama.com/export/game/nummerge-clash?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/nummerge-clash",
+          "genres": [
+            "puzzle",
+            "number",
+            "merge",
+            "matching"
+          ],
+          "tags": [
+            "casual-games",
+            "brain-training-games",
+            "connect-games",
+            "mind-games",
+            "challenge-games",
+            "1-player-games",
+            "tiles-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/nummerge-clash/big_preview/69846e1649814997936bede67fd2f557?width=448",
+            "https://static.playgama.com/p-img/pg/nummerge-clash/icon/099c736adf7a4d6eaa83f4187770fb26?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "802c3aed62e34971a56158d09bc2f0a1",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/nummerge-clash?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125204",
+          "slug": "pixel-color-quest",
+          "title": "Pixel Color Quest",
+          "description": "Choose a picture you like and turn a blank field into a bright pixel artwork. Pick the required colors and carefully fill the cells by following their numbers.\n\nStart with simple images or test your attention on large, detailed levels. Different themes and difficulty levels let you choose a quick picture for relaxation or a serious creative challenge.\n\n- Many pictures across different themes\n- Easy and challenging levels\n- Clear numbered color palette\n- Bright pixel images\n- Calm coloring without rushing",
+          "howToPlayText": "Goal: completely color the selected picture. Find the number inside a cell, choose the color with the same number, and fill every matching cell. The picture is complete when every section has the correct color.\n\nDesktop:\n- Left mouse button — select a picture or color.\n- Left mouse button on a cell — fill it with the selected color.\n\nPhone and tablet:\n- Tap a picture or color to select it.\n- Tap the required cell to fill it.",
+          "gameURL": "https://playgama.com/export/game/pixel-color-quest?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/pixel-color-quest",
+          "genres": [
+            "drawing",
+            "color"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "art-games",
+            "color-matching-games",
+            "1-player-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/pixel-color-quest/big_preview/bb65d9948c714305a6a270650c4eee0c?width=448",
+            "https://static.playgama.com/p-img/pg/pixel-color-quest/icon/61b88630d1624d83a9041060bf7b57d0?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/pixel-color-quest?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125199",
+          "slug": "brain-dots",
+          "title": "Brain Dots",
+          "description": "🧠 Draw a path, bring them together!\nPut your creativity and physics skills to the test! ✏️ Two colorful balls are separated by platforms, gaps, and tricky obstacles. Your mission is simple: draw lines and shapes to help the two balls reach each other! Use gravity, momentum, and clever drawings to control their movement. Every level has a different puzzle, so think carefully and find the smartest solution. Can you draw the perfect path and make the two balls meet? 🎯✨",
+          "howToPlayText": "✏️ Draw lines or shapes anywhere on the screen.\n⚽ Use your drawings to guide and push the two balls.\n🧲 Take advantage of gravity and physics to control their movement.\n🚧 Avoid obstacles and prevent the balls from falling away.\n🤝 Your goal is to make both balls touch each other.\n💡 Plan your drawing carefully and use as few lines as possible!\n🎯 Complete the level when the two balls successfully meet.",
+          "gameURL": "https://playgama.com/export/game/brain-dots?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/brain-dots",
+          "genres": [
+            "puzzle",
+            "physics",
+            "brain",
+            "drawing",
+            "logic"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "brain-training-games",
+            "mind-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/brain-dots/big_preview/3e86f056bb804e3e918c8757fcc97915?width=448",
+            "https://static.playgama.com/p-img/pg/brain-dots/icon/397f7463e00f45349f08fdc78f55d3dd?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/brain-dots?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125196",
+          "slug": "traffic-rush-online",
+          "title": "TRAFFIC Rush Online",
+          "description": "TRAFFIC Rush Online is a dynamic 3D driving game set on the streets of a large city. Change lanes between moving cars, control your speed, and prove that you can make it through heavy traffic without mistakes.\n\nChoose from three game modes. Drive with other players online, explore the city without restrictions in Free Ride, or dodge traffic and earn more gold in Traffic mode. Level up, expand your garage, and customize your car with new colors, wheels, and exterior parts.\n\nResponsive driving physics, multiple camera views, and detailed urban roads make every run exciting. Take calculated risks, choose the right moment to move, and set a new record!\n\n",
+          "howToPlayText": "The goal of the race is to drive as far as possible along the highway and beat the record.\n\nTry not to crash into other cars. The farther you drive, the more money you will earn.\n\nThe game also features an online mode — invite your friends and play together, or meet new players.\n\nSpend the money you earn on upgrading your car and buying new vehicles.\n\nPC Controls:\nWASD / Arrow Keys — Drive\nC — Change camera\nSpacebar — Handbrake\n\nMobile Controls:\nOn-screen buttons / on-screen steering wheel. You can switch between control modes in the game settings.\n",
+          "gameURL": "https://playgama.com/export/game/traffic-rush-online?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/traffic-rush-online",
+          "genres": [
+            "racing",
+            "simulation",
+            "3d",
+            "car",
+            "multiplayer",
+            "driving"
+          ],
+          "tags": [
+            "race-games",
+            "customization-games",
+            "car-tuning-games",
+            "webgl-games",
+            "traffic-games",
+            "realistic-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/traffic-rush-online/big_preview/8b5c9711e59d49f2a3bde681805443f4?width=448",
+            "https://static.playgama.com/p-img/pg/traffic-rush-online/icon/f83b2c9d897d444e8f3b47b2a2a01fa7?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/traffic-rush-online?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125190",
+          "slug": "run-clicker-tap-muscle-up",
+          "title": "Run Clicker: Tap Muscle Up",
+          "description": "Embark on an exhilarating journey of speed and strength with Run Clicker: Tap Muscle Up! Lace up your running shoes and prepare to push your limits as you sprint towards victory in this action-packed clicker game.\nFeatures:\n- Endless Running: Run endlessly to train yourself and earn money simultaneously. The more you run, the stronger you become!\n- Upgrade Your Abilities: Use your hard-earned cash to upgrade your stamina and speed, allowing you to run faster and farther with each tap.\n- Thrilling Races: Compete in various races against formidable opponents who will test your skills and determination.\n- Unlockable Clothes: Win keys by winning races and use them to unlock new clothes with attractive bonuses, enhancing your performance on the track.",
+          "howToPlayText": "- Tap to Sprint: Rapidly tap the screen to build explosive speed and race ahead of rival runners.\n- Upgrade & Dominate: Earn cash with every win to boost stats, unlock bulkier muscle tiers, and cross the finish line first!",
+          "gameURL": "https://playgama.com/export/game/run-clicker-tap-muscle-up?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/run-clicker-tap-muscle-up",
+          "genres": [
+            "arcade",
+            "clicker"
+          ],
+          "tags": [
+            "fast-paced-games",
+            "casual-games",
+            "hyper-casual-games",
+            "endless-games",
+            "1-player-games",
+            "incremental-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/run-clicker-tap-muscle-up/big_preview/0ade31e0248a495bbf16473ad8e6095f?width=448",
+            "https://static.playgama.com/p-img/pg/run-clicker-tap-muscle-up/icon/59843200c4dc422098873a2a60b32501?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/run-clicker-tap-muscle-up?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125188",
+          "slug": "oddly-sorted-color-sort",
+          "title": "Oddly Sorted: Color Sort",
+          "description": "Sort colorful blocks into matching boxes and uncover 49 original pixel-art reactions. Plan the front-box order, manage your slots, and clear each portrait. Recommended age: 13+. AI tools assisted code, procedural art and sound, localization, and promotional artwork; no generative AI runs during gameplay.",
+          "howToPlayText": "Tap or click a front box to collect reachable blocks of its color. On desktop, press the queue number instead. Clear the portrait without filling every slot. Undo, shuffle, hints and extra slots are free. Open Settings to pause or change sound.",
+          "gameURL": "https://playgama.com/export/game/oddly-sorted-color-sort?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/oddly-sorted-color-sort",
+          "genres": [
+            "puzzle",
+            "matching",
+            "logic",
+            "color"
+          ],
+          "tags": [
+            "casual-games",
+            "brain-training-games",
+            "addictive-games",
+            "sorting-games",
+            "mind-games",
+            "color-matching-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/oddly-sorted-color-sort/big_preview/5338867b2ec34530ad09f600b969b407?width=448",
+            "https://static.playgama.com/p-img/pg/oddly-sorted-color-sort/icon/eb26f83d489b4b39ac2bffebd4d70231?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/oddly-sorted-color-sort?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125187",
+          "slug": "wander-wild",
+          "title": "Wander Wild",
+          "description": "A fantasy card battler with roguelite progression, where tactical card battles combine with constant camp development and a relic system.\n\nThe player assembles card combinations, manages moves, super attacks, and status effects, and between battles develops their character, camp, and relics. Each playthrough gradually unlocks new opportunities for developing a personal playstyle.",
+          "howToPlayText": "⚔️ Fight\n\nUse cards to attack enemies, defend yourself, and apply special effects.\n\nEach turn, choose an action that brings you closer to victory.\n\n🃏 Use Cards\n\nCombine attack, defense, and ability cards.\n\nUse Poison, Bleed, Burn, Stun, Weaken, and other effects to gain the advantage.\n\n⚡ Charge Your Super\n\nBuild up energy during battle and use your Super Attack when the time is right.\n\nSome cards and Relics allow you to charge faster or make your Super more powerful.\n\n💎 Collect Relics\n\nEarn rewards after each victory and unlock new Relics.\n\nEquip up to 4 Relics at once and create your own combinations.\n\n🏕️ Upgrade Your Camp\n\nUse the resources you earn to develop your camp.\n\nUpgrades improve your hero’s stats and help you defeat tougher enemies.\n\n🗺️ Venture Further\n\nEach chapter consists of 15 battles.\n\nDefeat enemies, upgrade your hero, and venture deeper into the world of Wander Wild.\n",
+          "gameURL": "https://playgama.com/export/game/wander-wild?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/wander-wild",
+          "genres": [
+            "adventure",
+            "cards",
+            "pve",
+            "rpg"
+          ],
+          "tags": [
+            "fantasy-games",
+            "1-player-games",
+            "action-rpg"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/wander-wild/big_preview/4bde24ce231046cfa2dbaf1d08f961ed?width=448",
+            "https://static.playgama.com/p-img/pg/wander-wild/icon/768962d8f4794f40835550d6e2a34237?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/wander-wild?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125186",
+          "slug": "parking-journey-car-puzzle",
+          "title": "Parking Journey Car Puzzle",
+          "description": "Get ready to test your logic, planning, and parking skills in Parking Journey: Car Puzzle! 🅿️🚘\n\nYour goal is simple: move every car to the parking bay that matches its color. But there’s a catch — the parking lot is crowded, cars block one another, and the correct path is rarely obvious. You’ll need to think ahead, move vehicles out of the way, and create a clear route before the timer runs out. 🧠⏱️\n\nUnlike ordinary parking games, you are in control of the route. Hold a car and draw the path you want it to follow, and the vehicle will drive along that line. You can also tap an available position to move a car using a shorter route. 🚙➡️🅿️\n\nSometimes the car you need is trapped behind another one. Move blocking cars onto open spaces or even temporarily place them in a different parking bay to create room. A wrong temporary parking spot isn’t necessarily a mistake — clever repositioning is part of the puzzle! 🧩\n\nWith 5,000 levels divided across 50 chapters, the challenge keeps growing as new traffic layouts, parking-lot shapes, colors, and tighter time limits are introduced. Every board is designed to be solvable, so there are no impossible dead ends — if your plan goes wrong, rethink your moves and try another route. 🏆\n\nAs you progress, you’ll encounter up to six different car colors, making later puzzles much more complex. Different street environments also keep the journey visually fresh while you solve increasingly difficult parking situations. 🚘🟢🔵🟡🔴\n\nNeed some help? Use useful boosters when a level gets difficult:\n\n🚘 Valet — automatically parks the next car using a valid solution move.\n⏰ Extra Time — adds 60 seconds to the clock.\n↩️ Undo — reverse your previous moves all the way back to the beginning of the level.\n\nThere’s more waiting outside the parking lot too! Visit the game lobby to collect rewards and enjoy extra activities including a timed reward chest, lucky wheel, jigsaw puzzles, card collection, daily quests, and timed tasks. 🎁🎡🧩\n\nCan you organize the traffic, find the perfect route, and clear every parking lot? 🚗✨",
+          "howToPlayText": "Your objective is to park every car in the parking bay that matches its color before time runs out. 🚗🅿️\n\n👆 Select a car by pressing or holding it.\n✏️ Draw a route from the car to the place where you want it to move.\n🚘 The car will follow the path you created.\n🎨 Look at the car's color and find its matching parking bay.\n🚧 If another vehicle blocks the way, move that vehicle somewhere else first.\n🔄 Use empty spaces to temporarily reposition cars and create a clear path.\n🅿️ Move each vehicle into the correct colored parking bay.\n⏱️ Keep an eye on the timer — the level must be cleared before time runs out.\n↩️ Use Undo if you want to reverse a bad move.\n🚘 Use the Valet booster when you need help finding the next correct move.\n⏰ Use Extra Time to add another 60 seconds when the clock is running low.\n✅ Park all the cars correctly to complete the level and continue your journey.\n\nThe key is to plan several moves ahead. Sometimes you need to move the wrong car first so you can free the vehicle you actually need. 🧠🚦\n\nThink carefully, draw the route, clear the traffic, and become the ultimate parking puzzle master! 🚗🅿️🏆",
+          "gameURL": "https://playgama.com/export/game/parking-journey-car-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/parking-journey-car-puzzle",
+          "genres": [
+            "puzzle",
+            "car",
+            "parking",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "brain-training-games",
+            "color-matching-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/parking-journey-car-puzzle/big_preview/1d14ef94a7c14841926d746280f13208?width=448",
+            "https://static.playgama.com/p-img/pg/parking-journey-car-puzzle/icon/94008164f79c4bc0bed23b87ab3e886d?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/parking-journey-car-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125185",
+          "slug": "timer-cannon",
+          "title": "Timer Cannon",
+          "description": "Timer Cannon\n\nEvery second on the screen is coming to kill you — and the only way to buy life is to destroy time itself.\n\n🕹️ About the Game\n\nHow to Play: Aim, time your blast, and fire. A single precision tap triggers the heavy cannon, launching explosive rounds across the field to obliterate the nearest approaching clock before its hand completes a full rotation. Every clock you destroy clears vital breathing room and adds precious seconds back into your run's master timer. Miss your window, and the ticking swarm closes the gap.",
+          "howToPlayText": "How to Play: \nAim, time your blast, and fire.\nA single precision tap triggers the heavy cannon, launching explosive rounds across the field",
+          "gameURL": "https://playgama.com/export/game/timer-cannon?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/timer-cannon",
+          "genres": [
+            "arcade",
+            "skill"
+          ],
+          "tags": [
+            "reaction-games",
+            "fast-paced-games",
+            "casual-games",
+            "hyper-casual-games",
+            "challenge-games",
+            "1-player-games",
+            "timing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/timer-cannon/big_preview/59a80cc36ede4c2a8d6e54f4352b2ef6?width=448",
+            "https://static.playgama.com/p-img/pg/timer-cannon/icon/d9cdbb491e8742a5bb27acbb11c651b0?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/timer-cannon?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125173",
+          "slug": "dive-deep",
+          "title": "Dive Deep",
+          "description": "Dive Deep is an underwater treasure-hunting adventure! Explore a sunken world full of hidden treasure, dodge patrolling sharks and spiky pufferfish, and use your trusty balloon gun to lift heavy loot up to the surface. Shoot balloons onto treasure chests to make them float switch to your hook gun to grab treasure directly and reel it in — hold to pull it toward you, or tap to lock a tow rope and drag it wherever you need.",
+          "howToPlayText": "Desktop Controls:\nW  or  ↑ (Up Arrow): Move upward.\nA  or  ← (Left Arrow): Move left.\nS  or  ↓ (Down Arrow): Move downward.\nD  or  → (Right Arrow): Move right.\nLeft Click : Shoot Balloon Gun\nRight Click (Hold) : Grab & Pull\nRight Click (Tap) : Attach Tow Rope\nRight Click again while roped : Release Roe\nP  or  Esc : Pause / Resume",
+          "gameURL": "https://playgama.com/export/game/dive-deep?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/dive-deep",
+          "genres": [
+            "arcade",
+            "adventure",
+            "shooting"
+          ],
+          "tags": [
+            "sharks-games",
+            "dodge-games",
+            "water-games",
+            "avoid-games",
+            "collecting-games",
+            "1-player-games",
+            "action-adventure"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/dive-deep/big_preview/872525e1758643e6a0fa5d0f01e308ba?width=448",
+            "https://static.playgama.com/p-img/pg/dive-deep/icon/cca5c8b7e6b34575b3f3a4267972c999?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/dive-deep?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125153",
+          "slug": "noodle-pull",
+          "title": "Noodle Pull",
+          "description": "Master the art of hand pulled noodles in a skill based arcade cooking game where every successful pull doubles your strands.\n\nHold, watch the tension meter, and release in the green zone.\n\nServe customers, earn stars and tips, improve recipes, upgrade your kitchen, and unlock chef styles across 30 levels. Know when to serve and when to risk one more pull.",
+          "howToPlayText": "Serve each customer enough noodles to earn stars. Collect at least 10 stars during a level to unlock the next one.\n\nHold the left mouse button anywhere in the play area, or hold Space, to pull the dough.\n\nRelease the mouse button or Space when the tension marker reaches the green zone. A successful pull doubles your strands.\n\nChoose Pull Again to risk your current strands and pursue a larger reward.\n\nChoose Serve once you have enough strands to complete the customer’s order.\n\nUse the menu buttons to select levels, buy kitchen upgrades, improve recipes, change your chef style, and adjust audio.\n\nA mistimed release can snap the dough and fail the order, so balance precision against risk.",
+          "gameURL": "https://playgama.com/export/game/noodle-pull?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/noodle-pull",
+          "genres": [
+            "arcade",
+            "skill",
+            "food",
+            "cooking"
+          ],
+          "tags": [
+            "casual-games",
+            "bakery-games",
+            "1-player-games",
+            "timing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/noodle-pull/big_preview/44a88257663d4027865c7b3a5e2f6686?width=448",
+            "https://static.playgama.com/p-img/pg/noodle-pull/icon/e2cc36086ce64ff498fdfd8c7307e739?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "e4de7bfabdf74c9181a15bd2d733fe04",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/noodle-pull?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125152",
+          "slug": "cake-ready",
+          "title": "Cake Ready",
+          "description": "Cake Ready is a cozy merge-and-renovate puzzle game. Combine matching ingredients and kitchen tools to fulfill customer orders, earn rewards, and restore a lively cake cafe. Its satisfying item chains, story-driven renovation, and two connected play spaces make every merge part of building your dream bakery.\n",
+          "howToPlayText": "Drag one item onto an identical item to merge them into a higher-level ingredient or tool. Tap producers to create items, complete customer orders to earn coins and experience, manage energy, and spend rewards on renovating the cafe. Keep merging and completing tasks to unlock new recipes, areas, and story chapters. Controls: use the mouse to click, drag, and drop on desktop; tap and drag on touch devices. Menu and shop buttons are selected with a click or tap.\n",
+          "gameURL": "https://playgama.com/export/game/cake-ready?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/cake-ready",
+          "genres": [
+            "puzzle",
+            "merge",
+            "ice-cream",
+            "cozy",
+            "cake"
+          ],
+          "tags": [
+            "casual-games",
+            "bakery-games",
+            "color-matching-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/cake-ready/big_preview/16808c84b17544969762e36ff2f46425?width=448",
+            "https://static.playgama.com/p-img/pg/cake-ready/icon/2bedd7c4e5004109b578c637c987996f?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/cake-ready?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125151",
+          "slug": "block-sort-pirate-treasure",
+          "title": "Block Sort Pirate Treasure",
+          "description": "🏴‍☠️ Ahoy, puzzle mateys! Ready to sort some loot? 💎💰\n\nWelcome to Block Sort Pirate Treasure, a brain-teasing puzzle adventure where your logic is the key to unlocking massive wealth! Your mission is to sort mixed stacks of colorful pirate treasures—like glowing gems, shiny gold coins, and ancient relics—until each stack contains only one type of loot. 🧩\n\nWith a staggering 5,000 unique levels 🗺️, the challenges get tougher and the treasure gets shinier as you sail through the campaign! Test your spatial reasoning, plan your moves carefully, and become the ultimate puzzle pirate. ⚓\n\n🌟 Key Features:\n\n💎 Massive Campaign: Sail through 5,000 progressively challenging puzzle levels!\n\n🧠 Brain-Teasing Logic: Train your brain with satisfying sorting mechanics.\n\n⚡ Helpful Boosters: Stuck on a hard level? Use tools to add an extra empty slot or undo your last move!",
+          "howToPlayText": "Objective 🎯\nSort all the mixed pirate treasures so that every column contains only one matching type of loot! 🏆\n\nControls 🕹️\n💻 Desktop (Mouse): Click on a stack to pick up the top treasure item, then click on an empty space or a stack with the same top item to drop it.\n\n📱 Mobile / Touchscreen: Tap a stack to select the top block, then tap your target destination to move it.",
+          "gameURL": "https://playgama.com/export/game/block-sort-pirate-treasure?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/block-sort-pirate-treasure",
+          "genres": [
+            "puzzle",
+            "pirates",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "brain-training-games",
+            "sorting-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/block-sort-pirate-treasure/big_preview/b9737484d7894994ae24b6de16472e33?width=448",
+            "https://static.playgama.com/p-img/pg/block-sort-pirate-treasure/icon/8e11503295be4f79a9d1adee210a4f21?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/block-sort-pirate-treasure?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
         {
           "id": "125148",
           "slug": "obby-1-digging-power-per-click",
@@ -2387,8 +3336,8 @@
           "id": "124749",
           "slug": "pocket-tile",
           "title": "Pocket Tile",
-          "description": "Pocket Tile is a compact number-merging puzzle that is easy to learn and rewarding to master. Place tiles on a 5×5 board, connect exactly three adjacent tiles with the same number and color, and merge them into a higher-value tile. Choose where the merged tile remains and plan ahead to keep space available.\n\nPlay a shared Daily Puzzle, progress through 50 Adventure levels with increasingly challenging goals, or start from a blank board in Rank Game and compete for a leaderboard score. Break and Clone tiles add tactical twists, while optional special moves can rescue a difficult board. Earn shards through Adventure and rewarded ads, unlock achievements, and build your best chain of merges.",
-          "howToPlayText": "1. Place the current tile in any empty space on the 5×5 board. The Next tile preview shows what is coming.\n2. Connect exactly three orthogonally adjacent tiles with the same number and color. Diagonal tiles do not connect.\n3. Select the three matching tiles, then tap one of them again to choose where the upgraded tile will remain.\n4. Three 1 tiles merge into a 2, three 2 tiles merge into a 3, and so on. A normal merge scores the value of the new tile.\n5. Mint tiles are marked with a circle and violet tiles with a diamond. Both the number and color must match.\n6. Break tiles point toward a neighboring tile. They lower a matching-color number by one, or remove it if its value is 1. If no valid target is present, the Break tile waits until one arrives.\n7. Clone tiles copy the matching-color number in the space they point toward. They also wait if no valid number is present.\n8. Keep placing and merging until there are no legal placements or merges left. In Adventure, complete the displayed tile goal before the board runs out of moves.\n\nControls: tap or click tiles and buttons. No keyboard controls are required.",
+          "description": "Pocket Tile is a colorful puzzle game where every placement counts. Place tiles on a 5×5 board and connect three matching numbers and colors. When they glow, choose where to merge them into a higher tile!\n\nUse Clone tiles to copy matching-color numbers and Change Color tiles to recolor a neighbor. Plan ahead, make room, and \n\nkeep your merges going.\n\nEnjoy three ways to play:\n- Daily Puzzle: A fresh shared puzzle every day.\n- Adventure: Complete tile goals across 50 levels.\n- Rank Game: Start with an empty board and compete for a high score.\n\nSimple tap controls, charming cartoon artwork, and satisfying merges make Pocket Tile easy to learn and fun to master.",
+          "howToPlayText": "1. Place the current tile in an empty space on the 5×5 board. The Next preview shows what’s coming.\n2. Connect three tiles with the same number and color horizontally or vertically. Diagonal tiles don’t connect.\n3. Matching tiles glow automatically. Tap any glowing tile to merge the three—the upgraded tile stays where you tap.\n4. Three 1s become a 2, three 2s become a 3, and so on. A normal merge scores the new tile’s value.\n5. Mint tiles have a circle marker; violet tiles have a diamond. Both number and color must match to merge.\n6. Change Color tiles have a paintbrush icon and a neutral background. They switch the pointed neighboring number from mint to violet or vice versa, keeping its value. The Change Color tile is consumed when it activates.\n7. Clone tiles become the number they point toward if it matches their color. The original tile stays. Both specials wait if no valid numbered neighbor is present.\n8. Keep placing and merging while moves remain. In Adventure, create all the displayed goal tiles and keep them on the board together to complete the level.\n\nControls: Tap or click tiles and buttons. No keyboard controls are required.",
           "gameURL": "https://playgama.com/export/game/pocket-tile?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/pocket-tile",
           "genres": [
@@ -3230,8 +4179,8 @@
             "crush-games"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/crush-hour/big_preview/8191786ec1744da6bc40e580af3751c6?width=448",
-            "https://static.playgama.com/p-img/pg/crush-hour/icon/0bb133976fe84566b7d99e43240307ee?width=448"
+            "https://static.playgama.com/p-img/pg/crush-hour/big_preview/7ff88d8ce26745f5bfd9b8a5dfaa0f3a?width=448",
+            "https://static.playgama.com/p-img/pg/crush-hour/icon/2da445d23d5c4a0aa6c60c4a48607af6?width=448"
           ],
           "videos": [],
           "mobileReady": [
@@ -10200,6 +11149,61 @@
           "embed": "<iframe src='https://playgama.com/export/game/masterpiece-unharmed?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
         },
         {
+          "id": "124351",
+          "slug": "crash-skill-racing",
+          "title": "Crash Skill Racing",
+          "description": "Crash Skill Racing is a high-speed street racing game that throws you onto the busy highways of Japan. Weave through dense traffic, perform daring stunts, and push your car to its limits as you chase speed, style, and mastery behind the wheel.\n\nFeel the adrenaline of threading through traffic at incredible speeds, where every second demands precision. Upgrade your vehicle, unlock new cars, and take on challenging skill-based events as you progress through an action-packed stunt journey.\n\nWith intense highway driving, deep vehicle progression, and a thrilling racing atmosphere, Crash Skill Racing delivers nonstop excitement from your first run to your fastest record.\n\nFeatures:\nHigh-speed racing on Japanese highways\nDense traffic that rewards skillful driving\nChallenging stunt skill test mode.\nVehicle upgrades and performance tuning\nMultiple unlockable cars\nFast-paced gameplay focused on precision and speed",
+          "howToPlayText": "Keyboard:\nWASD / Arrow Keys = Movement\nSpace = Handbrake\nN = Nitro / Boost\nB = Start / Stop Engine\nQ / E = Left / Right Turn Signal\nH = Toggle Headlights\nG = Hazard Lights (both blinkers)\nV = Change Camera View\nR = Reset Car\nF = Car Fix\nShift = Shift Up\nCtrl = Shift Down\nMouse = Camera Movement\nGamepad:\nLeft Stick = Steer\nRT / R2 = Accelerate\nLT / L2 = Brake\nA / X = Nitro / Boost\nX / Square = Start / Stop Engine\nY / Triangle = Reset Car\nB / Circle = Handbrake\nD-Pad ← / → = Left / Right Turn Signals\nD-Pad ↑ = Toggle Headlights\nD-Pad ↓ = Hazard Lights (both blinkers)\nRB / R1 = Shift Up\nLB / L1 = Shift Down\nRight Stick = Camera Movement\nR3 (Stick Press) = Change Camera View",
+          "gameURL": "https://playgama.com/export/game/crash-skill-racing?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/crash-skill-racing",
+          "genres": [
+            "action",
+            "racing",
+            "sports",
+            "skill",
+            "car",
+            "car-racing",
+            "driving"
+          ],
+          "tags": [
+            "race-games",
+            "stunt-games",
+            "fast-paced-games",
+            "customization-games",
+            "dodge-games",
+            "car-tuning-games",
+            "desktop-games",
+            "1-player-games",
+            "traffic-games",
+            "arcade-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/crash-skill-racing/big_preview/fd75f36a1e9741578ec806919680bf53?width=448",
+            "https://static.playgama.com/p-img/pg/crash-skill-racing/icon/2b17eb6a6bc04411a403908d1284eae3?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "uk-UA"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/crash-skill-racing?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
           "id": "124350",
           "slug": "yeti-run",
           "title": "Yeti Run",
@@ -15883,7 +16887,7 @@
           ],
           "screenOrientation": {
             "horizontal": true,
-            "vertical": false
+            "vertical": true
           },
           "embed": "<iframe src='https://playgama.com/export/game/merge-guns?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
         },
@@ -18118,12 +19122,12 @@
             "action-adventure"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/winter-vacation-beach-games/big_preview/d232ee59532a4d29b6b008ae3abe0752?width=448",
-            "https://static.playgama.com/p-img/pg/winter-vacation-beach-games/icon/a957fd5970664ed4915266b610cab8bb?width=448"
+            "https://static.playgama.com/p-img/pg/winter-vacation-beach-games/big_preview/ad79f491915b4658ae81c56efa2ae30a?width=448",
+            "https://static.playgama.com/p-img/pg/winter-vacation-beach-games/icon/f2581a62acce49f6868b308d7b0a9451?width=448"
           ],
           "videos": [
             {
-              "playgama_id": "0c0a040fd23440cc90f93fed72a1ea05",
+              "playgama_id": "7a0548062a28475bac7a38cb0464730f",
               "external_url": "",
               "type": "gameplay"
             }

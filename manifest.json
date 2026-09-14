@@ -1,9 +1,12 @@
 
 {
-  "name": "FO.Games   منصة الألعاب العالمية",
+  "name": "FO.Games - Free Online Games",
   "short_name": "FOGames",
-  "start_url": "./",
+  "description": "A free online gaming platform offering hundreds of fun games to play without downloads.",
+  "start_url": "/FO.Games/",
+  "scope": "/FO.Games/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#0b1426",
   "theme_color": "#374151",
   "icons":[

@@ -14,8 +14,710 @@
   "segments": [
     {
       "title": "Specially for you",
-      "count": 2162,
+      "count": 2175,
       "hits": [
+        {
+          "id": "125258",
+          "slug": "pistonio",
+          "title": "Pistonio",
+          "description": "A cozy 3D puzzle about pistons. Tap a piston and it fires, shoving whatever stands in front of it — your job is to push the golden cube onto the goal plate in as few moves as you can. Sticky pistons pull blocks back, pressure plates open gates, conveyors shift everything after each move. 84 handcrafted levels across five planets, plus a fresh puzzle every day. Clear a level and you earn a chest, and inside the chests live musicians: seat twelve of them on an island and it plays a whole song of its own.",
+          "howToPlayText": "Tap or click a piston to fire it — it pushes the block in front of it. Get the golden cube onto the marked plate to clear the level.\n\nOn the board: sticky pistons also pull blocks back, pressure plates open gates while a block sits on them, sensors hold gates open only while occupied, conveyors shift everything after each move, and rotators turn any piston that lands on them.\n\nMove order is everything — a wrong shot can wedge the cube into a corner. Undo (or Z), restart and hint are always one tap away. Match the par move count for 3 stars. Rotate the camera with the compass, zoom with + and −. Plays with one finger on a phone, mouse on desktop, no keyboard required.",
+          "gameURL": "https://playgama.com/export/game/pistonio?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/pistonio",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "3d",
+            "cozy",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "cube-games",
+            "casual-games",
+            "brain-training-games",
+            "addictive-games",
+            "mind-games",
+            "desktop-games",
+            "1-player-games",
+            "android-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/pistonio/big_preview/6758724acf7c40b6bff3811ce3ba8ed3?width=448",
+            "https://static.playgama.com/p-img/pg/pistonio/icon/63cf2f527c1f4bbcacbc8005756eeb8c?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "bb692de0881245d096705244a9e2e4a1",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "id-ID",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "kk-KZ",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR",
+            "uk-UA"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/pistonio?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125253",
+          "slug": "memorya",
+          "title": "Memorya",
+          "description": "Memorya is a relaxing memory game. Memorize the position of the cards and find matching pairs, trying to make as few mistakes as possible. Unlock new levels and improve your scores.",
+          "howToPlayText": "Choose an atmosphere and start a round. Memorize the cards, then reveal two cards at a time to find matching pairs. Clear the board before time runs out, avoid mistakes, use hints when needed, and earn stars and points.",
+          "gameURL": "https://playgama.com/export/game/memorya?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/memorya",
+          "genres": [
+            "matching",
+            "brain",
+            "logic",
+            "mini"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "memory-games",
+            "color-matching-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/memorya/big_preview/cc0ba1af0f2e47189dcb73bb15532d94?width=448",
+            "https://static.playgama.com/p-img/pg/memorya/icon/81927f9a744843b9ad73541a14da75a0?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/memorya?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125252",
+          "slug": "planet-blast-rockets",
+          "title": "Planet Blast: Rockets",
+          "description": "Take control of a rocket arsenal and turn entire worlds into blazing craters. Choose a target, adjust the design, and watch a precise strike reshape the planet.\n\nEvery launch is a search for the perfect balance of fuel, mass, and blast power. Upgrade modules, unlock new planets, and reach the farthest corners of the galaxy.\n\n— Flexible rocket tuning\n— Visible design changes\n— Spectacular blasts and terrain destruction\n— Cities, continents, and varied planets\n— Module and strike-power upgrades\n— Simple mouse or touch controls",
+          "howToPlayText": "Goal. Tune your rocket, choose an impact point, and destroy cities, continents, and planets. Balance fuel, mass, and blast power, upgrade modules, and unlock new targets across the galaxy.\n\nControls. On desktop, press and hold the left mouse button to adjust rocket parameters, choose a target, and launch. On mobile, perform the same actions with taps and finger gestures. After each launch, review the result, improve weaker parameters, and prepare the next rocket.",
+          "gameURL": "https://playgama.com/export/game/planet-blast-rockets?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/planet-blast-rockets",
+          "genres": [
+            "action",
+            "arcade",
+            "strategy",
+            "3d",
+            "mouse",
+            "physics"
+          ],
+          "tags": [
+            "destruction-games",
+            "destroy-games",
+            "addictive-games",
+            "rocket-games",
+            "webgl-games",
+            "touchscreen-games",
+            "challenge-games",
+            "bomb-games",
+            "arcade-shooter",
+            "space-shooter"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/planet-blast-rockets/big_preview/86f4ea796db74c55b288a8015dc62ae4?width=448",
+            "https://static.playgama.com/p-img/pg/planet-blast-rockets/icon/694236d466cb4333bb65150867b9c058?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/planet-blast-rockets?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125249",
+          "slug": "hidden-sniper-camo-hunter-3d",
+          "title": "Hidden Sniper: Camo Hunter 3D",
+          "description": "A 3D hidden sniper game where you search detailed environments, spot camouflaged objects, and take precise shots. Test your observation and aiming skills across challenging levels!",
+          "howToPlayText": "Scan the environment carefully to find camouflaged targets hidden in the scene. Use your sniper scope to zoom in, aim precisely at the hidden target, and take the shot. Complete each level by successfully finding and shooting the required targets.\n\nDesktop Controls:\nLook Around: Hold the Left Mouse Button and move the mouse to look around.\nScope: Move the cursor to the scope button and hold the Left Mouse Button to open the sniper scope.\nAim While Scoped: While the scope is open, move the mouse to look around and aim.\nFire: Release the Left Mouse Button to fire.\n\nMobile Controls:\nMove: Swipe the screen to look around and aim.\nScope: Press and hold the Scope Button to open the sniper scope.\nAim While Scoped: While the scope is open, swipe the screen to look around and aim.\nFire: Release the Scope Button to fire.\n",
+          "gameURL": "https://playgama.com/export/game/hidden-sniper-camo-hunter-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/hidden-sniper-camo-hunter-3d",
+          "genres": [
+            "action",
+            "arcade",
+            "skill",
+            "3d",
+            "shooting",
+            "sniper"
+          ],
+          "tags": [
+            "casual-games",
+            "3rd-person-shooter-games",
+            "addictive-games",
+            "desktop-games",
+            "1-player-games",
+            "sniper-shooter",
+            "arcade-shooter",
+            "action-adventure"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/hidden-sniper-camo-hunter-3d/big_preview/4693e8af8fc24cdebacf74dae554fde5?width=448",
+            "https://static.playgama.com/p-img/pg/hidden-sniper-camo-hunter-3d/icon/1e9425328591494ba6921a5b9ab4848a?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/hidden-sniper-camo-hunter-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125247",
+          "slug": "crosstile",
+          "title": "CrossTile",
+          "description": "CrossTile is a relaxing word puzzle where crossword solving meets jigsaw-style gameplay.\n\nEach level gives you a theme and a set of scattered letter fragments. Drag the pieces around the board and connect fragments that belong together. Correct pieces snap into place and become one larger group. Keep linking words and intersections until the entire crossword is complete.\n\nWith simple controls, clean visuals, and no timers or lives, CrossTile is easy to learn and satisfying to master.",
+          "howToPlayText": "Read the theme at the top of the level.\nDrag letter fragments around the board.\nPlace matching fragments next to each other.\nCorrect connections snap together automatically.\nConnected pieces move as one group.\nUse word intersections to discover the full crossword.\nConnect every fragment to complete the level.\nUse a hint if you get stuck.",
+          "gameURL": "https://playgama.com/export/game/crosstile?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/crosstile",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "words",
+            "matching",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "connect-games",
+            "mind-games",
+            "1-player-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/crosstile/big_preview/3375e949cc5c48cd8b43cd66733dfb2a?width=448",
+            "https://static.playgama.com/p-img/pg/crosstile/icon/c3b0b0b44fba4df9bc273c8669ff8105?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "d0a8867ef32b44039c90e6329c12fd01",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/crosstile?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125245",
+          "slug": "cow-rescue",
+          "title": "Cow Rescue",
+          "description": "A cute cow is trapped behind a pile of wooden boards, and only you can rescue her! Match screws of the same color to remove them and carefully clear the wooden boards blocking the way. Plan your moves, solve tricky puzzles, and create a path for the cow to escape. With colorful screws, challenging board layouts, helpful tools, and a funny bird companion, Cow Rescue offers a fun and relaxing puzzle experience for players of all ages. Can you solve every puzzle and rescue the cow?",
+          "howToPlayText": "1. Tap screws of the same color to match and remove them.\n2. Remove the wooden boards carefully to clear the path.\n3. Plan your moves to avoid getting stuck.\n4. Use helpful tools when you need assistance.\n5. Complete levels and rescue the cow from every tricky puzzle!",
+          "gameURL": "https://playgama.com/export/game/cow-rescue?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/cow-rescue",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "mouse",
+            "matching",
+            "physics",
+            "logic"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "relaxing-games",
+            "addictive-games",
+            "cute-games",
+            "color-matching-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/cow-rescue/big_preview/e819564c4c6f40cd8452827328ce08e4?width=448",
+            "https://static.playgama.com/p-img/pg/cow-rescue/icon/42cf013b2fb94d9eae1b6bcfe50e637b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "ja-JP",
+            "ko-KR",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/cow-rescue?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125243",
+          "slug": "capitalist-hunter",
+          "title": "Capitalist Hunter",
+          "description": "Become the ultimate hunter and build a growing hunting business in Capitalist Hunter!\n\nExplore the wilderness, hunt animals, collect meat, and bring your haul back to town. Cook food for villagers, earn cash, upgrade your equipment, and unlock new areas as your business grows.\n\nHunt, collect, cook, sell, and upgrade in a satisfying arcade idle adventure.\n\nFeatures:\n• Hunt different animals and collect valuable meat\n• Cook and serve food to hungry villagers\n• Earn money and upgrade your hunting business\n• Unlock new areas, animals, and progression\n• Simple and satisfying arcade gameplay\n• Idle tycoon and management mechanics\n• Easy controls and fast-paced progression\n\nStart hunting, grow your business, and become the richest hunter in town.",
+          "howToPlayText": "Use the joystick or WASD/arrow keys to move. Approach animals to hunt them, collect the dropped meat, and carry it to the cooking and selling areas.",
+          "gameURL": "https://playgama.com/export/game/capitalist-hunter?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/capitalist-hunter",
+          "genres": [
+            "arcade",
+            "simulation",
+            "tycoon",
+            "hunting",
+            "management",
+            "idle"
+          ],
+          "tags": [
+            "mission-games",
+            "casual-games",
+            "business-games",
+            "collecting-games",
+            "1-player-games",
+            "incremental-games",
+            "resource-management-games",
+            "arcade-shooter"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/capitalist-hunter/big_preview/9df8dd33d35e48c8a88c2242635cd764?width=448",
+            "https://static.playgama.com/p-img/pg/capitalist-hunter/icon/939e064d025e4455894b8d18d2b1cec6?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/capitalist-hunter?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125242",
+          "slug": "classic-number-puzzle",
+          "title": "Classic Number Puzzle",
+          "description": "🧩 Number Puzzle – Classic Number Slide Puzzle is a classic math-based puzzle game that challenges your brain and keeps your mind sharp. Tap the empty space to slide the numbers into the correct order. Easy to learn, yet hard to master!",
+          "howToPlayText": "- Use the empty space to slide tiles one by one.\n\n- Arrange the numbers in ascending order.\n\n- Solve the puzzle in the fewest moves and the shortest time possible!",
+          "gameURL": "https://playgama.com/export/game/classic-number-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/classic-number-puzzle",
+          "genres": [
+            "puzzle",
+            "number",
+            "cozy",
+            "brain",
+            "classic",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "brain-training-games",
+            "slide-games",
+            "sliding-games",
+            "mind-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/classic-number-puzzle/big_preview/ae49ac8695234193b4c5bf89351e9262?width=448",
+            "https://static.playgama.com/p-img/pg/classic-number-puzzle/icon/e0ca68ea820d419c917b14ff67e3b01b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/classic-number-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125241",
+          "slug": "bus-n-ball-jam",
+          "title": "Bus n Ball Jam",
+          "description": "Bus n Ball Jam is a fun and engaging color puzzle game where every bus, every ball, and every drop counts!",
+          "howToPlayText": "🚌 Arrange the buses: Tap and move the buses at the bottom to clear the path. Each bus has its own direction, so choose carefully!\n\n🔴 Drop the balls: As buses leave the track, colored balls drop onto the conveyor belt. Watch each drop and plan your next move.\n\n🟡 Move along the belt: Balls roll along the moving conveyor belt. Don't let the belt get overcrowded!\n\n🟢 Match colors: Fill all the slots to solve the color puzzle.\n\n🔵 Avoid overload: If too many balls pile up on the belt without a matching color slot, you lose. Think ahead, arrange smartly, and manage every drop!",
+          "gameURL": "https://playgama.com/export/game/bus-n-ball-jam?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/bus-n-ball-jam",
+          "genres": [
+            "puzzle",
+            "3d",
+            "matching",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "addictive-games",
+            "amazing-games",
+            "color-matching-games",
+            "1-player-games",
+            "educational-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/bus-n-ball-jam/big_preview/8dc89e250cbe4e3382578a209968f89f?width=448",
+            "https://static.playgama.com/p-img/pg/bus-n-ball-jam/icon/f3d34939e00a489c8961ed554ac47a1b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/bus-n-ball-jam?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125239",
+          "slug": "nine-to-wonderland",
+          "title": "Nine to Wonderland",
+          "description": "Nine to Wonderland is a head-to-head card duel RPG where a standard deck becomes a weapon. Every card you lay down hits: number cards strike or heal, face cards burn the mana right out of your rival's pool. Play them one at a time, or chain a pair, a flush, a run — the bigger the hand, the harder it lands, and jokers slot themselves into your strongest combination.\n\nMana is the whole game. Small cards mint the most of it, so you are always choosing between a big hit now and the fuel for a bigger one later. Spend it on Blade to sharpen a strike, Shield to soak one, and Swap to trade up to three cards out of your hand.\n\nYour hero is the other half of the deck. Every portrait is a card you own, with its own trump suits, a favourite poker hand and one ULT charged by the cards you play — Strike, Poison, Mend, Bloom, Cleanse, Shackles or Thorns. Collect duplicates to star a hero up and open every duel with a fuller mana bank.\n\nPlay a quick match against the computer, pass the device for a local duel, or challenge a real opponent online. Take the long road through Adventures, where each chapter is a board-game maze of fights, chests, traps and mini-games leading to a boss; climb the endless Gauntlet; or take the daily challenge, where both sides get the same freshly-rolled epic set — no gear, no excuses.",
+          "howToPlayText": "Click or tap cards in your hand to pick a combo — a single card, or a pair, flush or run for a heavier hit. The preview shows the damage, heal and mana before you commit; press Play to commit and end your turn. Spend mana on Blade to sharpen a strike, Shield to soak one, or Swap to trade up to three cards. Fire your hero's ULT once its gauge fills. Reduce your opponent's life to zero to win. On the Adventure map, tap the die and then a highlighted cell to move. Mouse on desktop, touch on mobile, no keyboard needed.",
+          "gameURL": "https://playgama.com/export/game/nine-to-wonderland?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/nine-to-wonderland",
+          "genres": [
+            "arcade",
+            "adventure",
+            "cards",
+            "strategy",
+            "multiplayer",
+            "pvp",
+            "brain",
+            "rpg"
+          ],
+          "tags": [
+            "turnbased-games",
+            "fantasy-games",
+            "casual-games",
+            "brain-training-games",
+            "competitive-games",
+            "heroes-games",
+            "1-player-games",
+            "2-player-card",
+            "action-rpg"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/nine-to-wonderland/big_preview/0a95260ffcad49628ace274a2f1190c7?width=448",
+            "https://static.playgama.com/p-img/pg/nine-to-wonderland/icon/4a145b52f58443c38bd1b8a65963d8f1?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "pl-PL",
+            "uk-UA"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/nine-to-wonderland?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125238",
+          "slug": "city-bus-simulator-driving-games",
+          "title": "City Bus Simulator Driving Games",
+          "description": "Get behind the wheel of a powerful city bus and experience the life of a professional bus driver in City Bus Simulator Driving Games! Pick up passengers from different locations, drive through busy city roads, park your bus carefully, and drop passengers at their destinations while completing exciting driving missions.\n\nChoose from three exciting modes: City, Winter, and Free Mode. In City Mode, navigate through busy streets and complete passenger pick-and-drop missions. In Winter Mode, test your driving skills on snowy and slippery roads where careful control is essential. In Free Mode, explore the city and enjoy driving your bus without mission restrictions.\nFeatures\n\n-3 exciting modes: City, Winter, and Free Mode.\n-Pick up and drop off passengers across different city locations.\n-Complete challenging bus driving and parking missions.\n-Follow routes and destinations using the in-game map.\n-Drive different buses and unlock new vehicles.\n-Experience city roads and snowy winter environments.\n-Dozens of levels with increasing difficulty.\n-Smooth and easy bus driving controls.\n-Realistic 3D environments, animations, and sound effects.\n-Challenging roads, parking areas, and passenger routes.\n\nBecome a professional bus driver, master difficult routes, safely transport your passengers, and explore different environments in City Bus Simulator Driving Games. Are you ready to start your bus driving career?",
+          "howToPlayText": "Desktop:\nAWSD: Player Movement\nSpace: Break\nP = Pause\nCtrl = Setting\nC= Camera Angle\nN: Skip Level\n\nMobile:\nLeft Button: Move Left\nRight Button: Move Right\nRace: Race\nBreak: Break",
+          "gameURL": "https://playgama.com/export/game/city-bus-simulator-driving-games?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/city-bus-simulator-driving-games",
+          "genres": [
+            "arcade",
+            "simulation",
+            "3d",
+            "car",
+            "driving",
+            "bus",
+            "parking"
+          ],
+          "tags": [
+            "casual-games",
+            "vehicles-games",
+            "life-simulation-games",
+            "desktop-games",
+            "1-player-games",
+            "arcade-car",
+            "realistic-car"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/big_preview/3dc328398fd44f93a76ae33906e189e6?width=448",
+            "https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/icon/ddfeac1f3d1149df816cf95f46f276b9?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "95f252af9fae42fb9d9c85ba7d23d679",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/city-bus-simulator-driving-games?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125234",
+          "slug": "vials-asmr-sand-sort-puzzle",
+          "title": "Vials: ASMR Sand Sort Puzzle",
+          "description": "A quiet ASMR sand-sorting puzzle. Pour coloured sand between hourglass-shaped vessels until each one holds a single colour. No timers, no fail state, no pressure — the pleasure is the pour itself: a hand-tuned animation and layered sand audio. 1000 levels with a difficulty curve calibrated by an offline solver, so it stays gentle for a long time and then quietly gets interesting. Live on the App Store and Google Play.",
+          "howToPlayText": "Tap a vessel to pick up the sand from its top, then tap another to pour it in. Sand only pours onto the same colour, or into an empty vessel. A level is solved when every colour sits in one vessel. Mouse or touch — one tap to take, one to pour; no keyboard needed. Three helpers cost coins: undo a move, shuffle the board, add a spare vessel.",
+          "gameURL": "https://playgama.com/export/game/vials-asmr-sand-sort-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/vials-asmr-sand-sort-puzzle",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "matching",
+            "logic"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "sorting-games",
+            "color-matching-games",
+            "asmr-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/vials-asmr-sand-sort-puzzle/big_preview/041384a637f54d54a821397c02660b8f?width=448",
+            "https://static.playgama.com/p-img/pg/vials-asmr-sand-sort-puzzle/icon/bfe7067bfb3d445a930c1c61355487c8?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "hi-IN",
+            "id-ID",
+            "it-IT",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "th-TH",
+            "tr-TR",
+            "uk-UA",
+            "vi-VN"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/vials-asmr-sand-sort-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125229",
+          "slug": "lattolatto",
+          "title": "Latto-Latto",
+          "description": "Master the classic Latto Latto! Hold and move the handle to swing the two balls and make them hit each other rhythmically. 🎯 The better you control the timing and movement, the longer you can keep the balls spinning and the higher your score! Challenge yourself to maintain the perfect rhythm, collect coins, and unlock fun new ball skins. 🪙✨ How long can you keep the Latto Latto going?",
+          "howToPlayText": "👆 Hold and move your finger to control the Latto Latto handle.\n🔄 Swing the handle to make the two balls move.\n⚽ Try to make the balls hit each other repeatedly.\n🎯 Keep a steady rhythm and control their movement carefully.\n🪙 Collect coins to unlock new ball skins.\n🏆 Keep the Latto Latto going as long as possible and aim for a high score!",
+          "gameURL": "https://playgama.com/export/game/lattolatto?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/lattolatto",
+          "genres": [
+            "arcade",
+            "skill",
+            "mouse",
+            "ball",
+            "physics"
+          ],
+          "tags": [
+            "reaction-games",
+            "customization-games",
+            "casual-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "challenge-games",
+            "agility-games",
+            "1-player-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/lattolatto/big_preview/d15f3fa7476b4b408368c38c1badea8a?width=448",
+            "https://static.playgama.com/p-img/pg/lattolatto/icon/d2fcc866cbbd45f9a0ff7a142782a74f?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/lattolatto?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
         {
           "id": "125219",
           "slug": "princess-dental-dentist-games",

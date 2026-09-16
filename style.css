@@ -1,4 +1,12 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+/* =================================================_
+   Global Styles & Reset | الإعدادات العامة وإعادة الضبط
+   ================================================= */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
 body {
     font-family: 'Cairo', 'Inter', sans-serif;
     background-color: #0f172a;
@@ -6,71 +14,384 @@ body {
     direction: rtl;
     min-height: 100vh;
     padding-bottom: 30px;
-    top: 0px!important;
-    position: static!important;
+    top: 0px !important;
+    position: static !important;
 }
-.goog-te-banner-frame.skiptranslate, iframe.goog-te-banner-frame, #goog-gt-tt,.goog-te-balloon-frame { display: none!important; visibility: hidden!important; height: 0!important; }
-.goog-text-highlight { background-color: transparent!important; box-shadow: none!important; }
 
-button,.filter-tab,.genre-chip { border-radius: 10px!important; font-family: 'Cairo', sans-serif!important; font-weight: 600!important; transition: all 0.2s ease-in-out!important; border: 1px solid rgba(255, 255, 255, 0.12)!important; display: inline-flex!important; align-items: center!important; justify-content: center!important; gap: 8px!important; cursor: pointer!important; box-shadow: 0 2px 6px rgba(0,0,0,0.2)!important; }
-header { background-color: #1e293b; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 15px; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); flex-wrap: wrap; }
-.logo { font-size: 24px; font-weight: 700; color: #38bdf8; text-decoration: none; }
-#icon-logo {width: 28px; padding-right: 2px;}
-.search-box { position: relative; flex: 1; max-width: 400px; }
-.search-box i { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: #94a3b8; }
-.search-box input { width: 100%; padding: 8px 38px 8px 12px; background-color: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #fff; font-family: 'Cairo', sans-serif; outline: none; }
-.search-box input:focus { border-color: #38bdf8; }
-.nav-controls { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-.nav-controls button,.btn-translate-custom { padding: 8px 14px!important; background: #1f2937!important; color: #f3f4f6!important; font-size: 13px!important; height: 38px!important; }
-.nav-controls button:hover,.btn-translate-custom:hover { background: #2563eb!important; color: #ffffff!important; border-color: #3b82f6!important; transform: translateY(-2px)!important; }
+/* إخفاء شريط أدوات ترجمة جوجل المزعج */
+.goog-te-banner-frame.skiptranslate, iframe.goog-te-banner-frame, #goog-gt-tt, .goog-te-balloon-frame { 
+    display: none !important; 
+    visibility: hidden !important; 
+    height: 0 !important; 
+}
+.goog-text-highlight { 
+    background-color: transparent !important; 
+    box-shadow: none !important; 
+}
 
-#btn-install.installed { display: none!important; }
+/* التنسيق الأساسي للأزرار والتبويبات */
+button, .filter-tab, .genre-chip { 
+    border-radius: 10px !important; 
+    font-family: 'Cairo', sans-serif !important; 
+    font-weight: 600 !important; 
+    transition: all 0.2s ease-in-out !important; 
+    border: 1px solid rgba(255, 255, 255, 0.12) !important; 
+    display: inline-flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    gap: 8px !important; 
+    cursor: pointer !important; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2) !important; 
+}
 
-.featured-slider { width: 100%; overflow: hidden; margin: 15px 0; position: relative; padding: 10px 0; }
-.slider-track { display: flex; gap: 15px; width: max-content; }
-.slider-track.rtl-marquee { animation: smoothMarqueeRTL 60s linear infinite; }
-.slider-track.rtl-marquee:hover { animation-play-state: paused; }
-@keyframes smoothMarqueeRTL { 0% { transform: translateX(0); } 100% { transform: translateX(50%); } }
-.slide-card { width: 280px; height: 150px; border-radius: 12px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; box-shadow: 0 4px 10px rgba(0,0,0,0.3); transition: transform 0.3s ease; }
-.slide-card:hover { transform: scale(1.03); }
-.slide-card img { width: 100%; height: 100%; object-fit: cover; }
-.slide-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); padding: 12px; color: #fff; }
+/* =================================================_
+   Header & Navigation | شريط التنقل العلوي والبحث (ثابت)
+   ================================================= */
+header { 
+    background-color: #1e293b; 
+    padding: 10px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 15px; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    flex-wrap: wrap; 
+    margin-bottom: 0 !important; /* ضمان عدم وجود هامش أسفل الهيدر */
+}
 
-#resume-banner { background: #1e293b; border: 1px solid #3b82f6; margin: 10px 20px; padding: 12px 20px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; }
-.genres-wrapper { position: relative; display: flex; align-items: center; margin: 15px 20px; }
-.genres-bar { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; scroll-behavior: smooth; width: 100%; padding: 5px 0; }
-.genres-bar::-webkit-scrollbar { display: none; }
-.genre-chip { padding: 6px 16px!important; background: #1e293b!important; color: #cbd5e1!important; white-space: nowrap; font-size: 13px!important; }
-.genre-chip.active,.genre-chip:hover { background: #38bdf8!important; color: #0f172a!important; }
-.scroll-btn { background: #1e293b!important; color: #fff!important; padding: 8px 12px!important; z-index: 10; }
-.scroll-left { left: 0; }.scroll-right { right: 0; }
-.filter-tabs { display: flex; gap: 10px; margin: 0 20px 20px 20px; overflow-x: auto; scrollbar-width: none; }
-.filter-tabs::-webkit-scrollbar { display: none; }
-.filter-tab { padding: 8px 16px!important; background: #1e293b!important; color: #cbd5e1!important; font-size: 13px!important; white-space: nowrap; }
-.filter-tab.active,.filter-tab:hover { background: #2563eb!important; color: #fff!important; }
+.logo { 
+    font-size: 25px; 
+    font-weight: 700; 
+    color: #38bdf8; 
+    text-decoration: none; 
+}
 
-/* الشبكة 5 / 3 / 2 */
-.games-grid { display: grid; gap: 20px; padding: 0 20px; grid-template-columns: repeat(5, 1fr); }
-@media (max-width: 1024px) {.games-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 640px) {.games-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 0 12px; } }
+#icon-logo, #logo { 
+    width: 25px; 
+    padding-right: 2px; 
+}
 
-.game-card { background: #1e293b; border-radius: 12px; overflow: hidden; cursor: pointer; border: 1px solid #334155; transition: transform 0.2s ease, border-color 0.2s ease; position: relative; aspect-ratio: 4/3; }
-.game-card:hover { transform: translateY(-4px); border-color: #38bdf8; }
-.media-holder { width: 100%; height: 100%; position: relative; }
-.game-img { width: 100%; height: 100%; object-fit: cover; }
-.card-badges { position: absolute; top: 8px; right: 8px; display: flex; gap: 5px; }
-.badge { background: rgba(0, 0, 0, 0.7); color: #fff; padding: 3px 7px; border-radius: 6px; font-size: 11px; }
-.daily-badge { background: #eab308; color: #0f172a; font-weight: bold; }
+.search-box { 
+    position: relative; 
+    flex: 1; 
+    max-width: 400px; 
+}
 
-.game-meta { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.9)); padding: 8px; opacity: 1; }
-.game-title { font-size: 13px; font-weight: bold; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-box i { 
+    position: absolute; 
+    right: 12px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: #94a3b8; 
+}
+
+.search-box input { 
+    width: 100%; 
+    padding: 8px 38px 8px 12px; 
+    background-color: #0f172a; 
+    border: 1px solid #334155; 
+    border-radius: 8px; 
+    color: #fff; 
+    font-family: 'Cairo', sans-serif; 
+    outline: none; 
+}
+
+.search-box input:focus { 
+    border-color: #38bdf8; 
+}
+
+.nav-controls { 
+    display: flex; 
+    align-items: center; 
+    gap: 4px; 
+    flex-wrap: wrap; 
+}
+
+.nav-controls button, .btn-translate-custom { 
+    padding: 8px 14px !important; 
+    background: #1f2937 !important; 
+    color: #f3f4f6 !important; 
+    font-size: 13px !important; 
+    height: 38px !important; 
+}
+
+.nav-controls button:hover, .btn-translate-custom:hover { 
+    background: #2563eb !important; 
+    color: #ffffff !important; 
+    border-color: #3b82f6 !important; 
+    transform: translateY(-2px) !important; 
+}
+
+#btn-install.installed { 
+    display: none !important; 
+}
+
+/* =================================================_
+   Featured Games Slider | شريط الألعاب المتحرك
+   ================================================= */
+.featured-slider { 
+    width: 100%; 
+    overflow: hidden; 
+    margin: 15px 0; 
+    position: relative; 
+    padding: 10px 0; 
+}
+
+.slider-track { 
+    display: flex; 
+    gap: 15px; 
+    width: max-content; 
+}
+
+.slider-track.rtl-marquee { 
+    animation: smoothMarqueeRTL 60s linear infinite; 
+}
+
+.slider-track.rtl-marquee:hover { 
+    animation-play-state: paused; 
+}
+
+@keyframes smoothMarqueeRTL { 
+    0% { transform: translateX(0); } 
+    100% { transform: translateX(50%); } 
+}
+
+.slide-card { 
+    width: 280px; 
+    height: 150px; 
+    border-radius: 12px; 
+    overflow: hidden; 
+    position: relative; 
+    cursor: pointer; 
+    flex-shrink: 0; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    transition: transform 0.3s ease; 
+}
+
+.slide-card:hover { 
+    transform: scale(1.03); 
+}
+
+.slide-card img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.slide-overlay { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: linear-gradient(transparent, rgba(0,0,0,0.85)); 
+    padding: 12px; 
+    color: #fff; 
+}
+
+/* =================================================_
+   Resume Banner & Filters | شريط الاستئناف والفلترة والتصنيفات
+   ================================================= */
+#resume-banner { 
+    background: #1e293b; 
+    border: 1px solid #3b82f6; 
+    margin: 10px 20px; 
+    padding: 12px 20px; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#btn-open { 
+    background: #38bdf8 !important; 
+    color: #0f172a !important; 
+    border-color: #38bdf8 !important; 
+    padding: 5px 12px; 
+}
+
+.genres-wrapper { 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    margin: 15px 20px; 
+}
+
+.genres-bar { 
+    display: grid; 
+    gap: 5px; 
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    scroll-behavior: smooth; 
+    width: 250px; 
+    padding: 10px; 
+    position: fixed; 
+    left: 0; 
+    top: 100px; 
+    max-height: calc(100vh - 100px); 
+    overflow-y: auto; 
+    overscroll-behavior: contain; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(5px); 
+    border-radius: 8px; 
+    transition: transform 0.25s ease-in-out; 
+}
+
+.genres-bar::-webkit-scrollbar { 
+    display: none; 
+}
+
+.genre-chip { 
+    padding: 6px 16px !important; 
+    background: #1e293b !important; 
+    color: #cbd5e1 !important; 
+    white-space: nowrap; 
+    font-size: 13px !important; 
+}
+
+.genre-chip.active, .genre-chip:hover { 
+    background: #38bdf8 !important; 
+    color: #0f172a !important; 
+}
+
+.scroll-btn { 
+    background: #1e293b !important; 
+    color: #fff !important; 
+    padding: 8px 12px !important; 
+    z-index: 10; 
+}
+
+.scroll-left { left: 0; }
+.scroll-right { right: 0; }
+
+.filter-tabs { 
+    display: flex; 
+    gap: 10px; 
+    overflow-x: auto; 
+    scrollbar-width: none; 
+}
+
+.filter-tabs::-webkit-scrollbar { 
+    display: none; 
+}
+
+.filter-tab { 
+    padding: 8px 16px !important; 
+    background: #1e293b !important; 
+    color: #cbd5e1 !important; 
+    font-size: 13px !important; 
+    white-space: nowrap; 
+}
+
+.filter-tab.active, .filter-tab:hover { 
+    background: #2563eb !important; 
+    color: #fff !important; 
+}
+
+/* =================================================_
+   Games Grid Layout | شبكة عرض الألعاب (استغلال المساحات)
+   ================================================= */
+.games-grid { 
+    display: grid; 
+    gap: 20px; 
+    padding: 0 20px; 
+    grid-template-columns: repeat(5, 1fr); 
+}
+
+@media (max-width: 1200px) {
+    .games-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 1024px) {
+    .games-grid { grid-template-columns: repeat(3, 1fr); } 
+}
+
+@media (max-width: 640px) {
+    .games-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 0 12px; } 
+}
+
+.game-card { 
+    background: #1e293b; 
+    border-radius: 12px; 
+    overflow: hidden; 
+    cursor: pointer; 
+    border: 1px solid #334155; 
+    transition: transform 0.2s ease, border-color 0.2s ease; 
+    position: relative; 
+    aspect-ratio: 4/3; 
+}
+
+.game-card:hover { 
+    transform: translateY(-4px); 
+    border-color: #38bdf8; 
+}
+
+.media-holder { 
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+}
+
+.game-img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.card-badges { 
+    position: absolute; 
+    top: 8px; 
+    right: 8px; 
+    display: flex; 
+    gap: 5px; 
+}
+
+.badge { 
+    background: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    padding: 3px 7px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+}
+
+.daily-badge { 
+    background: #eab308; 
+    color: #0f172a; 
+    font-weight: bold; 
+}
+
+.game-meta { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: linear-gradient(transparent, rgba(0,0,0,0.9)); 
+    padding: 8px; 
+}
+
+.game-title { 
+    font-size: 13px; 
+    font-weight: bold; 
+    color: #fff; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
 .game-genres-list { display: none; }
 
-#loading-trigger { grid-column: 1 / -1; text-align: center; padding: 30px; color: #94a3b8; }
+#loading-trigger { 
+    grid-column: 1 / -1; 
+    text-align: center; 
+    padding: 30px; 
+    color: #94a3b8; 
+}
 
-/* ==========================================
-   نافذة عرض اللعبة (Game Modal) المعدلة بالكامل
-========================================== */
+/* =================================================_
+   Game Modal | نافذة عرض وتشغيل اللعبة المنبثقة
+   ================================================= */
 .game-modal { 
     position: fixed; 
     top: 0; 
@@ -85,7 +406,6 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
     height: 100vh;
 }
 
-/* الشريط العلوي للعبة */
 .modal-top { 
     background: #1e293b; 
     padding: 10px 20px; 
@@ -98,25 +418,56 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
     position: relative;
     z-index: 100000;
 }
-.modal-top h3 { font-size: 18px; color: #f8fafc; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 50%; }
-.modal-actions { display: flex; align-items: center; gap: 10px; }
-.modal-icon-btn { width: 38px!important; height: 38px!important; padding: 0!important; background: #0f172a!important; color: #cbd5e1!important; border: 1px solid #334155!important; border-radius: 8px!important; font-size: 15px!important; }
-.modal-icon-btn:hover { background: #38bdf8!important; color: #0f172a!important; border-color: #38bdf8!important; }
-.modal-icon-btn.active, #btn-fav-modal.active { color: #ef4444!important; border-color: #ef4444!important; }
 
-/* زر الإغلاق إجباري الظهور والوضوح */
+.modal-top h3 { 
+    font-size: 18px; 
+    color: #f8fafc; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 50%; 
+}
+
+.modal-actions { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.modal-icon-btn { 
+    width: 38px !important; 
+    height: 38px !important; 
+    padding: 0 !important; 
+    background: #0f172a !important; 
+    color: #cbd5e1 !important; 
+    border: 1px solid #334155 !important; 
+    border-radius: 8px !important; 
+    font-size: 15px !important; 
+}
+
+.modal-icon-btn:hover { 
+    background: #38bdf8 !important; 
+    color: #0f172a !important; 
+    border-color: #38bdf8 !important; 
+}
+
+.modal-icon-btn.active, #btn-fav-modal.active { 
+    color: #ef4444 !important; 
+    border-color: #ef4444 !important; 
+}
+
 .btn-close-modal { 
-    background: #ef4444!important; 
-    color: #ffffff!important; 
-    border-color: #ef4444!important; 
-    z-index: 100001!important;
+    background: #ef4444 !important; 
+    color: #ffffff !important; 
+    border-color: #ef4444 !important; 
+    z-index: 100001 !important;
     position: relative;
 }
+
 .btn-close-modal:hover {
-    background: #dc2626!important;
+    background: #dc2626 !important;
 }
 
-/* الجسم الداخلي: اللعبة فوق وتحتها التفاصيل مع سكرول زي الفيسبوك */
 .modal-body { 
     display: flex; 
     flex-direction: column;
@@ -126,7 +477,6 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
     -webkit-overflow-scrolling: touch;
 }
 
-/* منطقة اللعبة */
 .iframe-space { 
     width: 100%;
     height: 75vh;
@@ -136,14 +486,14 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
     flex-shrink: 0;
     position: relative;
 }
+
 .iframe-space iframe { 
-    width: 100%!important; 
-    height: 100%!important; 
-    border: none!important; 
+    width: 100% !important; 
+    height: 100% !important; 
+    border: none !important; 
     display: block;
 }
 
-/* منطقة التفاصيل تحت اللعبة مباشرة */
 .details-sidebar { 
     width: 100%; 
     background: #1e293b; 
@@ -154,39 +504,104 @@ header { background-color: #1e293b; padding: 12px 20px; display: flex; align-ite
     gap: 12px; 
     flex-shrink: 0;
 }
-.details-sidebar h4 { font-size: 15px; color: #38bdf8; margin-bottom: 4px; }
-.details-text { font-size: 13px; color: #cbd5e1; line-height: 1.6; }
-.info-row { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 6px; color: #94a3b8; }
-.tags-container { display: flex; flex-wrap: wrap; gap: 6px; }
-.tag-item { background: #334155; color: #f8fafc; padding: 4px 10px; border-radius: 6px; font-size: 11px; }
 
-#qr-container { padding: 15px; background: #1e293b; text-align: center; border-bottom: 1px solid #334155; }
-.qr-text { font-size: 12px; color: #94a3b8; margin-top: 8px; }
+.details-sidebar h4 { 
+    font-size: 15px; 
+    color: #38bdf8; 
+    margin-bottom: 4px; 
+}
 
-.similar-games-section { margin: 24px 20px; }
-.similar-games-section h2 { display: flex; align-items: center; gap: 10px; color: #f8fafc; font-size: 20px; margin-bottom: 16px; }
-.similar-games-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
-.similar-game-card { background: #1e293b; border-radius: 16px; overflow: hidden; border: 1px solid #334155; text-decoration: none; color: #f8fafc; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: transform 0.22s ease, border-color 0.22s ease; display: block; }
-.similar-game-card:hover { transform: translateY(-3px); border-color: #38bdf8; }
-.similar-game-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
-.similar-game-body { padding: 14px; }
-.similar-game-body h3 { font-size: 15px; margin-bottom: 8px; line-height: 1.3; }
-.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
-.similar-game-card .tag-item { background: rgba(56,189,248,0.14); color: #cbd5e1; padding: 5px 8px; font-size: 11px; border-radius: 999px; }
+.details-text { 
+    font-size: 13px; 
+    color: #cbd5e1; 
+    line-height: 1.6; 
+}
 
-/* النوافذ المساعدة */
-.generic-modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); z-index: 3000; display: none; align-items: center; justify-content: center; }
-.modal-content { background: #1e293b; padding: 25px; border-radius: 12px; width: 90%; max-width: 450px; border: 1px solid #334155; }
-.lang-options-grid button { width: 100%!important; padding: 10px 14px!important; background: #0f172a!important; color: #e5e7eb!important; border: 1px solid #374151!important; justify-content: flex-start!important; margin-bottom: 8px!important; }
-.lang-options-grid button:hover { background: #2563eb!important; color: #ffffff!important; }
+.info-row { 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 13px; 
+    margin-bottom: 6px; 
+    color: #94a3b8; 
+}
+
+.tags-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 6px; 
+}
+
+.tag-item { 
+    background: #334155; 
+    color: #f8fafc; 
+    padding: 4px 10px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+}
+
+#qr-container { 
+    padding: 15px; 
+    background: #1e293b; 
+    text-align: center; 
+    border-bottom: 1px solid #334155; 
+}
+
+.qr-text { 
+    font-size: 12px; 
+    color: #94a3b8; 
+    margin-top: 8px; 
+}
+
+/* =================================================_
+   Generic Modals & Utilities | النوافذ المساعدة العامة
+   ================================================= */
+.generic-modal { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 3000; 
+    display: none; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.modal-content { 
+    background: #1e293b; 
+    padding: 25px; 
+    border-radius: 12px; 
+    width: 90%; 
+    max-width: 450px; 
+    border: 1px solid #334155; 
+}
+
+.lang-options-grid button { 
+    width: 100% !important; 
+    padding: 10px 14px !important; 
+    background: #0f172a !important; 
+    color: #e5e7eb !important; 
+    border: 1px solid #374151 !important; 
+    justify-content: flex-start !important; 
+    margin-bottom: 8px !important; 
+}
+
+.lang-options-grid button:hover { 
+    background: #2563eb !important; 
+    color: #ffffff !important; 
+}
+
 .text-center { text-align: center; }
 .max-w-translate { max-width: 380px; }
 .modal-divider { margin: 12px 0; border-color: #374151; }
 .modal-subtext { font-size: 13px; color: #9ca3af; margin-bottom: 15px; }
-.btn-modal-close { width: 100%; justify-content: center; background: #374151!important; }
+.btn-modal-close { width: 100%; justify-content: center; background: #374151 !important; }
 .qr-box { display: flex; justify-content: center; margin: 15px 0; }
 
-/* الوضع الفاتح */
+/* =================================================_
+   Light Theme Styling | تنسيق الوضع الفاتح
+   ================================================= */
 body.light-theme { 
     background-color: #f1f5f9; 
     color: #0f172a; 
@@ -214,16 +629,16 @@ body.light-theme .nav-controls button,
 body.light-theme .btn-translate-custom,
 body.light-theme .genre-chip, 
 body.light-theme .filter-tab { 
-    background: #ffffff!important; 
-    color: #0f172a!important; 
-    border-color: #cbd5e1!important; 
+    background: #ffffff !important; 
+    color: #0f172a !important; 
+    border-color: #cbd5e1 !important; 
 }
 
 body.light-theme .nav-controls button:hover,
 body.light-theme .btn-translate-custom:hover {
-    background: #2563eb!important;
-    color: #ffffff!important;
-    border-color: #2563eb!important;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
 }
 
 body.light-theme .search-box input { 
@@ -233,46 +648,177 @@ body.light-theme .search-box input {
 }
 
 body.light-theme .modal-icon-btn {
-    background: #f1f5f9!important; 
-    color: #475569!important; 
-    border-color: #e2e8f0!important;
+    background: #f1f5f9 !important; 
+    color: #475569 !important; 
+    border-color: #e2e8f0 !important;
 }
 
 body.light-theme .modal-icon-btn:hover {
-    background: #e2e8f0!important;
-    color: #0f172a!important;
+    background: #e2e8f0 !important;
+    color: #0f172a !important;
 }
 
 body.light-theme .btn-close-modal {
-    background: #ef4444!important;
-    color: #ffffff!important;
+    background: #ef4444 !important;
+    color: #ffffff !important;
 }
 
+body.light-theme #filter {
+    background-color: #f1f5f9;
+}
+
+/* =================================================_
+   Footer & Error Page | تذييل الصفحة وصفحة الأخطاء 404
+   ================================================= */
 #page-404 { text-align: center; padding: 100px 20px; }
 #page-404 h1 { font-size: 80px; color: #38bdf8; }
-footer { margin-top: 40px; text-align: center; padding: 20px; border-top: 1px solid #334155; color: #94a3b8; font-size: 13px; }
-.footer-links { display: flex; justify-content: center; gap: 15px; margin-bottom: 10px; }
-.footer-links a { color: #38bdf8; text-decoration: none; }
 
-html body { top: 0!important; }
-.VIpgJd-ZVi9od-ORHb-OEVmcd, iframe.VIpgJd-ZVi9od-ORHb-OEVmcd,.skiptranslate { display: none!important; visibility: hidden!important; height: 0!important; width: 0!important; top: -9999px!important; }
+footer { 
+    margin-top: 40px; 
+    text-align: center; 
+    padding: 20px; 
+    border-top: 1px solid #334155; 
+    color: #94a3b8; 
+    font-size: 13px; 
+}
 
-.VIpgJd-ZVi9od-aZ2wEe-wOHMyf .VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc { display: none!important; visibility: hidden!important; height: 0!important; width: 0!important; top: -9999px!important; }
+.footer-links { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-bottom: 10px; 
+}
 
-.VIpgJd-ZVi9od-aZ2wEe-OiiCO { display: none!important; visibility: hidden!important; height: 0!important; width: 0!important; top: -9999px!important; }
+.footer-links a { 
+    color: #38bdf8; 
+    text-decoration: none; 
+}
 
-.VIpgJd-ZVi9od-aZ2wEe { display: none!important; visibility: hidden!important; height: 0!important; width: 0!important; top: -9999px!important; }
+/* =================================================_
+   Responsive Navbar & Menus | شريط التنقل المتجاوب للموبايل والشاشات الصغيرة
+   ================================================= */
+#xmark, #xmark2 { color: red !important; }
+.menudiv { display: none !important; }
 
-.VIpgJd-ZVi9od-aZ2wEe-Jt5cK { display: none!important; visibility: hidden!important; height: 0!important; width: 0!important; top: -9999px!important; }
+@media (max-width: 900px) {
+    .header { padding: 0 20px; }
+    .fa-bars { color: #2563eb !important; }
+    
+    .menudiv {
+        display: block !important;
+        cursor: pointer;
+        font-size: 25px;
+        width: 45px;
+        height: 45px;
+        position: relative;
+    }
+    
+    .menudiv i {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: max-content;
+        height: max-content;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+    
+    .menudiv i.active {
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+    
+    .navbar {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: 47px;
+        left: 0;
+        width: 100%;
+        padding: inherit;
+        transition: 0.3s ease;
+        opacity: 0;
+        pointer-events: none;
+        display: flex;
+    }
+    
+    .navbar.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .nav-controls {
+        display: grid;
+        width: 100%;
+    }
+}
 
-#btn-open { background: #38bdf8!important; color: #0f172a!important; border-color: #38bdf8!important;
-padding: 5px; }
+/* =================================================_
+   Filter & Home Elements | الفلتر ومنطقة أزرار (رئيسي، جديد، المنزل والـ X) الملتصقة بالهيدر
+   ================================================= */
+#filter {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    position: sticky;        /* تثبيت شريط الفلاتر تحت الهيدر مباشرة */
+    top: 47px;               /* تم ضبط القيمة لتناسب ارتفاع الهيدر الجديد بالضبط بدون فراغات */
+    z-index: 999;            /* أقل من الهيدر بقليل وأعلى من باقي المحتوى */
+    background-color: #0f172a; /* لون خلفية لمنع تداخل محتوى الألعاب خلفه أثناء التمرير */
+    backdrop-filter: blur(5px);
+    gap: 10px;
+    margin-top: 0 !important;  /* إلغاء أي هوامش علوية قد تصنع مسافة فارغة */
+}
 
-/* موبايل */
+#home_font {
+    display: block !important;
+    cursor: pointer;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+
+#home_font i {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+#home_font i.active {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+#home_font i.active #xmark2 {
+    transform: rotate(180deg);
+}
+
+#home {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    padding: inherit;
+    transition: 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+}
+
+#home.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* تعديلات إضافية للشاشات الصغيرة جداً */
 @media (max-width: 640px) {
- .nav-controls button span { display: none; }
- .iframe-space { height: 60vh; min-height: 300px; }
- .scroll-btn { display: none !important;}
- header { gap: 5px;}
- #resume-banner { flex-direction: column; align-items: flex-start; gap: 8px; padding: 6px 10px;}
+    .iframe-space { height: 60vh; min-height: 300px; }
+    .scroll-btn { display: none !important; }
+    header { gap: 5px; padding: 8px 12px; }
+    #resume-banner { flex-direction: column; align-items: flex-start; gap: 8px; padding: 6px 10px; }
+    #filter { top: 52px; padding: 6px 12px; } /* ضبط الـ top للموبايل ليلتصق تماماً */
 }

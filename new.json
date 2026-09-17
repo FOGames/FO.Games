@@ -14,8 +14,717 @@
   "segments": [
     {
       "title": "Specially for you",
-      "count": 2183,
+      "count": 2196,
       "hits": [
+        {
+          "id": "125347",
+          "slug": "italian-brainrot-merge",
+          "title": "Italian Brainrot Merge",
+          "description": "Merge the Rot is an idle merge game packed with quirky brainrot characters. Combine identical characters to discover stronger forms, earn coins, and progress through colorful animated challenges. Build your brainrot collection and enjoy matching and digging mini-games for extra rewards!",
+          "howToPlayText": "Buy characters and drag two identical ones together to merge them into a higher-level brainrot. Drag a character from the grid into the scene above to earn coins automatically. Use your coins to buy more characters and purchase upgrades that help you complete each level. Keep merging, advance through the challenges, and unlock the full collection!\n\nDesktop: Click buttons with the left mouse button. Click, hold, and drag to move or merge characters.\nMobile: Tap buttons and drag characters with your finger.",
+          "gameURL": "https://playgama.com/export/game/italian-brainrot-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/italian-brainrot-merge",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "funny",
+            "merge",
+            "idle"
+          ],
+          "tags": [
+            "casual-games",
+            "meme-games",
+            "addictive-games",
+            "collecting-games",
+            "1-player-games",
+            "italian-brainrot"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/italian-brainrot-merge/big_preview/44c4e5ed69384bd1970c3a0a411f4417?width=448",
+            "https://static.playgama.com/p-img/pg/italian-brainrot-merge/icon/68caa99692cc4c44b0bb9520689eae18?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "062d888f79924cbf8bdc09e2a2caa5d4",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/italian-brainrot-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125346",
+          "slug": "turnline-relaxing-puzzle",
+          "title": "Turnline: Relaxing Puzzle",
+          "description": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines.\n\nTap the tiles to rotate them and find the correct position for every part of the network. Once all required paths are connected, the puzzle is complete.\n\nThe first levels are simple and introduce the rules naturally. Later puzzles become larger and more challenging, with branches, multiple paths and increasingly intricate layouts.\n\nThere is no timer, so you can think and solve each puzzle at your own pace.\n\n• Thousands of levels\n• Gradually increasing difficulty\n• Clean and relaxing visuals\n• Hints for difficult puzzles\n• Progress saving\n• Great for both quick and longer sessions",
+          "howToPlayText": "Tap a tile to rotate it.\n\nYour goal is to connect the lines and complete the entire network.\n\nTap a tile to rotate it.\nCheck how its lines connect to nearby tiles.\nKeep rotating the pieces until the paths match.\nConnect every required section to complete the level.\n\nCorrectly connected paths are highlighted as you progress.\n\nIf you get stuck, you can use a hint.\n\nUse the mouse on desktop or simply tap the tiles on a phone or tablet.",
+          "gameURL": "https://playgama.com/export/game/turnline-relaxing-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/turnline-relaxing-puzzle",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "brain",
+            "logic",
+            "easy"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "connect-games",
+            "mind-games",
+            "1-player-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/turnline-relaxing-puzzle/big_preview/e21d2c74701f43f6958590a8e6e3f9f3?width=448",
+            "https://static.playgama.com/p-img/pg/turnline-relaxing-puzzle/icon/21c4fbcd9fdb4575a739491665c12288?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "d76bbb201077465f977e19aed81785ad",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ar-EG",
+            "az-AZ",
+            "zh-CN",
+            "de-DE",
+            "nl-NL",
+            "es-ES",
+            "fr-FR",
+            "hi-IN",
+            "id-ID",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "kk-KZ",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "th-TH",
+            "tr-TR",
+            "uk-UA",
+            "uz-UZ",
+            "vi-VN"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/turnline-relaxing-puzzle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125345",
+          "slug": "fit-in-the-wall",
+          "title": "Fit in the Wall",
+          "description": "Fit in the Wall challenges you to guide a floating block into the matching slot on moving walls. Using quick reflexes and perfect timing is essential, as each wall offers just one correct fit. Success means survival, but a miss ends the game. Stay alert and keep fitting!",
+          "howToPlayText": "Score as much as you can by adjusting the yellow cube to fit in the pattern.\n\nDesktop:\nUse arrow keys to move the yellow cube\n\nMobile:\nTp on left and right side of screen to move the yellow cube in that direction.",
+          "gameURL": "https://playgama.com/export/game/fit-in-the-wall?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/fit-in-the-wall",
+          "genres": [
+            "arcade",
+            "skill",
+            "3d",
+            "runner"
+          ],
+          "tags": [
+            "2d-games",
+            "reaction-games",
+            "fast-paced-games",
+            "casual-games",
+            "dodge-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "avoid-games",
+            "endless-games",
+            "obstacles-games",
+            "challenging-games",
+            "challenge-games",
+            "agility-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/fit-in-the-wall/big_preview/6fcc9d45fccc4a8eb121f482af0a645c?width=448",
+            "https://static.playgama.com/p-img/pg/fit-in-the-wall/icon/e09fdda8adb94f2896206c4e4872282e?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "pt-PT"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/fit-in-the-wall?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125344",
+          "slug": "erickshaw-simulator",
+          "title": "E-Rickshaw Simulator",
+          "description": "E-Rickshaw Simulator puts you behind the wheel of an electric rickshaw as you transport passengers around a busy city.\n\nComplete a variety of pickup and drop-off missions across different locations, including homes, schools, hospitals, museums, hotels, offices, and shopping areas. Follow the route, drive carefully through traffic, and make sure your passengers reach their destination safely.\n\nEarn money by completing missions and use your rewards to unlock new e-rickshaws in the shop. Watch your health, avoid collisions, and prove that you can handle every route the city throws at you.",
+          "howToPlayText": "Drive your e-rickshaw through the city and follow the map and distance indicator to reach each destination.\n\nPick up passengers from the marked locations and safely drop them off at their destination. Avoid hitting pedestrians, vehicles, and other obstacles, as crashes can reduce your health or cause the mission to fail.\n\nComplete missions to earn money and unlock additional e-rickshaws.\n\nControls:\n\nW / Up Arrow – Accelerate\nS / Down Arrow – Brake / Reverse\nA / Left Arrow – Steer left\nD / Right Arrow – Steer right\nFollow the mini-map and destination markers to complete each mission.",
+          "gameURL": "https://playgama.com/export/game/erickshaw-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/erickshaw-simulator",
+          "genres": [
+            "simulation",
+            "3d",
+            "car",
+            "driving"
+          ],
+          "tags": [
+            "mission-games",
+            "casual-games",
+            "delivery-games",
+            "vehicles-games",
+            "webgl-games",
+            "1-player-games",
+            "traffic-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/erickshaw-simulator/big_preview/baa578028e2e47d894edf0c93793b383?width=448",
+            "https://static.playgama.com/p-img/pg/erickshaw-simulator/icon/440b8d65a6704059bb2652834210cf7e?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/erickshaw-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125339",
+          "slug": "dumplings-who-will-you-get",
+          "title": "Dumplings: Who Will You Get?",
+          "description": "🥟 Open boxes and build a collection of 12 adorable dumpling squishies.\n\n✨ Merge two matching characters to unlock a new, rarer and funnier one.\n\n🎁 Every 7th box is rare and guarantees a level 2 or higher dumpling.\n\n💰 Tap your characters for coins, complete orders and upgrade your kitchen.\n\n🌙 Your income keeps growing even while you are away.\n\n🏆 Can you unlock the whole collection?\n\n💖 You’ll like this game if you enjoy: Merge Mansion, Travel Town, Merge Dragons!, Merge Magic!, EverMerge, Gossip Harbor, Merge Cooking, Suika Game, Fruit Merge: Watermelon Puzzle, 2048 and other cute merge games.",
+          "howToPlayText": "1. Tap the steamer to get a box, then tap the box to open it.\n2. Drag one dumpling onto another of the same level to merge them into a new character.\n3. Tap unlocked dumplings to earn coins.\n4. Spend coins on more boxes and kitchen upgrades, complete orders and grow your collection.\n5. Every 7th box is rare. Keep merging until you unlock all 12 levels.\n\nUse the mouse on desktop or tap and drag with your finger on mobile.",
+          "gameURL": "https://playgama.com/export/game/dumplings-who-will-you-get?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/dumplings-who-will-you-get",
+          "genres": [
+            "arcade",
+            "clicker",
+            "merge",
+            "idle"
+          ],
+          "tags": [
+            "casual-games",
+            "addictive-games",
+            "cute-games",
+            "collecting-games",
+            "1-player-games",
+            "incremental-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/dumplings-who-will-you-get/big_preview/cd9d0365719a4ec2947c7e3a67ce2dc8?width=448",
+            "https://static.playgama.com/p-img/pg/dumplings-who-will-you-get/icon/d06e4a2aca714711a6c5d69bbd6c31d2?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "cc26abd8601244db836b9239e4e150bf",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "id-ID",
+            "it-IT",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/dumplings-who-will-you-get?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125326",
+          "slug": "swing-hero",
+          "title": "Swing Hero",
+          "description": "Get ready to unleash your inner acrobat in Swingers, an exhilarating adventure that will test your reflexes and timing like never before! Imagine soaring through a vibrant, minimalist world, swinging from point to point with heart-pounding precision. The striking neon pink cube against the dynamic purple backdrop sets the stage for a fast-paced challenge that’s as visually engaging as it is addictive. Whether you're a seasoned gamer or just looking for some casual fun, this title promises a captivating experience that will keep you coming back for \"just one more try.\" If you're searching for exciting browser games or need excellent games to play when bored, Swingers offers the perfect blend of simple mechanics and increasingly tricky obstacles. The satisfaction of a perfectly timed swing is unmatched—can you master the momentum and reach the end?",
+          "howToPlayText": "Reach the finish line by swinging your character.\n\nDesktop:\nUse mouse click to start swinging and then hold to control the duration.\n\nMobile:\nUse screen touch to start swinging and then hold to control the duration.\n",
+          "gameURL": "https://playgama.com/export/game/swing-hero?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/swing-hero",
+          "genres": [
+            "arcade",
+            "adventure",
+            "skill",
+            "platform"
+          ],
+          "tags": [
+            "cube-games",
+            "reaction-games",
+            "fast-paced-games",
+            "casual-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "avoid-games",
+            "obstacles-games",
+            "challenging-games",
+            "jumping-games",
+            "one-button-games",
+            "swing-games",
+            "webgl-games",
+            "agility-games",
+            "1-player-games",
+            "timing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/swing-hero/big_preview/5b704348e79e4ebfb7ad33a819ffeda2?width=448",
+            "https://static.playgama.com/p-img/pg/swing-hero/icon/99f390d01a4e46018f1daa37d8bf5a5c?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "fr-FR",
+            "it-IT",
+            "pt-PT",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/swing-hero?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125309",
+          "slug": "railroad-magnate",
+          "title": "Railroad Magnate",
+          "description": "Become the owner of a growing railroad network and build it from the ground up. Run trains, unlock new stations, earn money from passengers, and upgrade every part of your route. The bigger your railroad becomes, the more platforms, buildings, and trains appear on the map. Simple controls, colorful low-poly visuals, and constant progression make the game easy to start and satisfying to keep playing.",
+          "howToPlayText": "Tap available upgrades to improve your stations, trains, and routes. Collect income, unlock new buildings, increase train speed, and expand the capacity of your railroad. Keep growing your profits and turn a small station into a large transport empire.",
+          "gameURL": "https://playgama.com/export/game/railroad-magnate?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/railroad-magnate",
+          "genres": [
+            "3d",
+            "tycoon",
+            "management",
+            "train",
+            "idle"
+          ],
+          "tags": [
+            "city-building-games",
+            "casual-games",
+            "business-games",
+            "1-player-games",
+            "incremental-games",
+            "building-games",
+            "resource-management-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/railroad-magnate/big_preview/48d49192a82c42508359f1e2b7978f9f?width=448",
+            "https://static.playgama.com/p-img/pg/railroad-magnate/icon/39b0131074a844fb90cf74353df23cb3?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/railroad-magnate?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125308",
+          "slug": "wild-manager",
+          "title": "Wild Manager",
+          "description": "Build and manage your own colorful 3D zoo in Wild Manager. Walk through the park, build habitats, care for animals, upgrade roads and facilities, and turn a small zoo into a thriving wildlife destination.",
+          "howToPlayText": "Use WASD or the arrow keys to move the keeper. On mobile, use the on-screen joystick or tap to move. Walk to highlighted areas to build and upgrade habitats, collect income, care for animals, and complete park projects. Finish all upgrades to reach 100% park completion.",
+          "gameURL": "https://playgama.com/export/game/wild-manager?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/wild-manager",
+          "genres": [
+            "arcade",
+            "simulation",
+            "tycoon",
+            "animals",
+            "management",
+            "idle"
+          ],
+          "tags": [
+            "city-building-games",
+            "casual-games",
+            "business-games",
+            "webgl-games",
+            "building-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/wild-manager/big_preview/6597dce73d4c4dec80fdbbb8d17509f1?width=448",
+            "https://static.playgama.com/p-img/pg/wild-manager/icon/7ea4293b6db749b690eb230eb9753f8b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/wild-manager?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125307",
+          "slug": "sponge-strike-clean--smash",
+          "title": "Sponge Strike: Clean & Smash",
+          "description": "Sponge Strike: Clean & Smash is a satisfying physics puzzle game where every launch brings a hidden picture to life. Pull back, aim, and send your sponge sliding across the board to remove the dark coating underneath it. Bounce off walls, smash colorful block towers, spin up moving obstacles, trigger bombs and buttons, and collect coins along the way. Clear every objective, reveal the full picture, and use your rewards to unlock new sponge skins.",
+          "howToPlayText": "Controls\nMouse: Hold the left mouse button and drag backward to aim and set the launch power. Release to send the sponge forward. Click again when the sponge slows down to stop it and prepare the next launch.\n\nMobile: Touch and drag backward to aim, then release to launch the sponge. Tap it when it slows down to stop and aim again.",
+          "gameURL": "https://playgama.com/export/game/sponge-strike-clean--smash?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/sponge-strike-clean--smash",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "skill",
+            "mouse",
+            "physics"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "addictive-games",
+            "smash-games",
+            "1-player-games",
+            "crush-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/sponge-strike-clean-smash/big_preview/ffd8519bcdfb4920b401c7589833f3de?width=448",
+            "https://static.playgama.com/p-img/pg/sponge-strike-clean-smash/icon/136a8cf9f9ed43418bf1f2477b66d0b8?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "db5d224bfbc84899b8d4004bc87020f8",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/sponge-strike-clean--smash?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125306",
+          "slug": "slime-planet-eater",
+          "title": "Slime Planet Eater",
+          "description": "You are a translucent slime the size of a small animal, and the planet under you is covered in things bigger than you are. Roll over the grass and swallow it. Then the flowers, then the fence, then the sheep that was ignoring you a minute ago. Every bite makes you heavier, and every kilogram of mass moves the edge of what you can eat a little further out.\n\nThere is nothing to fail. No timers, no enemies, no currency to manage. A building too large to swallow simply pushes back and bends you around it, until it does not. The pleasure is watching the scale of the world turn over: the tree that filled your screen becomes a snack, the car becomes a crumb, the skyscraper becomes the next goal.\n\nClear one planet and the galaxy map opens the next, each with its own look, its own skyline and its own ladder of things to devour. Hats, trails and skins are yours to collect along the way, purely so your slime looks the way you want while it eats a world.",
+          "howToPlayText": "Steering is the whole control scheme. On a computer, hold the left mouse button and drag where you want to roll, or use WASD and the arrows. On a phone, touch the screen and drag; the slime follows your finger.\n\nEverything else is automatic. Touch something small enough and it is absorbed, your mass rises, the camera pulls back, and larger objects become edible. What is still too big bends you aside instead of blocking you.\n\nThe gear button opens sound, language and your wardrobe.",
+          "gameURL": "https://playgama.com/export/game/slime-planet-eater?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/slime-planet-eater",
+          "genres": [
+            "arcade",
+            "slime"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "addictive-games",
+            "cute-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/slime-planet-eater/big_preview/79d69551f1cd4092931ec55c70c67ea1?width=448",
+            "https://static.playgama.com/p-img/pg/slime-planet-eater/icon/5465421c9b6d4ec1b89ae1c8baf19680?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/slime-planet-eater?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125304",
+          "slug": "arrow-free-3d",
+          "title": "Arrow Free 3D",
+          "description": "Welcome to Arrow Free 3D!\nReady to challenge your brain? Arrow Free 3D is a satisfying 3D logic puzzle game where simplicity meets deep strategy. Immerse yourself in a quiet, beautiful world designed to test your mental agility, spatial awareness, and concentration.",
+          "howToPlayText": "Rotate the Cube: Spin the 3D cube to inspect all six sides.\nPlan Your Moves: Analyze the arrow paths and anticipate chain reactions.\nTap in Sequence: Tap the arrows in the correct order to remove them without getting stuck.\nClear the Stage: Remove every single arrow to complete the challenge!",
+          "gameURL": "https://playgama.com/export/game/arrow-free-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/arrow-free-3d",
+          "genres": [
+            "puzzle",
+            "3d",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "webgl-games",
+            "mind-games",
+            "agility-games",
+            "arrows-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/arrow-free-3d/big_preview/ceedf63073394a28ae1f47cc5d1b76df?width=448",
+            "https://static.playgama.com/p-img/pg/arrow-free-3d/icon/1e4c616328794a2297442c9a6ff72d97?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/arrow-free-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125301",
+          "slug": "night-racing--drag",
+          "title": "Night Racing - Drag",
+          "description": "Night car racing! Car tuning and customization, drag racing, gear shifting, speed, coins, and the fight for first place!",
+          "howToPlayText": "Get off to a winning start in races, accelerate with timely gear changes, avoid traffic and rivals, collect coins on the track, and earn them for winning places to upgrade your car garage!",
+          "gameURL": "https://playgama.com/export/game/night-racing--drag?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/night-racing--drag",
+          "genres": [
+            "racing",
+            "arcade",
+            "skill",
+            "3d",
+            "car",
+            "car-racing",
+            "driving"
+          ],
+          "tags": [
+            "race-games",
+            "customization-games",
+            "speed-games",
+            "car-tuning-games",
+            "drag-racing-games",
+            "1-player-games",
+            "timing-games",
+            "arcade-car",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/night-racing-drag/big_preview/83a2ed73d10f44e79a26dc9e879cdf49?width=448",
+            "https://static.playgama.com/p-img/pg/night-racing-drag/icon/ca7ae8d7156749f7b52c3ac2798a8bf6?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "f5d95d798e184e3db7c5b18cec02000c",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/night-racing--drag?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125300",
+          "slug": "mergemma",
+          "title": "MergeMMA",
+          "description": "Merge MMA is a portrait-friendly casual merge and idle fighting game. Combine matching boxers to discover stronger fighters, improve your gym, grow your earnings, and challenge increasingly powerful opponents. Its blend of quick merging, steady progression, and animated MMA battles makes every upgrade feel rewarding.\n",
+          "howToPlayText": "Drag one boxer onto another boxer of the same level to merge them into a stronger fighter. Buy and open new fighters, upgrade speed and income, and build a team strong enough to win each battle. On desktop, use the mouse to click buttons and drag fighters. On mobile, tap buttons and drag fighters with one finger. Win battles, unlock stronger boxers, and keep improving your gym to progress.",
+          "gameURL": "https://playgama.com/export/game/mergemma?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/mergemma",
+          "genres": [
+            "merge",
+            "idle"
+          ],
+          "tags": [
+            "casual-games",
+            "1-player-games",
+            "incremental-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/mergemma/big_preview/68f64ac9700f4abe94ab534667e90851?width=448",
+            "https://static.playgama.com/p-img/pg/mergemma/icon/b45e85bc4d304dde878fc0d3bfb17c5a?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/mergemma?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
         {
           "id": "125282",
           "slug": "bound-to-defend",
@@ -1443,8 +2152,8 @@
           "id": "125207",
           "slug": "open-city-suv-car-stunts",
           "title": "Open City SUV Car Stunts",
-          "description": "Get Behind the Wheel and Enjoy an Amazing Realistic SUV Simulator!\n\nJump off ramps, perform crazy stunts, overcome obstacles, and explore a huge open city — all without worrying about the rules of the road!\n\nIn Free Ride Mode, you can enjoy complete freedom with plenty of ramps, jumps, obstacles, and places to perform incredible car stunts.\n\nWant to enjoy the scenery? Take your SUV and explore the city, discover hidden locations, and find new places to jump, crash, and show off your driving skills!\n\nBut there’s more than just stunts.\n\nYour main mission is to deliver illegal packages throughout the city while staying one step ahead of the police. Complete risky deliveries, avoid police chases, hide from the cops, and escape before they catch you!\n\nChoose from detailed SUVs with visual and performance tuning. Customize your vehicle and build the perfect off-road machine for both stunts and dangerous deliveries.\n\nEnjoy complete freedom, explore the open city, perform insane SUV stunts, deliver illegal packages, and escape the cops in Open City SUV!\n",
-          "howToPlayText": "W / Up Arrow accelerate\nS / Down Arrow brake\nA / Left Arrow steer left\nD / Right Arrow steer right\nSpace handbrake",
+          "description": "Get Behind the Wheel and Enjoy an Amazing Realistic SUV Simulator!\n\nJump off ramps, perform crazy stunts, overcome obstacles, and explore a huge open city — all without worrying about the rules of the road!\n\nIn Free Ride Mode you can enjoy complete freedom with plenty of ramps, jumps, obstacles, and places to perform incredible car stunts.\n\nWant to enjoy the scenery? Take your SUV and explore the city, discover hidden locations, and find new places to jump, crash, and show off your driving skills!\n\nBut there’s more than just stunts.\n\nYour main mission is to deliver illegal packages** throughout the city while staying one step ahead of the police. Complete risky deliveries, avoid police chases, hide from the cops, and escape before they catch you!\n\nChoose from detailed SUVs with **visual and performance tuning**. Customize your vehicle and build the perfect off-road machine for both stunts and dangerous deliveries.\n\nEnjoy complete freedom, explore the open city, perform insane SUV stunts, deliver illegal packages, and escape the cops in Open City SUV!\n",
+          "howToPlayText": "W / Up Arrow accelerate\nS / Down Arrow brake\nA / Left Arrow steer left\nD / Right Arrow steer right\nSpace handbrake\nESC - pause / options",
           "gameURL": "https://playgama.com/export/game/open-city-suv-car-stunts?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/open-city-suv-car-stunts",
           "genres": [
@@ -2437,10 +3146,16 @@
             "action-rpg"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/adventure-squad/big_preview/c17e5f5d4f6244fdba7c1b59e323c63a?width=448",
-            "https://static.playgama.com/p-img/pg/adventure-squad/icon/20d09801212f4fc4a69de8e5fbb38eb9?width=448"
+            "https://static.playgama.com/p-img/pg/adventure-squad/big_preview/5bebb57c57bc4adaacaa45f67df2c91a?width=448",
+            "https://static.playgama.com/p-img/pg/adventure-squad/icon/d3e77d57c8564933a2c7472deaa5bad8?width=448"
           ],
-          "videos": [],
+          "videos": [
+            {
+              "playgama_id": "d2d5ed106c174547b0d099c7b4020a91",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
           "mobileReady": [
             "For Android",
             "For IOS",
@@ -3493,7 +4208,7 @@
         {
           "id": "125022",
           "slug": "tractor-farming-farmer-life-game",
-          "title": "Tractor Farming Farmer Life Game",
+          "title": "Tractor Farming Farmer Life Game ",
           "description": "Experience the life of a real farmer in Tractor Farming Simulator! Drive powerful tractors, cultivate fields, grow crops, and complete realistic farming missions across beautiful countryside environments. Operate modern agricultural machinery, transport your harvest, and expand your farming business as you become the ultimate farming expert.\n\nChoose from four unique farming modes, each focused on a different crop and farming experience. Grow Corn, Cotton, Wheat, and Pumpkins, with each mode featuring its own farming missions and harvesting challenges. Plough the fields, sow seeds, irrigate crops, apply fertilizer, harvest at the perfect time, and transport your produce to earn rewards.\n\nUnlock new tractors, trailers, and farming equipment as you progress through increasingly challenging levels. Explore large open farms, improve your skills, and enjoy an authentic farming adventure with smooth controls and realistic gameplay.\n\nFeatures\n-4 farming modes: Corn, Cotton, Wheat, and Pumpkin Farming.\n-Drive realistic tractors, trailers, and agricultural vehicles.\n-Perform complete farming activities including ploughing, sowing, watering, fertilizing, spraying, and harvesting.\n-Complete dozens of farming missions and earn rewards.\n-Explore beautiful 3D countryside environments.\n-Unlock and drive multiple tractors and farming machines.\n-Multiple control options for a comfortable driving experience.\n-Smooth controls, realistic sound effects, and immersive farming simulation.\n\nGrow your crops, master modern farming equipment, and build your dream farm in Tractor Farming Farmer Life Game. Whether you enjoy tractor driving or realistic agriculture games, this farming adventure offers relaxing gameplay and rewarding challenges for every player.",
           "howToPlayText": "Desktop:\nAWSD: Player Movement\nSpace: Break\nMouse: Camera Movement\nP = Pause\nCtrl = Setting\nI= Info\nShift = Sprint\nF = Actions\nN: Skip Level\n\nMobile:\nJoystick: Move Player\nScreen Drag : Move Camera\nLeft Button: Move Tractor Left\nRight Button: Move Tractor Right\nRace: Tractor Race\nBreak: Tractor Break",
           "gameURL": "https://playgama.com/export/game/tractor-farming-farmer-life-game?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
@@ -3980,7 +4695,7 @@
         {
           "id": "125009",
           "slug": "offroad-jeep-driving-mountain-climb",
-          "title": "Offroad Jeep Driving Mountain Climb",
+          "title": "Offroad Jeep Driving Mountain Climb ",
           "description": "Get behind the wheel and take on the ultimate off-road driving adventure in Mountain Climb Jeep Driving! Drive powerful 4x4 jeeps across dangerous mountain roads, steep hills, muddy tracks, snowy terrain, and challenging mega ramps. Test your driving skills as you navigate sharp turns, uneven paths, obstacles, and impossible tracks without losing control.\nChoose your favorite off-road vehicle and customize or upgrade it to handle tougher challenges. Complete exciting missions, pass checkpoints, collect coins, and unlock new vehicles and challenging tracks as you progress. Every level puts your driving skills to the test with difficult climbs, narrow roads, ramps, and tricky obstacles.\n\nFeatures\n-Exciting 4x4 mountain and off-road driving gameplay.\n-Multiple jeeps, SUVs, trucks, and powerful off-road vehicles.\n-Challenging mountain roads, muddy tracks, snow, ramps, and impossible terrain.\n-Vehicle upgrades and customization options.\n-Complete missions, checkpoints, and challenging driving levels.\n-Collect coins and unlock new vehicles and content.\n-Perform exciting stunts on mega ramps and steep mountain tracks.\n-Multiple control options including Tilt, Buttons, and Steering Wheel.\n-Adjustable steering sensitivity for better driving control.\n-Smooth controls, realistic 3D environments, and immersive driving experience.\n\nConquer steep mountains, master impossible tracks, overcome dangerous obstacles, and prove that you have what it takes to become an off-road driving master in Mountain Climb Jeep Driving.",
           "howToPlayText": "Desktop:\nW / Up Arrow = Race\nA / Left Arrow = Move Left\nS / Down Arrow / Space = Break\nD / Right Arrow = Move Right\nP = Pause\nE = Setting\nN: Skip Level\n\nMobile:\nLeft Button: Move Left\nRight Button: Move Right\nRace: Jeep Race\nBreak: Jeep Break",
           "gameURL": "https://playgama.com/export/game/offroad-jeep-driving-mountain-climb?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
@@ -9651,7 +10366,12 @@
           ],
           "inGamePurchases": "No",
           "supportedLanguages": [
-            "en-US"
+            "en-US",
+            "es-ES",
+            "hi-IN",
+            "id-ID",
+            "pt-PT",
+            "ru-RU"
           ],
           "screenOrientation": {
             "horizontal": true,
@@ -15421,9 +16141,9 @@
         {
           "id": "124211",
           "slug": "starweave-make-constellations",
-          "title": "Starweave: Creative Constellation",
-          "description": "Starweave is a space-themed puzzle game offers a relaxing yet challenging journey through the cosmos.\n\nThe universe has gone dark and it's your goal to reconnect hidden constellations to light up the night sky.\n\nEach level has a unique hidden constellation that you light up by linking stars together.\n\nSpace is not empty you have to be careful from stellar, orbits and cosmic friction.\n\nClick and drag to weave a glowing trail between the stars.\n\nAs you glide through space, you will need to crush floating obstacles and navigate clever pathways to complete each celestial pattern.\n\nDisconnect from stress of the day, connect stars and reveal ancient constellations in space sky.\n\nIf you're looking for satisfying stress relief games to help you unwind, Starweave offers a serene, meditative space.\n\nStarweave is not just another casual puzzle game it’s a calming mental escape.\nThere are no timers counting down, no lives to lose and no high-score pressure.\nJust you, the stars and quiet joy of creating something beautiful in space.\n\n\nHow to Play Starweave\n⭐ Connect stars in right order to make constellation\n💫 Crush floating obstacles before they block your path\n🧩 Plan every move - one wrong connection means rethinking your route\n🔓 Unlock new constellations and star patterns as you progress\n\n\nWhy You’ll Love Starweave!\n\nExplore 45+ unique, hand-crafted levels that feel like interactive works of art, progressing naturally without frustrating tutorials.\n\nEnjoy smooth, satisfying controls with tactile feedback designed for an effortless, mindful gaming experience.\n\nNever run out of puzzles, wake up every day to a new procedurally generated celestial challenge born from unique cosmic seeds.\n\nImmerse yourself in stars and glow, elegant particle trails and a soothing ambient soundtrack that encourages deep relaxation.\n\nIdeal for winding down before sleep, enjoying with a quiet coffee break or practicing daily mindfulness.",
-          "howToPlayText": "Use mouse to click and drag to connect the stars and make constellations in the sky, use hints for the correct connection",
+          "title": "Starweave: Star Puzzle",
+          "description": "Starweave is a space-themed puzzle game offers a relaxing yet challenging journey through the cosmos.\n\nThe universe has gone dark and it's your goal to reconnect hidden constellations to light up the night sky.\n\nEach level has a unique hidden constellation that you light up by linking stars together.\n\nSpace is not empty you have to be careful from stellar, orbits and cosmic friction.\n\nClick and drag to weave a glowing trail between the stars.\n\nAs you glide through space, you will need to crush floating obstacles and navigate clever pathways to complete each celestial pattern.\n\nDisconnect from stress of the day, connect stars and reveal ancient constellations in space sky.\n\nIf you're looking for satisfying stress relief games to help you unwind, Starweave offers a serene, meditative space.\n\nStarweave is not just another casual puzzle game it’s a calming mental escape.\nThere are no timers counting down, no lives to lose and no high-score pressure.\nJust you, the stars and quiet joy of creating something beautiful in space.\n\n\nHow to Play Starweave\n⭐ Connect stars in right order to make constellation\n💫 Crush floating obstacles before they block your path\n🧩 Plan every move - one wrong connection means rethinking your route\n🔓 Unlock new constellations and star patterns as you progress\n\n\nWhy You’ll Love Starweave!\n\nExplore 45+ unique, hand-crafted levels that feel like interactive works of art, progressing naturally without frustrating tutorials.\n\nEnjoy smooth, satisfying controls with tactile feedback designed for an effortless, mindful gaming experience.\n\nNever run out of puzzles wake up every day to a new procedurally generated celestial challenge born from unique cosmic seeds.\n\nImmerse yourself in stars and glow, elegant particle trails and a soothing ambient soundtrack that encourages deep relaxation.\n\nIdeal for winding down before sleep, enjoying with a quiet coffee break or practicing daily mindfulness.",
+          "howToPlayText": "Click or tap and drag to connect stars and make constellations in the sky, use hints for the correct connection.",
           "gameURL": "https://playgama.com/export/game/starweave-make-constellations?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/starweave-make-constellations",
           "genres": [
@@ -24076,8 +24796,8 @@
           "id": "123491",
           "slug": "2-minute-football-qb-legend",
           "title": "2 Minute Football QB Legend",
-          "description": "2 Minute Football QB Legend focuses on the best parts of football - strategy, completing passes and scoring TD's! We make it as easy as possible -- just start passing with a single tap on the screen. There are no complicated control schemes, only pure touchdown bliss! Play live offense and match up against simulated opponents to win your way to the World Championship! ",
-          "howToPlayText": "Your goal is to complete passes and score Touchdowns! (getting the ball in the end zone)  You must have more points than your opponent when the game ends in order to win the games. \n\nSelect a play by tapping it. When the players start moving, look for the player that is the least guarded by the defense. Tap near the player you'd like to throw the ball to. Running is automatic, but can be controlled by clicking and dragging the mouse to the left of right, or dragging your finger on touch devices. ",
+          "description": "2 Minute Football QB Legend 27 focuses on the best parts of football - strategy, completing passes and scoring TD's! We make it as easy as possible -- just start passing with a single tap on the screen. There are no complicated control schemes, only pure touchdown bliss! Play live offense and match up against simulated opponents to win your way to the World Championship! Now with Kickoff Return, Field Goals, 2 Point conversions and more!",
+          "howToPlayText": "Your goal is to complete passes and score Touchdowns! (getting the ball in the end zone)  You must have more points than your opponent when the game ends in order to win the games. \n\nSelect a play by tapping it. When the players start moving, look for the player that is the least guarded by the defense. Tap near the player you'd like to throw the ball to. Running is automatic, but can be controlled by clicking and dragging the mouse to the left of right, or dragging your finger on touch devices.",
           "gameURL": "https://playgama.com/export/game/2-minute-football-qb-legend?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/2-minute-football-qb-legend",
           "genres": [
@@ -53380,8 +54100,8 @@
           "id": "119090",
           "slug": "purrfect-match",
           "title": "Purrfect Match",
-          "description": "Welcome to a cozy casual match-3 game with cats, created for relaxation and pleasant emotions.\n\nIn this match-3 puzzle, you connect identical cats by drawing a continuous line across the board using your finger or mouse. You can create combinations of three or more tiles horizontally, vertically, or in an L shape. Diagonal connections are not allowed, so each move requires attention and planning.\n\nThe game has no rush — you play at a comfortable pace, enjoying the cute visual style and warm, relaxing atmosphere. Each level offers a new objective and gradually increases in difficulty while maintaining a balanced and enjoyable experience.\n\nBright 2D graphics, soft colors, and adorable cats make the game perfect for unwinding. The vertical layout is ideal for mobile devices and one-handed play. The game is suitable for all ages and will especially appeal to fans of cats and relaxing puzzle games.",
-          "howToPlayText": "To make a move, draw a line through three or more identical cats by swiping your finger or mouse across the board. Connections can be made horizontally, vertically, or in an L shape. Diagonal lines are not counted.\n\nWhen the line is completed, the selected cats disappear from the board, making space for new tiles. The longer the combination, the more effective the result and the faster you progress toward the level goal.\n\nEach level has a specific objective — for example, reaching a target score or clearing certain cats. The number of moves may be limited, so it’s important to plan your connection path in advance.\n\nControls are intuitive and perfectly adapted for a vertical screen. The game does not require fast reactions, making it ideal for calm, stress-free play anytime.",
+          "description": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you.\n\nEvery level is a roomful of kittens hoping to be picked. Swap neighbours to line them up: three of a kind and they're yours, four folds into a rocket, a bent five into a bomb, and five in a row into a Paw that sweeps every cat of one colour into your arms. Line up six and the Paw comes out glowing — double points and a wider sweep.\n\nSixty hand‑drawn levels ask for different things: gather cats of one kind, crack open crates, thaw kittens out of ice cages, or chip away at stones that only blasts can break. Each chapter adds one new thing to think about, so the board never plays the same way twice.\n\nSpend milk bottles on boosters before a hard level, pick up daily tasks, collect achievements, and climb the leaderboard.\n\nNo timers on most levels, no pressure — just a warm board, a soft soundtrack, and one more cat coming home with you. 12 languages, phone or desktop.",
+          "howToPlayText": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and they're yours to keep — clear every goal before your moves run out, breaking through crates, ice and stone to reach the ones hiding behind them.\n\nDesktop Controls:\n\nLeft Mouse Button (click): Select a cat, then click the one next to it to swap them.\nLeft Mouse Button (drag): Or drag a cat onto its neighbour to swap in one motion.\nClick a special cat: Set off a rocket, bomb or Paw where it stands.\nBoosters (before the level): Click a booster on the briefing screen to take it into the board with you.\nPause button: Open the menu, restart the level, or turn the music down.\n\nMobile Controls:\n\nTap: Tap a cat, then tap its neighbour to swap them.\nSwipe: Or swipe a cat towards the neighbour you want it to trade places with.\nTap a special cat: Fire it off on the spot.\nBoosters: Tap them on the briefing screen before you start.\n\nMatch 4 for a rocket, a bent 5 for a bomb, 5 in a row for a Paw — and 6 in a row for a glowing Paw that clears more and scores double.",
           "gameURL": "https://playgama.com/export/game/purrfect-match?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/purrfect-match",
           "genres": [
@@ -53418,10 +54138,20 @@
             "Male",
             "Female"
           ],
-          "inGamePurchases": "No",
+          "inGamePurchases": "Yes",
           "supportedLanguages": [
             "en-US",
-            "ru-RU"
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "hi-IN",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
           ],
           "screenOrientation": {
             "horizontal": true,

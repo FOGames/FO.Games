@@ -60,7 +60,7 @@
 
   <!-- عنصر ترجمة جوجل المخفي -->
   <div id="google_translate_element" style="display: none"></div>
-
+  
   <!-- شريط التنقل العلوي (Header) -->
   <header class="header" dir="ltr">
     <a href="#" class="logo">
@@ -89,10 +89,10 @@
           <i class="fa-solid fa-child"></i>
           <span id="kids-label">Kids: Off</span>
         </button>
-        <button onclick="sharePlatform()">
+        <button id="btn-share-platform" onclick="sharePlatform()">
           <i class="fa-solid fa-share-nodes"></i> <span>Share</span>
         </button>
-        <button onclick="toggleMainQRCode()">
+        <button id="btn-qr-platform" onclick="toggleMainQRCode()">
           <i class="fa-solid fa-qrcode"></i> <span>QR</span>
         </button>
         <button id="btn-theme" onclick="toggleTheme()">
@@ -290,6 +290,33 @@
     <p>© 2026 FO.Games - All Rights Reserved</p>
   </footer>
 
+  <!-- نظام التعليمات التفاعلي للزائر الجديد (Interactive Tour Guide Overlay) -->
+  <div id="tutorial-overlay" class="tutorial-overlay" style="display: none;">
+    <div id="tutorial-backdrop-blur" class="tutorial-backdrop-blur"></div>
+    <div id="tutorial-card" class="tutorial-card">
+      <div class="tutorial-header">
+        <h4 id="tutorial-title">Welcome to FO.Games!</h4>
+        <button id="tutorial-close" onclick="endTutorial()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="tutorial-body">
+        <p id="tutorial-text">Let's take a quick tour to show you around the platform features.</p>
+      </div>
+      <div class="tutorial-footer">
+        <span id="tutorial-step-counter">1 / 15</span>
+        <div class="tutorial-buttons">
+          <button id="tutorial-prev" onclick="prevTutorialStep()"><i class="fa-solid fa-arrow-left"></i> السابق | Prev</button>
+          <button id="tutorial-next" onclick="nextTutorialStep()">التالي | Next <i class="fa-solid fa-arrow-right"></i></button>
+          <button id="tutorial-skip" onclick="endTutorial()">تخطي | Skip</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- زر التلميح لإعادة تشغيل التعليمات في أي وقت -->
+  <button id="btn-tutorial-hint" class="tutorial-hint-btn" onclick="startTutorial()" title="Show Guide">
+    <i class="fa-solid fa-circle-question"></i> <span>Guide</span>
+  </button>
+
   <!-- إعدادات ترجمة جوجل البرمجية -->
   <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -305,7 +332,7 @@
     }
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  
+   
   <!-- ملف الجافاسكريبت الرئيسي -->
   <script src="script.js"></script>
 </body>

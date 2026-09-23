@@ -22,12 +22,10 @@ let isLoading = false;
 function loadGamesData() {
     let targetFile = 'games.json';
 
-    // قسم جديد يقرأ من ملفه الخاص
     if (activeFilter === 'new') {
         targetFile = 'new.json';
     }
 
-    // للمفضلة واللي لعبتها: دمج الملفين مع تصفية الألعاب المكررة بناءً على الـ ID لمنع تكرار اللعبة مرتين
     if (activeFilter === 'favorites' || activeFilter === 'played') {
         Promise.all([
             fetch('games.json?v=' + Date.now()).then(res => res.json()),
@@ -37,10 +35,8 @@ function loadGamesData() {
             const oldHits = oldData.segments[0]?.hits || [];
             const newHits = newData.segments[0]?.hits || [];
             
-            // دمج القائمتين معاً
             const combinedHits = [...oldHits, ...newHits];
             
-            // إزالة الألعاب المكررة بالاعتماد على معرف اللعبة (id) لمنع تكرار العرض
             const uniqueHitsMap = new Map();
             combinedHits.forEach(game => {
                 if (!uniqueHitsMap.has(game.id)) {
@@ -54,7 +50,6 @@ function loadGamesData() {
         return;
     }
 
-    // التحميل العادي لباقي الأقسام
     fetch(targetFile + '?v=' + Date.now())
         .then(res => {
             if(!res.ok) throw new Error(targetFile + ' not found');
@@ -151,7 +146,7 @@ function setupPWAInstallButton() {
 async function initPlatform() {
     try {
         setupPWAInstallButton();
-        loadGamesData(); // استدعاء دالة التحميل الذكية
+        loadGamesData();
 
         killGoogleBannerForever();
         const savedLang = localStorage.getItem('fo_lang');
@@ -159,6 +154,9 @@ async function initPlatform() {
 
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('hashchange', checkUrlHash);
+
+        // تشغيل نظام التعليمات التفاعلي للزائر الجديد
+        initTutorial();
     } catch (err) {
         console.error("Platform initialization error:", err);
     }
@@ -259,8 +257,7 @@ function close404() { document.getElementById('page-404').style.display = 'none'
 function openGameById(id) { const g = rawGames.find(x => x.id === id); if(g) openGame(g); }
 
 /* =================================================_
-   Filtering & Navigation Elements (Fixed Tabs Integration)
-   تصنيف الألعاب والتحكم بأزرار التبويبات العلوية
+   Filtering & Navigation Elements
    ================================================= */
 function buildGenresBar() { 
     const container = document.getElementById('genres-container'); 
@@ -279,7 +276,6 @@ function filterByGenre(genre) {
     applyFilters(); 
 }
 
-// ربط أزرار الفلترة العلوية مع دالة تحميل البيانات الذكية
 document.querySelectorAll('.filter-tab').forEach(tab => tab.onclick = () => { 
     document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active')); 
     tab.classList.add('active'); 
@@ -318,7 +314,6 @@ function applyFilters() {
 
 /* =================================================_
    Infinite Scroll & Batch Rendering
-   التمرير اللانهائي ورسم البطاقات تدريجياً
    ================================================= */
 function handleScroll() {
     const trigger = document.getElementById('loading-trigger');
@@ -363,7 +358,6 @@ function renderBatch() {
 
 /* =================================================_
    Game Execution & Modal Management
-   تشغيل اللعبة وإدارة النافذة المنبثقة والروابط
    ================================================= */
 function openGame(game, setHash = true) {
     currentGame = game; 
@@ -488,8 +482,329 @@ function openFooterInfo(type) {
 }
 
 /* =================================================_
+   Interactive Tutorial & Onboarding System Logic
+   منطق نظام التعليمات التفاعلي والجولة الإرشادية
+   ================================================= */
+const tutorialSteps = [
+    { element: ".logo", title: "شعار المنصة | Platform Logo", text: "اضغط على شعار FO.Games للعودة للصفحة الرئيسية في أي وقت. | Tap the FO.Games logo anytime to return to the home page." },
+    { element: ".search-box", title: "البحث عن الألعاب | Game Search", text: "اكتب اسم اللعبة أو كلمة للعثور على الألعاب بسرعة. | Type a game name or keyword to find games quickly." },
+    { element: "#btn-random", title: "لعبة عشوائية | Lucky Play", text: "اضغط هنا لفتح لعبة عشوائية مباشرة. | Tap here to open a random game instantly." },
+    { element: "#btn-kids", title: "وضع الأطفال | Kids Mode", text: "شغّل أو أوقف وضع الأطفال لعرض الألعاب المناسبة له. | Turn Kids Mode on or off to filter suitable games." },
+    { element: "#btn-share-platform", title: "مشاركة المنصة | Share Platform", text: "استخدم زر المشاركة لإرسال FO.Games لأصدقائك. | Use Share to send FO.Games to your friends." },
+    { element: "#btn-qr-platform", title: "رمز QR للمنصة | Platform QR", text: "يفتح هذا الزر رمز QR للوصول إلى FO.Games بسهولة من الهاتف. | This button opens a QR code for easy access to FO.Games on mobile." },
+    { element: "#btn-theme", title: "الوضع الفاتح والداكن | Light / Dark Theme", text: "بدّل بين المظهر الفاتح والداكن في أي وقت. | Switch between Light and Dark themes anytime." },
+    { element: ".btn-translate-custom", title: "الترجمة | Translation", text: "افتح نافذة اللغات واختر اللغة التي تريدها للواجهة. | Open the language window and choose your preferred interface language." },
+    { element: ".filter-tabs", title: "الفلاتر والتصنيفات | Filters & Categories", text: "استخدم هذه التبويبات لعرض الألعاب الرئيسية والجديدة والمفضلة والموبايل والكمبيوتر. | Use these tabs to browse Main, New, Played, Favorites, Desktop and Mobile games." },
+    { element: "#genres-container", title: "أنواع الألعاب | Game Genres", text: "اختر نوعًا لتصفية الألعاب المعروضة. | Choose a genre to narrow the games shown." },
+    { element: "#btn-fullscreen", title: "ملء الشاشة | Fullscreen", text: "داخل اللعبة، اضغط هنا لتكبير منطقة اللعب. | Inside a game, tap here to make the game area fullscreen." },
+    { element: "#btn-share", title: "مشاركة اللعبة | Share Game", text: "شارك اللعبة الحالية مع الآخرين. على الهاتف قد تظهر نافذة المشاركة الخاصة بالنظام. | Share the current game. On mobile, the system share sheet may appear." },
+    { element: "#btn-fav-modal", title: "المفضلة | Favorites", text: "اضغط على القلب لإضافة اللعبة للمفضلة أو إزالتها منها. | Tap the heart to add or remove the game from Favorites." },
+    { element: "#btn-tutorial-hint", title: "زر الشرح | Guide Button", text: "يمكنك فتح هذا الشرح مرة أخرى من زر Guide في أي وقت. | You can replay this guide anytime using the Guide button." }
+];
+
+let currentTutorialIndex = 0;
+let tutorialPanels = [];
+let tutorialResizeTimer = null;
+let tutorialStepTimer = null;
+let tutorialFocusRing = null;
+
+function initTutorial() {
+    if (!localStorage.getItem('fo_tutorial_seen')) {
+        setTimeout(() => startTutorial(), 1200);
+    }
+}
+
+function startTutorial() {
+    currentTutorialIndex = 0;
+    const overlay = document.getElementById('tutorial-overlay');
+    if (!overlay) return;
+    overlay.style.display = 'flex';
+    document.body.classList.add('tutorial-running');
+    ensureTutorialPanels();
+    prepareTutorialStep(0);
+}
+
+function endTutorial() {
+    clearTimeout(tutorialStepTimer);
+    const overlay = document.getElementById('tutorial-overlay');
+    if (overlay) overlay.style.display = 'none';
+    clearTutorialHighlights();
+    clearTutorialPanels();
+    if (tutorialFocusRing) tutorialFocusRing.style.display = 'none';
+    closeTutorialExtraModals();
+    closeGameModalUI();
+    closeTutorialMobileMenu();
+    document.body.classList.remove('tutorial-running');
+    localStorage.setItem('fo_tutorial_seen', 'true');
+}
+
+function ensureTutorialPanels() {
+    const backdrop = document.getElementById('tutorial-backdrop-blur');
+    if (!backdrop || tutorialPanels.length) return;
+    backdrop.innerHTML = '';
+    for (let i = 0; i < 4; i++) {
+        const panel = document.createElement('div');
+        panel.className = 'tutorial-blur-panel';
+        panel.setAttribute('aria-hidden', 'true');
+        backdrop.appendChild(panel);
+        tutorialPanels.push(panel);
+    }
+}
+
+function ensureTutorialFocusRing() {
+    if (tutorialFocusRing && document.body.contains(tutorialFocusRing)) return tutorialFocusRing;
+    tutorialFocusRing = document.createElement('div');
+    tutorialFocusRing.id = 'tutorial-focus-ring';
+    tutorialFocusRing.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(tutorialFocusRing);
+    return tutorialFocusRing;
+}
+
+function clearTutorialPanels() {
+    tutorialPanels.forEach(panel => panel.style.cssText = '');
+    if (tutorialFocusRing) tutorialFocusRing.style.cssText = 'display:none;';
+}
+
+function positionTutorialPanels(rect) {
+    if (!rect) return;
+    ensureTutorialPanels();
+    const pad = window.innerWidth <= 640 ? 6 : 8;
+    const left = Math.max(0, rect.left - pad);
+    const top = Math.max(0, rect.top - pad);
+    const right = Math.min(window.innerWidth, rect.right + pad);
+    const bottom = Math.min(window.innerHeight, rect.bottom + pad);
+    const ring = ensureTutorialFocusRing();
+    ring.style.cssText = `display:block;left:${left}px;top:${top}px;width:${Math.max(0,right-left)}px;height:${Math.max(0,bottom-top)}px;`;
+    const [topPanel, rightPanel, bottomPanel, leftPanel] = tutorialPanels;
+    topPanel.style.cssText = `left:0;top:0;width:100vw;height:${top}px;`;
+    rightPanel.style.cssText = `left:${right}px;top:${top}px;width:${Math.max(0,window.innerWidth-right)}px;height:${Math.max(0,bottom-top)}px;`;
+    bottomPanel.style.cssText = `left:0;top:${bottom}px;width:100vw;height:${Math.max(0,window.innerHeight-bottom)}px;`;
+    leftPanel.style.cssText = `left:0;top:${top}px;width:${left}px;height:${Math.max(0,bottom-top)}px;`;
+}
+
+function clearTutorialHighlights() {
+    document.querySelectorAll('.tutorial-highlight').forEach(el => el.classList.remove('tutorial-highlight'));
+}
+
+function isTutorialGameStep(index) { return index >= 10 && index <= 12; }
+
+function closeTutorialMobileMenu() {
+    const navbar = document.querySelector('.navbar');
+    const bars = document.querySelector('.menudiv .fa-bars');
+    const xmark = document.querySelector('.menudiv #xmark');
+    if (navbar && window.innerWidth <= 966) navbar.classList.remove('active');
+    if (bars && window.innerWidth <= 966) bars.classList.add('active');
+    if (xmark && window.innerWidth <= 966) xmark.classList.remove('active');
+}
+
+function openTutorialMobileMenuIfNeeded() {
+    const navbar = document.querySelector('.navbar');
+    if (navbar && window.innerWidth <= 966) {
+        navbar.classList.add('active');
+        const bars = document.querySelector('.menudiv .fa-bars');
+        const xmark = document.querySelector('.menudiv #xmark');
+        if (bars) bars.classList.remove('active');
+        if (xmark) xmark.classList.add('active');
+    }
+}
+
+function closeTutorialExtraModals() {
+    ['translateModal', 'main-qr-modal', 'infoModal'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+    });
+    const qr = document.getElementById('qr-container');
+    if (qr) qr.style.display = 'none';
+}
+
+function prepareTutorialStep(index) {
+    clearTimeout(tutorialStepTimer);
+    clearTutorialHighlights();
+    clearTutorialPanels();
+    if (tutorialFocusRing) tutorialFocusRing.style.display = 'none';
+    closeTutorialExtraModals();
+
+    // Steps 1-9 stay exactly as they are. From step 10 onward, open the
+    // real UI that the tutorial is pointing at instead of creating fake elements.
+    // Step 10 = the real game-genres bar.
+    if (index === 9) {
+        closeGameModalUI();
+        const home = document.getElementById('home');
+        const houseIcon = document.querySelector('#house');
+        const closeIcon = document.getElementById('xmark2');
+        if (home) home.classList.add('active');
+        if (houseIcon) houseIcon.classList.remove('active');
+        if (closeIcon) closeIcon.classList.add('active');
+        const genres = document.getElementById('genres-container');
+        if (genres) {
+            genres.style.visibility = 'visible';
+            genres.style.opacity = '1';
+            genres.style.display = 'grid';
+        }
+        // Data normally exists by now, but rebuild if the bar is empty.
+        if (genres && !genres.querySelector('.genre-chip') && rawGames.length) {
+            buildGenresBar();
+        }
+    } else if (isTutorialGameStep(index)) {
+        // Close the genres/categories panel before moving to game controls.
+        // This prevents the Play/Resume area from appearing above the categories.
+        const homePanel = document.getElementById('home');
+        const houseIcon = document.querySelector('#home_font .fa-house');
+        const closeIcon = document.getElementById('xmark2');
+        if (homePanel) {
+            homePanel.classList.remove('active');
+            homePanel.style.opacity = '';
+            homePanel.style.pointerEvents = '';
+        }
+        if (houseIcon) houseIcon.classList.add('active');
+        if (closeIcon) closeIcon.classList.remove('active');
+
+        const gameModal = document.getElementById('gameModal');
+        const game = currentGame || rawGames?.[0];
+        if (game && (!gameModal || getComputedStyle(gameModal).display === 'none')) {
+            openGame(game, false);
+        }
+        const modal = document.getElementById('gameModal');
+        if (modal) {
+            modal.style.zIndex = '9000000102';
+            modal.scrollTop = 0;
+        }
+    } else {
+        closeGameModalUI();
+    }
+
+    // Mobile navigation controls are hidden until the hamburger menu is opened.
+    if (index >= 2 && index <= 7) openTutorialMobileMenuIfNeeded();
+    else if (index < 2 || index >= 8) closeTutorialMobileMenu();
+
+    // Open the real window for steps that explain a window.
+    if (index === 5) {
+        setTimeout(() => toggleMainQRCode(), 80);
+    } else if (index === 7) {
+        setTimeout(() => openTranslateModal(), 80);
+    }
+
+    tutorialStepTimer = setTimeout(() => showTutorialStep(index), 220);
+}
+function getTutorialTarget(index) {
+    const stepData = tutorialSteps[index];
+    if (!stepData) return null;
+    return document.querySelector(stepData.element);
+}
+function showTutorialStep(index) {
+    if (index < 0 || index >= tutorialSteps.length) { endTutorial(); return; }
+    clearTutorialHighlights();
+    clearTutorialPanels();
+
+    const stepData = tutorialSteps[index];
+    const title = document.getElementById('tutorial-title');
+    const text = document.getElementById('tutorial-text');
+    const counter = document.getElementById('tutorial-step-counter');
+    if (title) title.innerText = stepData.title;
+    if (text) text.innerText = stepData.text;
+    if (counter) counter.innerText = `${index + 1} / ${tutorialSteps.length}`;
+
+    const prev = document.getElementById('tutorial-prev');
+    const next = document.getElementById('tutorial-next');
+    if (prev) prev.style.display = index === 0 ? 'none' : 'inline-flex';
+    if (next) next.innerHTML = index === tutorialSteps.length - 1 ? 'إنهاء | Finish <i class="fa-solid fa-check"></i>' : 'التالي | Next <i class="fa-solid fa-arrow-right"></i>';
+
+    const targetEl = getTutorialTarget(index);
+    if (!targetEl) { positionTutorialCard(null); return; }
+
+    // Do not scroll the page for controls inside the game modal; scrolling can move the
+    // modal and make the highlight point at the wrong place. For normal page elements,
+    // keep the existing behavior.
+    if (!isTutorialGameStep(index)) {
+        try { targetEl.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' }); } catch(e) {}
+    }
+
+    // Measure twice: first after layout settles, then again on the next frame.
+    // This is important for the game modal/header and for mobile menu animations.
+    setTimeout(() => {
+        requestAnimationFrame(() => {
+            const rect = targetEl.getBoundingClientRect();
+            if (rect.width <= 0 || rect.height <= 0) { positionTutorialCard(null); return; }
+            targetEl.classList.add('tutorial-highlight');
+            positionTutorialPanels(rect);
+            positionTutorialCard(rect);
+        });
+    }, isTutorialGameStep(index) ? 450 : 280);
+}
+
+function positionTutorialCard(rect) {
+    const card = document.getElementById('tutorial-card');
+    if (!card) return;
+    const mobile = window.innerWidth <= 640;
+    const margin = mobile ? 10 : 16;
+    const cardWidth = Math.min(mobile ? window.innerWidth - 16 : 360, window.innerWidth - 16);
+    card.style.width = `${cardWidth}px`;
+
+    // Mobile: keep the explanation near the bottom so it does not cover header/modal controls.
+    if (mobile) {
+        const h = card.offsetHeight || 190;
+        card.style.left = '8px';
+        card.style.top = `${Math.max(8, window.innerHeight - h - 8)}px`;
+        return;
+    }
+
+    const h = card.offsetHeight || 210;
+    let left = Math.max(10, (window.innerWidth - cardWidth) / 2);
+    let top = Math.max(10, (window.innerHeight - h) / 2);
+    if (rect) {
+        const below = window.innerHeight - rect.bottom;
+        const above = rect.top;
+        if (below >= h + margin) top = rect.bottom + margin;
+        else if (above >= h + margin) top = rect.top - h - margin;
+        left = Math.min(Math.max(10, rect.left), Math.max(10, window.innerWidth - cardWidth - 10));
+
+        // Game controls are small and live in the modal header. Keep the tutorial card
+        // away from that header so the arrow/highlight stays clearly on the button.
+        if (isTutorialGameStep(currentTutorialIndex)) {
+            const modal = document.getElementById('gameModal');
+            const modalRect = modal?.getBoundingClientRect();
+            if (modalRect) {
+                const safeBelow = modalRect.bottom + margin;
+                const safeAbove = modalRect.top - h - margin;
+                if (safeBelow + h <= window.innerHeight - 8) top = safeBelow;
+                else if (safeAbove >= 8) top = safeAbove;
+                else top = Math.max(8, window.innerHeight - h - 8);
+                left = Math.min(Math.max(8, modalRect.left), Math.max(8, window.innerWidth - cardWidth - 8));
+            }
+        }
+    }
+    card.style.left = `${left}px`;
+    card.style.top = `${top}px`;
+}
+
+function nextTutorialStep() {
+    if (currentTutorialIndex >= tutorialSteps.length - 1) { endTutorial(); return; }
+    currentTutorialIndex++;
+    prepareTutorialStep(currentTutorialIndex);
+}
+
+function prevTutorialStep() {
+    if (currentTutorialIndex <= 0) return;
+    currentTutorialIndex--;
+    prepareTutorialStep(currentTutorialIndex);
+}
+
+window.addEventListener('resize', () => {
+    const overlay = document.getElementById('tutorial-overlay');
+    if (!overlay || overlay.style.display !== 'flex') return;
+    clearTimeout(tutorialResizeTimer);
+    tutorialResizeTimer = setTimeout(() => {
+        const target = getTutorialTarget(currentTutorialIndex);
+        if (target) {
+            const rect = target.getBoundingClientRect();
+            positionTutorialPanels(rect);
+            positionTutorialCard(rect);
+        }
+    }, 120);
+});
+
+/* =================================================_
    Responsive Navigation Menu UI
-   أحداث القائمة الجانبية والشريط المتجاوب
    ================================================= */
 const navbar = document.querySelector(".navbar");
 const bars = document.querySelector(".fa-bars");
@@ -505,21 +820,46 @@ if (menudiv) {
 }
 
 const home = document.querySelector("#home");
-const bars2 = document.querySelector(".fa-house");
+const bars2 = document.querySelector("#house");
 const xmark2 = document.querySelector("#xmark2");
 const home_font = document.querySelector("#home_font");
 
+// Normal Categories menu behavior (independent from the tutorial).
+// Home opens the categories; X closes them. The tutorial never changes this behavior.
+function openCategoriesMenu() {
+    if (!home || !bars2 || !xmark2) return;
+    // Open state: Home hidden, X visible.
+    home.classList.add("active");
+    bars2.classList.remove("active");
+    xmark2.classList.add("active");
+    home.style.opacity = "1";
+    home.style.pointerEvents = "auto";
+}
+
+function closeCategoriesMenu() {
+    if (!home || !bars2 || !xmark2) return;
+    // Closed state: X hidden, Home visible.
+    home.classList.remove("active");
+    xmark2.classList.remove("active");
+    bars2.classList.add("active");
+    home.style.opacity = "";
+    home.style.pointerEvents = "";
+}
+
 if (home_font) {
-    home_font.addEventListener("click", () => {
-        bars2.classList.toggle("active");
-        xmark2.classList.toggle("active");
-        home.classList.toggle("active");
+    home_font.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.target.closest("#xmark2")) {
+            closeCategoriesMenu();
+        } else if (e.target.closest("#house")) {
+            openCategoriesMenu();
+        }
     });
 }
 
 /* =================================================_
    Utilities & Event Listeners
-   الأدوات المساعدة ومستمعي الأحداث العامة
    ================================================= */
 const btnFullscreen = document.getElementById('btn-fullscreen');
 if (btnFullscreen) {
@@ -548,5 +888,4 @@ function toggleFav(id){
     localStorage.setItem('favorites', JSON.stringify(favs)); 
 }
 
-// بدء تشغيل المنصة عند تحميل نافذة المتصفح بالكامل
 window.onload = initPlatform;

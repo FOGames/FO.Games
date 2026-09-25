@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fogames-v2';
+const CACHE_NAME = 'fogames-v3';
 
 const ASSETS = [
   './',

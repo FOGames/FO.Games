@@ -89,6 +89,9 @@ function processGamesData(data) {
     setupScrollButtons(); 
     buildFeaturedSlider(); 
     checkResumeBanner();
+
+    // فتح اللعبة مباشرة إذا كان الرابط يحتوي على #game=ID
+    checkUrlHash();
 }
 
 /* =================================================_

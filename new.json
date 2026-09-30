@@ -14,8 +14,2857 @@
   "segments": [
     {
       "title": "Specially for you",
-      "count": 2283,
+      "count": 2334,
       "hits": [
+        {
+          "id": "125679",
+          "slug": "candy-cats",
+          "title": "Candy Cats",
+          "description": "A tray of glossy jelly candies forms a cute pixel picture — a strawberry, a puppy, a rainbow. And here come the chubby, hungry kitties! They hop onto a conveyor belt that rolls around the tray, and every kitty munches only the candies of its own color. Pick who rides next, keep the waiting cushions free, and gobble up the whole picture bite by bite!\n\nEasy to learn and oh so satisfying — but the order matters. Clear tricky trays with ice-covered candies, chocolate walls and mystery kitties, and earn three stars by planning ahead.\n\n• 86 candy pictures to eat up: sweets, fruits, cute animals and more\n• 27 adorable kitty costumes — pirate, wizard, little dragon, astronaut, frog hood…\n• 20 achievements — the hardest ones unlock exclusive costumes\n• A sticker for every picture — collect all 86 in your album\n• Clever boosters: the Paw grabs any candy, Mint lets kitties see through candies for a whole level\n• A treasure chest every 3 wins, daily gifts with a new costume every 7th day, daily and weekly quests\n• Leaderboard — see how far other players got\n• Replay any level for three stars\n• No timers in the puzzles — relax at your own pace",
+          "howToPlayText": "Tap a kitty at the bottom to send it onto the conveyor. As it rides around the tray it eats the first candy of its color in each row and column. A kitty that isn't full after a lap waits on a cushion — tap it to send it again. Eat every candy to clear the tray. Don't let all cushions fill up!",
+          "gameURL": "https://playgama.com/export/game/candy-cats?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/candy-cats",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "animals",
+            "cozy",
+            "matching",
+            "cats"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "addictive-games",
+            "cute-games",
+            "mind-games",
+            "color-matching-games",
+            "collecting-games",
+            "1-player-games",
+            "pixel-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/candy-cats/big_preview/2847ee1435d844e28738605fd3c580e5?width=448",
+            "https://static.playgama.com/p-img/pg/candy-cats/icon/0eb3193f3ef94f2dab8965e32f3624c5?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "ru-RU",
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/candy-cats?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125678",
+          "slug": "open-to-offers",
+          "title": "Open to Offers!",
+          "description": "Become the best flipper in town! Buy attic boxes, lost parcels and port containers — anything can be inside, from an unpaired sock to an imperial egg.\n\nPut your finds up for sale and haggle with buyers in chats. Everyone has their own character: a granny on a pension, a kid with a piggy bank, an IT guy, a tourist, a fashionista, a gardener — 20 types in total. Some are generous, some are stingy, some are in a hurry. Name your price, push the deal, deliver it yourself — and don't fall for scammers with a “payment link”!\n\n• 8 boxes and 48 items of different rarity — from junk to mythic\n• Lively negotiations: counteroffers, “final offer” bluffs, “knock off a bit for a taxi”\n• Collections with price bonuses\n• Upgrade your storage, listings, charisma and auto-reply\n• Side hustle on the laptop, daily bonuses and a leaderboard",
+          "howToPlayText": "1. Open a box in the “Cases” tab — the roulette shows what's inside.\n2. Put your find up for sale: “Storage” → item → price → “List”. A price near the market sells faster, above the market pays more, but buyers will haggle.\n3. Answer buyers in “Chats” with the buttons below: accept, name your price or decline. Sometimes saying no makes a buyer raise the offer!\n4. Never follow links from “buyers” — they are scammers. Block them and get a vigilance bonus.\n5. Invest your revenue in the “Upgrades” tab and complete collections for price bonuses.\n\nShort on money? Tap the laptop on the home screen. Controls: mouse or touch.",
+          "gameURL": "https://playgama.com/export/game/open-to-offers?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/open-to-offers",
+          "genres": [
+            "arcade",
+            "simulation",
+            "skill",
+            "tycoon",
+            "clicker",
+            "management"
+          ],
+          "tags": [
+            "casual-games",
+            "business-games",
+            "brain-training-games",
+            "addictive-games",
+            "decision-games",
+            "collecting-games",
+            "1-player-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/open-to-offers/big_preview/79685e6d17274e49beba4ffcdf0bcf0e?width=448",
+            "https://static.playgama.com/p-img/pg/open-to-offers/icon/2db60027e0da45fb8fe8c8de215f5c87?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/open-to-offers?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125675",
+          "slug": "clown-fiesta",
+          "title": "Clown Fiesta",
+          "description": "Clown Fiesta is a shooter: fight mobs, bosses, and other players, find weapons, and upgrade your character.",
+          "howToPlayText": "Desktop (keyboard and mouse)\n\nMovement\n- W / A / S / D move.\n- Space dash in the movement direction, or towards the aim when standing still.\nAim and attack\n- Mouse move aims the weapon at the cursor.\n- Left mouse button attacks with the current weapon. Hold to keep attacking at its fire rate.\n- Right mouse button is the alternate attack: throws throwable melee weapons (Baseball Bat, Meteor Maul) and pokes with Sword, Tempest Glaive. Nothing with a gun.\n- F throws a grenade, or detonates the one already in flight.\n\nWeapons and pickups\n- 1 / 2 select the melee or ranged slot.\n- Mouse wheel cycles through occupied slots.\n- Click a floor weapon to pick it up when in range. Orbs are collected by walking over them.\n\nSpells, once the skill is learned\n- Q Repel, E Shield, R Haste, C Fire Breath.\n\nMenus and information\n- U stat upgrades, I skill upgrades. Each opens only while points are unspent.\n- Tab held shows the scoreboard.\n- P pauses in solo games.\n\n\nMobile (touch screen, landscape)\n\nMovement\n- Touch anywhere on the right half of the screen and drag to move. The stick appears under your thumb.\n- The jump button in the bottom-left corner dashes in the stick's direction, or towards the aim when standing still.\n\nAim and attack\n- Aiming and attacking are automatic. The weapon locks onto the nearest visible enemy: guns fire at it, melee weapons swing once it is in reach. With no enemy around, the weapon faces where you move.\n- Tap a barrel or a steam pipe to attack it instead. Tap empty ground to cancel.\n- The Throw / Poke button next to the jump button is the alternate attack. It appears only with a weapon that has one: Throw for the Baseball Bat and Meteor Maul, Poke for the Sword and Tempest Glaive.\n- The grenade button next to the jump button throws a grenade, or detonates the one already in flight.\n\nWeapons and pickups\n- Tap a weapon slot at the bottom of the screen to switch to it.\n- A Pick up button appears next to the jump button when a floor weapon is in range. Orbs are collected by walking over them.\n\nSpells, once the skill is learned\n- Each learned spell adds a button above the jump button: Repel, Shield, Haste, Fire Breath.\n\nMenus and information\n- The two + buttons right of the weapon slots open stat upgrades and skill upgrades. They appear only while points are unspent.\n- MENU and pause are in the top-right corner.\n- Turning the device upright pauses the game until it is back in landscape.",
+          "gameURL": "https://playgama.com/export/game/clown-fiesta?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/clown-fiesta",
+          "genres": [
+            "action",
+            "arcade",
+            "shooting",
+            "pve",
+            "survival",
+            "rpg"
+          ],
+          "tags": [
+            "games-for-pc",
+            "2d-games",
+            "mission-games",
+            "kill-games",
+            "arena-games",
+            "webgl-games",
+            "combat-games",
+            "1-player-games",
+            "shoot-em-up-games",
+            "2d-shooter",
+            "action-fighting",
+            "2d-action"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/clown-fiesta/big_preview/216055300bae411bb51f3670dc0bb343?width=448",
+            "https://static.playgama.com/p-img/pg/clown-fiesta/icon/44dc609ce60e4a148079ab6ad588d7ad?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/clown-fiesta?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125674",
+          "slug": "tap-the-crop",
+          "title": "Tap the Crop",
+          "description": "Tap the Crop is a simple, colorful idle clicker where you grow your farm one harvest at a time.\nStart with wheat and work your way up through corn, carrots, tomatoes, and more, all the way to the rare Golden Crop. Hire farmers and machines to earn crops while you’re away, stack combos for bigger clicks, and catch events for big boosts.",
+          "howToPlayText": "Tap to earn crops and buy upgrades and automations, sell farm once it becomes more valuable to buy meta upgrades and climb up to the legendary Golden Crop.",
+          "gameURL": "https://playgama.com/export/game/tap-the-crop?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/tap-the-crop",
+          "genres": [
+            "arcade",
+            "clicker",
+            "management",
+            "farm",
+            "idle"
+          ],
+          "tags": [
+            "casual-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "touchscreen-games",
+            "collecting-games",
+            "1-player-games",
+            "incremental-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/tap-the-crop/big_preview/e340617e8fc743a28b5d9b054379fac8?width=448",
+            "https://static.playgama.com/p-img/pg/tap-the-crop/icon/8ad69bb44ce04241a780da220bc66d7f?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "747c6fd4c2b44e5182799e6c0c6102a7",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/tap-the-crop?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125673",
+          "slug": "adhd-tetris",
+          "title": "ADHD Tetris",
+          "description": "An endless Tetris score attack that reacts to how you play. Clean clears and strong chains make the music, background and effects grow from CALM to FLOW, HYPE and OVERDRIVE. Plan around the next three pieces, use HOLD, perform T-Spins, keep difficult-clear chains and chase Perfect Clears. The speed rises as you progress, runs award BITS, and your best score can be submitted to the leaderboard. Progress and an unfinished run can be restored.",
+          "howToPlayText": "Complete horizontal lines and keep the stack from reaching the top of the board. On PC: A/D move, S soft drops, Space rotates, W hard drops, C holds a piece and Esc pauses. On mobile: swipe left/right to move, tap to rotate, drag down to soft drop, flick straight down to hard drop, and use HOLD to store a piece. Plan with the next three pieces; T-Spins, difficult-clear chains and Perfect Clears award extra score and build FLOW.",
+          "gameURL": "https://playgama.com/export/game/adhd-tetris?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/adhd-tetris",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "skill",
+            "classic",
+            "logic"
+          ],
+          "tags": [
+            "tetris-games",
+            "2d-games",
+            "casual-games",
+            "brain-training-games",
+            "addictive-games",
+            "1-player-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/adhd-tetris/big_preview/68db0347db7b4faeb43053d73c16427a?width=448",
+            "https://static.playgama.com/p-img/pg/adhd-tetris/icon/00d007a6be2b4160aab46c674db2065f?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/adhd-tetris?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125672",
+          "slug": "zasteroid",
+          "title": "Zasteroid",
+          "description": "Zasteroid is a fast-paced 2D top-down space shooter with roguelike progression. Pilot a starship through endless waves of quirky space foes — meteors, fast-striking interceptors, heavy tanks,\n   kamikazes, and colossal bosses that appear every five waves. Your ship auto-fires nonstop, so all you do is move: dodge enemy fire, hunt XP crystals, and level up to pick from 20+ upgrade\n  cards that reshape your build every run — piercing lasers, homing missiles, wide-spread shot, reactive shields, and more. Collect coins that persist even when you die and spend them in the\n  Hangar to unlock new ships and permanent upgrades. Graze enemy bullets to charge a devastating Super Weapon, complete bonus objectives each wave for extra coins, and survive as long as you can.\n   Every death is a fresh build and another \"one more run.\"",
+          "howToPlayText": "  Controls\n  \n  * Desktop: Move the mouse — your ship follows the cursor. Use WASD or arrow keys as an alternative. Press Esc to pause.\n  * Mobile: Drag your finger anywhere on screen — the ship follows your touch. Tap the pause button (top-right) to pause.\n  * Your ship auto-fires constantly — you never need to press a shoot button. Just focus on dodging and positioning.\n  \n  Objective\n  Survive endless waves of enemies and beat the boss that appears every fifth wave. Each destroyed enemy drops XP crystals. Fill the XP bar to level up.\n  \n  Leveling & Upgrades\n  When you level up, the game slows down and shows three random upgrade cards. Pick one to shape your build — more bullets, piercing shots, shields, homing missiles, speed boosts, magnet range, and more. Each run plays differently thanks to the upgrades you choose.\n  \n  Coins & Hangar\n  Enemies drop coins. Coins are permanent — you keep them even when you die. Spend them in the Hangar to unlock new ships (each with unique stats) and buy permanent upgrades like extra hull, engine tuning, and weapon calibration.\n  \n  \n  Tips\n  \n   * Keep moving — standing still gets you hit.\n   * Prioritize survival upgrades early, then scale up your offense.\n   * Bosses appear every 5 waves — save your Super Weapon for them.\n   * Complete the wave objective (shown on screen) for bonus coins.",
+          "gameURL": "https://playgama.com/export/game/zasteroid?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/zasteroid",
+          "genres": [
+            "action",
+            "arcade",
+            "shooting",
+            "mouse",
+            "space"
+          ],
+          "tags": [
+            "top-down-games",
+            "2d-games",
+            "bullet-games",
+            "addictive-games",
+            "endless-games",
+            "1-player-games",
+            "sci-fi-games",
+            "shoot-em-up-games",
+            "arcade-shooter",
+            "space-shooter",
+            "retro-shooter"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/zasteroid/big_preview/c59fdcce074b4ebe98d9c3d73f53be62?width=448",
+            "https://static.playgama.com/p-img/pg/zasteroid/icon/aaf2d44ee147474ca78086eeca791510?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "id-ID"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/zasteroid?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125669",
+          "slug": "almost-infinite",
+          "title": "Almost Infinite",
+          "description": "Almost Infinite is a calm crafting and discovery game. You start with four elements (Fire, Water, Earth and Wind) and combine them into new ones. Fire and Water make Steam, and a few steps later you're making volcanoes, dragons, galaxies and microwaves. There are more than 23,000 things to discover. Every combination is fixed, so the same pair always gives the same result and there's always something new to find. Some discoveries are Relics: final forms that can't be combined any further. Collect them all, if you can. Works offline, saves your progress, and plays in any browser on desktop or mobile.",
+          "howToPlayText": "Drag elements from your inventory onto the table, then drop one card onto another to combine them. If the pair makes something, you get a new card; anything you haven't found before goes into your inventory. Some pairs make nothing, so try another. Use search to find a card, and sort your inventory by when it was found or by depth. The Relics filter shows the final forms you've collected. Undo takes back your last move, and Clear Table tidies up. Stuck? Tap Hint and watch a short ad to see a pair you haven't tried yet that makes something new. Controls: mouse or touch, drag and drop.",
+          "gameURL": "https://playgama.com/export/game/almost-infinite?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/almost-infinite",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "merge",
+            "cozy",
+            "crafting",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "addictive-games",
+            "mind-games",
+            "collecting-games",
+            "1-player-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/almost-infinite/big_preview/ef412c932fe24454a8f921ac016964f5?width=448",
+            "https://static.playgama.com/p-img/pg/almost-infinite/icon/4c1c099856eb408d91cedc13ada7bb17?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/almost-infinite?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125668",
+          "slug": "fever-cubes-drop-number-2048",
+          "title": "Fever Cubes: Drop Number 2048",
+          "description": "Drop number cubes, merge beyond 2048 and unleash satisfying chain reactions!\n\nIf you enjoy 2048 games, number puzzle games, block puzzle games, or relaxing merge games, Fever Cubes combines them into one unique 3D experience where every cube follows realistic physics and every merge can start an incredible combo.",
+          "howToPlayText": "Swipe with your finger or move mouse to control position of cube, aim, then drop it on the same cube to get cube of next grade.",
+          "gameURL": "https://playgama.com/export/game/fever-cubes-drop-number-2048?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/fever-cubes-drop-number-2048",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "3d",
+            "number",
+            "merge",
+            "physics"
+          ],
+          "tags": [
+            "2d-games",
+            "cube-games",
+            "casual-games",
+            "brain-training-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "mind-games",
+            "color-matching-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/fever-cubes-drop-number-2048/big_preview/242a8a8174c24addaa9f025b339cb691?width=448",
+            "https://static.playgama.com/p-img/pg/fever-cubes-drop-number-2048/icon/a528b6af025f453eaad906508a42fac1?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "pl-PL",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/fever-cubes-drop-number-2048?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125667",
+          "slug": "fill-the-hopper",
+          "title": "Fill the Hopper",
+          "description": "A relaxing 3D triple-match puzzle with real physics. Tap three of a kind out of a tumbling pile before your tray fills, and complete your collection! Endless levels, from easy to tricky.",
+          "howToPlayText": "Tap or click an object in the pile to send it to your tray. Three of the same kind match and clear. Collect the goal objects shown for the level to win. If your tray fills up with no match, you lose. Boosters let you undo a move, pull a matching set with a magnet, add a tray slot, or shuffle the pile. Everything is played with taps or mouse clicks, no keyboard needed.",
+          "gameURL": "https://playgama.com/export/game/fill-the-hopper?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/fill-the-hopper",
+          "genres": [
+            "puzzle",
+            "match-3",
+            "3d",
+            "math",
+            "matching",
+            "physics"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "hyper-casual-games",
+            "addictive-games",
+            "endless-games",
+            "mind-games",
+            "color-matching-games",
+            "1-player-games",
+            "3d-mahjong"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/fill-the-hopper/big_preview/d374ef2da4554fcaa219c02c2b30f90b?width=448",
+            "https://static.playgama.com/p-img/pg/fill-the-hopper/icon/aaeff548a27e4aabb81db1f180a15433?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/fill-the-hopper?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125664",
+          "slug": "fill-line-cover-every-cell",
+          "title": "Fill Line: Cover Every Cell",
+          "description": "Fill Line is a calm one-stroke logic puzzle. Start from the marked cell and draw one continuous line that fills every block on the board. You can't visit a cell twice, and there are no diagonal moves. It sounds simple, but the boards grow with every chapter and the solutions get trickier.\n\nThe game has over 1,000 levels in 41 chapters. Each chapter has its own color theme, and the difficulty rises smoothly: easy breather levels alternate with hard ones, and a boss level waits at the end of every chapter. New mechanics appear along the way: double blocks you have to cross twice, bridges where the line crosses itself, and arrows that set the direction.\n\nA new daily puzzle with a reward opens every day. Spend coins to unlock themes, each with its own sound. There are no timers, no lives and no game over — just logic and the satisfying sound of filling cells.",
+          "howToPlayText": "Start from the marked cell: it is already filled and pulses. Without lifting your finger or the mouse button, draw the line through neighboring cells up, down, left or right. The goal is to fill every block on the board with a single line.\n\nMade a mistake? Drag the line back to undo steps, or tap any cell of the line to continue from there. The Undo button removes the last step, and Restart begins the level again. If you get stuck, tap Hint and the game will show the next steps.\n\nSpecial cells: a block with a ring must be crossed twice; a bridge is crossed once vertically and once horizontally, and you can't turn on it; an arrow can only be passed in its direction.\n\nOn a computer: arrows or WASD — step, Z or Backspace — undo, R — restart, H — hint, Esc — pause.",
+          "gameURL": "https://playgama.com/export/game/fill-line-cover-every-cell?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/fill-line-cover-every-cell",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "addictive-games",
+            "connect-games",
+            "mind-games",
+            "1-player-games",
+            "simple-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/fill-line-cover-every-cell/big_preview/7b5047ed7f384d648841d461c3dc1e2a?width=448",
+            "https://static.playgama.com/p-img/pg/fill-line-cover-every-cell/icon/fd53bf44206c457f85a100b2b2beeb33?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "a04111ddd2594ec7ad438524735c4f21",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/fill-line-cover-every-cell?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125662",
+          "slug": "huskeydoku",
+          "title": "Huskeydoku",
+          "description": "Huskeydoku is a cozy logic puzzle that gives the classic Sudoku a cute husky twist. Fill each grid so no symbol repeats in any row, column, or colored region — simple to learn, wonderfully tricky to master. With calm visuals and handy boosters to save you when you're stuck, it's the perfect brain-teaser for a quick break or a long, relaxing session.",
+          "howToPlayText": "Tap or click an empty cell to place a husky. Tap again to remove it. Use the hint button whenever you need a little help. That's all — quick to pick up, deeply satisfying to solve!",
+          "gameURL": "https://playgama.com/export/game/huskeydoku?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/huskeydoku",
+          "genres": [
+            "puzzle",
+            "animals",
+            "sudoku",
+            "cozy",
+            "brain",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "cute-games",
+            "mind-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/huskeydoku/big_preview/bd6af035e4c64bb1924adfa90c5cc08b?width=448",
+            "https://static.playgama.com/p-img/pg/huskeydoku/icon/672083f519894480b1bbe8abff139948?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/huskeydoku?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125661",
+          "slug": "paws--paths",
+          "title": "Paws & Paths",
+          "description": "Link matching cats, bears, and rabbits to collect your goals in 50 colorful puzzle levels. Build long chains to launch helpful paws, break through ice, and find paths around metal blocks before your moves run out.",
+          "howToPlayText": "Click and drag with a mouse, or drag with your finger, across neighboring matching animals. Release to collect the chain and let new animals drop in. Reach the goals above the board within the move limit. Once introduced, chains of four or more launch extra paws. Clear animals next to numbered ice to break it; metal blocks stay in place. Use Undo to rethink a move or Hint when you need help.",
+          "gameURL": "https://playgama.com/export/game/paws--paths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/paws--paths",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "match-3",
+            "animals",
+            "matching",
+            "cats",
+            "logic",
+            "dog"
+          ],
+          "tags": [
+            "2d-games",
+            "casual-games",
+            "addictive-games",
+            "connect-games",
+            "cute-games",
+            "color-matching-games",
+            "collecting-games",
+            "1-player-games",
+            "swipe-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/paws-paths/big_preview/ae94a6651ffe4472a179d55a360a5ce5?width=448",
+            "https://static.playgama.com/p-img/pg/paws-paths/icon/489656060d2944f3a1ebb8c1e398d070?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "es-ES"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/paws--paths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125660",
+          "slug": "fleet-merge",
+          "title": "Fleet Merge",
+          "description": "Command a fleet of starships in this merge auto-battler. Buy Line ships, Artillery and Lancers, then merge identical ships to build stronger ones. Your dock is your battle formation: every ship deploys exactly where you place it.\n\nRead the enemy fleet on the radar and put the right counter in front of each target. Then watch the battle play out on its own. Push through the Star Map and take on bosses and giant Arks. Earn three stars in every sector.\n\nRecruit heroes such as Nova, Valkyrie and Aegis, and learn their tricks in the Tactics Drill. Hold the line in Defense, hunt convoys in Cargo Raid, and challenge other commanders' fleets in Fleet Clash. Rise from Cadet to Grand Admiral and top the power ranking.",
+          "howToPlayText": "Tap a ship type to buy a squadron. It flies into your dock.\nDrag a ship onto an identical ship (same type, same tier) to merge it into a higher tier.\nDrag ships to arrange your formation. The top row is the front line.\nCounter triangle:\nLine ships beat Lancers.\nLancers beat Artillery.\nArtillery beats Line ships.\nKeep Artillery in the back. Lancers hit harder from the side (×1.25) and from behind (×1.5).\nPress FIGHT. Battles are automatic, and you can tap to change the speed.\nSpend credits and cores on upgrades, deploy heroes, and come back for patrol rewards and daily missions.",
+          "gameURL": "https://playgama.com/export/game/fleet-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/fleet-merge",
+          "genres": [
+            "strategy",
+            "pve",
+            "merge",
+            "battleship",
+            "space"
+          ],
+          "tags": [
+            "mission-games",
+            "casual-games",
+            "heroes-games",
+            "webgl-games",
+            "defense-games",
+            "challenge-games",
+            "1-player-games",
+            "sci-fi-games",
+            "tactical-games",
+            "space-shooter"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/fleet-merge/big_preview/d03ad32471d24f678223a3b24ed4294c?width=448",
+            "https://static.playgama.com/p-img/pg/fleet-merge/icon/4665a4da98064de3befbf426dde5eb26?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "ja-JP",
+            "ko-KR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/fleet-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125659",
+          "slug": "void-roller",
+          "title": "VOID ROLLER",
+          "description": "Roll across a crumbling space station in VOID ROLLER, a gravity-driven arcade challenge by DIPIRI Games. Tilt the deck, collect coins, and reach the exit through procedurally generated bays. Master slippery ice, fragile glass, disappearing pink tiles, launch pads, brake pulses, and crosswinds. Activate checkpoints, earn stage-clear bonuses, and unlock new cores as you venture deeper into the void.",
+          "howToPlayText": "Tilt the deck to roll your core into the glowing exit gate. Collect coins and activate beacons to set checkpoints. Watch each tile's pattern: pink tiles disappear, glass breaks after you leave, ice reduces grip, and crosswinds push sideways. Clear bays to bank collected coins plus a completion bonus, then spend your coins on new cores in the Core locker.\n\nDesktop: use WASD or the arrow keys to steer. Press P or Escape to pause and resume, or R to restart during play. You can also drag the on-screen stick with a mouse.\n\nMobile: hold and drag the on-screen stick. Use its corner switch to swap to directional arrows. Open Controls to change pad side or choose Drag or Motion steering. Motion controls require device support and permission. Play in landscape orientation.",
+          "gameURL": "https://playgama.com/export/game/void-roller?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/void-roller",
+          "genres": [
+            "arcade",
+            "adventure",
+            "skill",
+            "platform",
+            "ball",
+            "physics",
+            "space"
+          ],
+          "tags": [
+            "avoid-games",
+            "jumping-games",
+            "webgl-games",
+            "collecting-games",
+            "challenge-games",
+            "gravity-games",
+            "desktop-games",
+            "rolling-games",
+            "1-player-games",
+            "sci-fi-games",
+            "ai-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/void-roller/big_preview/6b72806183ce4b20a3d7e705fe4ac6c1?width=448",
+            "https://static.playgama.com/p-img/pg/void-roller/icon/8d31ab990c3649859be5c167fb4dc87b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/void-roller?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125658",
+          "slug": "garden-snakes",
+          "title": "Garden Snakes",
+          "description": "Garden Snakes is a relaxing logic puzzle game set in a colorful garden. Drag cute snakes through every empty tile, plan around obstacles, and discover new mechanics across 115 handcrafted levels. Switch between 2D and soft clay 3D styles, undo your moves, and use optional hints when you need a nudge.",
+          "howToPlayText": "Use your mouse or touch screen to drag a snake’s head through empty cells. Fill the board and use all of each snake’s remaining moves to solve the level. Plan around obstacles and special tiles as new mechanics appear. Use Undo to take back a move, Restart to try again, and Hint for help. The pause menu contains sound, language, and visual settings.",
+          "gameURL": "https://playgama.com/export/game/garden-snakes?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/garden-snakes",
+          "genres": [
+            "puzzle",
+            "arcade",
+            "snake",
+            "cozy",
+            "logic"
+          ],
+          "tags": [
+            "casual-games",
+            "relaxing-games",
+            "brain-training-games",
+            "addictive-games",
+            "cute-games",
+            "mind-games",
+            "1-player-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/garden-snakes/big_preview/6ed169d732bc4450ab5fcde5a7fba3be?width=448",
+            "https://static.playgama.com/p-img/pg/garden-snakes/icon/4952a8b0a0634672af14fb10ef6818df?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/garden-snakes?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125656",
+          "slug": "ant-moving-simulator",
+          "title": "Ant Moving Simulator",
+          "description": "Tiny ants. Colorful puzzles. Big brain challenges!\n\nLead your little helpers through 2,200 levels of colorful block-clearing fun. Pick the right numbered boxes, send ants to collect matching blocks, and watch each pixel picture disappear piece by piece. Space is limited, so plan your moves carefully—linked boxes can turn a simple choice into a tricky puzzle!\n\nUse handy power-ups, unlock new character skins, and see how far your ant team can go.",
+          "howToPlayText": "Click or tap a front numbered box to move it into an empty slot. Your ants will automatically collect reachable blocks of the same color.\n\nPlan ahead and keep room for your next move! Linked boxes move together, so you need enough empty slots for the whole group.\n\nClear every block to beat the level. Stuck? Try a power-up! Use the on-screen buttons to activate power-ups or pause the game.",
+          "gameURL": "https://playgama.com/export/game/ant-moving-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/ant-moving-simulator",
+          "genres": [
+            "arcade",
+            "puzzle",
+            "logic",
+            "animals"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-games",
+            "addictive-games",
+            "brain-training-games",
+            "casual-games",
+            "color-matching-games",
+            "cute-games",
+            "mind-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/ant-moving-simulator/big_preview/d5133a4b91ff481b825474944bfc88fb?width=448",
+            "https://static.playgama.com/p-img/pg/ant-moving-simulator/icon/dbe45d3649b0467eb7ea23e84d438827?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/ant-moving-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125651",
+          "slug": "rush-rivals",
+          "title": "Rush Rivals",
+          "description": "Race through traffic, collect powerful pickups and outpace rival cars. Earn coins, upgrade your garage and unlock new rides as you conquer a growing series of highway races in portrait or landscape.",
+          "howToPlayText": "Hold the screen or mouse button to accelerate and drag side to side to steer. On a keyboard, hold Space or Enter and steer with A/D or arrow keys. Dodge traffic, grab pickups and race for first place.",
+          "gameURL": "https://playgama.com/export/game/rush-rivals?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/rush-rivals",
+          "genres": [
+            "car",
+            "car-racing",
+            "driving",
+            "arcade"
+          ],
+          "tags": [
+            "1-player-games",
+            "arcade-car",
+            "casual-games",
+            "race-games",
+            "speed-games",
+            "vehicles-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/rush-rivals/big_preview/e4e0cd31ddeb40c498cd3c6f8478162d?width=448",
+            "https://static.playgama.com/p-img/pg/rush-rivals/icon/4f1946bbf8c143d58847961194240645?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/rush-rivals?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125649",
+          "slug": "mini-car-room-parkour",
+          "title": "Mini Car: Room Parkour",
+          "description": "An ordinary home becomes a giant obstacle course when you drive a tiny car! Explore different rooms, race across the floor, climb chairs and tables using ramps, and discover creative routes through the furniture.\n\nManeuver carefully, conquer steep climbs, keep your balance, and see how far you can go. Every room brings a new adventure where everyday objects become giant challenges!",
+          "howToPlayText": "Control the car using the WASD keys or the arrow keys on your keyboard. On mobile devices, use the virtual controls.",
+          "gameURL": "https://playgama.com/export/game/mini-car-room-parkour?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/mini-car-room-parkour",
+          "genres": [
+            "arcade",
+            "car",
+            "3d",
+            "parkour",
+            "driving",
+            "physics"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-games",
+            "arcade-car",
+            "car-for-kids",
+            "casual-games",
+            "obstacles-games",
+            "race-games",
+            "stunt-games",
+            "vehicles-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/mini-car-room-parkour/big_preview/b07680b355934cdc823166de53dc4ea4?width=448",
+            "https://static.playgama.com/p-img/pg/mini-car-room-parkour/icon/04c957cd1de246f381a667e2cbae5ef2?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/mini-car-room-parkour?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125648",
+          "slug": "story-of-alcana",
+          "title": "Story of Alcana",
+          "description": "Welcome to the amazing world of Alcana! Play this Match-3 game with unsurpassed graphics and an exciting storyline; restore magical forests and castles; upgrade your fairy-tale creatures and look for ancient artifacts that will help you solve puzzles!\n\nYour journey will be full of various locations inhabited by fairy-tale creatures and teeming with dangerous mysteries: Enchanted Forest, Burning Lands, Floating Islands, Underwater World, Snow Peaks, Charmed Garden, Forgotten Caves, Other Worlds and many others...\n\nYou will be confronted by witches, werewolves, trolls, krakens, dragons... But! Don’t worry! You can strike the right note with everyone, and you can even make friends with them!\nA young dragon, a snow yeti, a time keeper and many other characters will take your side, and their help will be indispensable for you while you are completing the game tasks!",
+          "howToPlayText": "● Solve ancient puzzles to find powerful artifacts! Each artifact will provide you with invaluable assistance in completing Match-3 game levels.\n● Complete weekly challenges, participate in tournaments, compete with other players in PvP, and discover many other game modes!",
+          "gameURL": "https://playgama.com/export/game/story-of-alcana?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/story-of-alcana",
+          "genres": [
+            "arcade",
+            "puzzle",
+            "match-3",
+            "adventure",
+            "magic",
+            "dragon",
+            "story"
+          ],
+          "tags": [
+            "1-player-games",
+            "castle-games",
+            "casual-games",
+            "color-matching-games",
+            "fantasy-games",
+            "2d-games",
+            "addictive-games",
+            "brain-training-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/story-of-alcana/big_preview/1d835f74fb6d46e69a639f4b3fefd844?width=448",
+            "https://static.playgama.com/p-img/pg/story-of-alcana/icon/70c17e4239c942358cbe3350714c6f20?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/story-of-alcana?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125646",
+          "slug": "ash-of-the-depths",
+          "title": "Ash of the Depths",
+          "description": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something ancient and hungry has awoken.\n\nASH OF THE DEPTHS is a dark sci-fi shooter where every pixel of the world obeys physics. Rock collapses, sand pours, water flows, magma cools into stone and gas explodes from a single spark.\n\nWHAT IS INSIDE\n• 100 levels and a 6-chapter story campaign with two endings.\n• 7 biomes: flooded mines, frozen cisterns, a meat manufactory, toxic marshes, crystal veins, the forges of the abyss and the bottom.\n• 15 enemy types and bosses: the infected, gunners, snipers, shield bearers, borer worms, the Flesh Smith and the Womb Mother.\n• 5 weapons for different situations and a plasma cutter to carve your own path.\n• 10 pieces of ancient armor that turn the hero into an armored slayer.\n• The Arsenal: gear and upgrades for gold — a helper drone, a fireproof suit, an endless rebreather and more.\n• Daily Descent, ambushes, hidden caches, an endless mode and a matter sandbox.\n\nFully translated into 15 languages. Progress is saved automatically; sign in to keep it in the cloud.",
+          "howToPlayText": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses.\n\nPhone: left stick — move and jump, right stick — aim and fire (auto-aim is on by default). Buttons on the right: grenade, cutter, weapon swap.\nPC: A/D — move, W — jump, Space — jetpack, mouse — aim and fire, right mouse button — grenade, 1–4 — weapons, F — cutter, Esc — pause.\n\nThe level goal and the “rift hungers” counter are in the top-right corner; the arrow at the screen edge points to the goal. Spend gold in the Arsenal (pause → Arsenal, or after a level). The cutter slices any rock but barely hurts enemies.",
+          "gameURL": "https://playgama.com/export/game/ash-of-the-depths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/ash-of-the-depths",
+          "genres": [
+            "action",
+            "adventure",
+            "shooting",
+            "platform",
+            "physics",
+            "survival"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-action",
+            "2d-games",
+            "2d-shooter",
+            "action-adventure",
+            "apocalypse-games",
+            "bullet-games",
+            "challenging-games",
+            "dungeon-games",
+            "endless-games",
+            "fast-paced-action",
+            "fast-paced-games",
+            "pixel-games",
+            "roguelike-games",
+            "sandbox-games",
+            "sci-fi-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/ash-of-the-depths/big_preview/e3d56121c1f14bc2a4a6ca36219249e2?width=448",
+            "https://static.playgama.com/p-img/pg/ash-of-the-depths/icon/04d04f5874344458a8a7b93e7cea35bb?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "hi-IN",
+            "id-ID",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR",
+            "uk-UA"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/ash-of-the-depths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125645",
+          "slug": "my-cute-virtual-pet",
+          "title": "My Cute Virtual Pet",
+          "description": "🐶 Ready to meet your new best friend? 🛁🧸\n\nWelcome to My Cute Virtual Pet, a heartwarming casual game where you get to adopt, care for, and bond with an adorable digital companion! 🥰 Your new pet relies on you for everything. It's up to you to keep their belly full, their fur clean, and their spirits high!\n\nKeep a close eye on your pet's status meters. Serve up delicious snacks when they are hungry 🍎, scrub them down with bubbly soap when they get messy 🫧, and dive into exciting mini-games to keep them entertained! 🎮\n\n🌟 Key Features:\n\n🐾 Interactive Care: Feed, clean, and heal your pet to keep all their health and happiness meters completely full!\n\n🎮 Fun Mini-Games: Earn rewards and boost happiness by playing engaging arcade mini-games.\n\n✨ Vibrant Animations: Enjoy adorable reactions, rich graphics, and a relaxing, cozy atmosphere.",
+          "howToPlayText": "Objective 🎯\nTake perfect care of your pet by managing their Needs meters (Hunger, Hygiene, Sleep, and Happiness). Keep all the bars full so your pet stays healthy and joyful! ❤️\n\nControls 🕹️\n💻 Desktop (Mouse): Click on the action icons (Food, Bath, Toys) at the bottom of the screen. Click and hold to drag items like soap or food directly onto your pet to use them.\n\n📱 Mobile / Touchscreen: Tap the category buttons to open your items, then drag and drop the items onto your pet using your finger.",
+          "gameURL": "https://playgama.com/export/game/my-cute-virtual-pet?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/my-cute-virtual-pet",
+          "genres": [
+            "arcade",
+            "animals",
+            "simulation",
+            "kids",
+            "cozy"
+          ],
+          "tags": [
+            "1-player-games",
+            "animal-clicker",
+            "casual-games",
+            "cute-games",
+            "life-simulation-games",
+            "minigames",
+            "pet-games",
+            "relaxing-games",
+            "addictive-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/my-cute-virtual-pet/big_preview/f6618bf213b4459baa124ed95c0b2ebe?width=448",
+            "https://static.playgama.com/p-img/pg/my-cute-virtual-pet/icon/6ace0a163836461aace0acd25585c6db?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/my-cute-virtual-pet?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125644",
+          "slug": "web-swing-obby-aqualand",
+          "title": "Web Swing Obby: Aqualand",
+          "description": "Master web swinging in this 3D obby parkour game! Shoot your web, build momentum, and release at the right moment to cross gaps and reach the next platform.\n\nEarn rewards, improve your character, and unlock new costumes as you progress. Use rebirth to gain permanent bonuses and push further with every run.\n\nEach obstacle tests your aim, timing, and control. Find your rhythm, perfect your swings, and see how far you can go!",
+          "howToPlayText": "CONTROLS:\nWASD or arrow keys - Move\nMouse - Look around and aim\nHold the left mouse button - Shoot your web and swing\nRelease the left mouse button - Let go of the web\nSpace - Jump, or leap off while swinging",
+          "gameURL": "https://playgama.com/export/game/web-swing-obby-aqualand?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/web-swing-obby-aqualand",
+          "genres": [
+            "obby",
+            "arcade",
+            "physics",
+            "skill",
+            "adventure",
+            "3d",
+            "platform",
+            "parkour"
+          ],
+          "tags": [
+            "1-player-games",
+            "67-obby",
+            "action-adventure",
+            "agility-games",
+            "fast-paced-games",
+            "jumping-games",
+            "reaction-games",
+            "swing-games",
+            "timing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/web-swing-obby-aqualand/big_preview/3394f78621134d76bf0f47e983e87e46?width=448",
+            "https://static.playgama.com/p-img/pg/web-swing-obby-aqualand/icon/d12cbd250b2347959b0168e7da74947b?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "e874ab70ccc244a6bd49057fb4e5dccd",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/web-swing-obby-aqualand?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125642",
+          "slug": "city-husle",
+          "title": "City Husle",
+          "description": "Rule the streets in City Hustle! Drive, deliver packages, escape the police, and build your reputation in a colorful city full of action.",
+          "howToPlayText": "Use the on-screen controls and WSAD to move and drive. Follow the blue route to complete deliveries, earn cash, and unlock cars. Avoid the police and keep your hustle going! ",
+          "gameURL": "https://playgama.com/export/game/city-husle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/city-husle",
+          "genres": [
+            "arcade",
+            "car",
+            "adventure",
+            "driving",
+            "action",
+            "3d"
+          ],
+          "tags": [
+            "1-player-games",
+            "action-adventure",
+            "arcade-car",
+            "car-for-kids",
+            "delivery-games",
+            "mission-games",
+            "open-world-games",
+            "race-games",
+            "webgl-games",
+            "addictive-games",
+            "car-tuning-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/city-husle/big_preview/f1e76c035651404dae4fac078e8b838f?width=448",
+            "https://static.playgama.com/p-img/pg/city-husle/icon/8179ba57bf7544019e56ed1ddae65c15?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/city-husle?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125641",
+          "slug": "squeezenslide",
+          "title": "Squeeze'n'Slide",
+          "description": "Control a jelly as it slides through a colorful obstacle course. Change its shape to fit through gates, collect crystals and fruit, and unlock new skins for even more fun.",
+          "howToPlayText": "Drag up or down with your finger or mouse to change the jelly’s shape and fit through each gate. React quickly as the speed increases, and catch fruit along the way.",
+          "gameURL": "https://playgama.com/export/game/squeezenslide?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/squeezenslide",
+          "genres": [
+            "arcade",
+            "skill",
+            "runner",
+            "3d",
+            "running"
+          ],
+          "tags": [
+            "1-player-games",
+            "avoid-games",
+            "casual-games",
+            "collecting-games",
+            "cute-games",
+            "jelly-games",
+            "obstacles-games",
+            "reaction-games",
+            "sliding-games",
+            "addictive-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/squeezenslide/big_preview/6c6342a225fd41259e3c270accd684c1?width=448",
+            "https://static.playgama.com/p-img/pg/squeezenslide/icon/c244d37656d0461daeb2168a91b3e818?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/squeezenslide?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125640",
+          "slug": "candy-cascade",
+          "title": "Candy Cascade",
+          "description": "Candy Cascade is a classic match-3 puzzle about sweets. Swap neighbouring candies, line up three or more and complete the level goal within the moves you are given. 100 levels with different tasks: collect candies of one colour, break the ice, smash the crates. Longer lines give special candies: four in a row make a rocket, a cross-shaped match makes a bomb, five in a row make a rainbow candy that removes every sweet of one colour. When moves run short, the hammer, rocket and shuffle boosters help. Daily quests, a leaderboard and three languages.",
+          "howToPlayText": "Tap a candy and drag it towards a neighbour - the two swap places. The move only counts if it forms a line of three or more identical sweets: they disappear, the candies above fall down and may form new lines. The goal and the moves left are shown at the top; finish the goal before the moves run out to complete the level. Four in a row make a rocket, a cross-shaped match makes a bomb, five in a row make a rainbow candy; swap two special candies to fire them together. Ice holds a candy in place but still counts in a match, crates never join a match, locks open when you finish the goal for their colour. Boosters at the bottom: hammer, rocket, shuffle - restock them with gold or by watching an ad. Mouse or touch only, no keyboard required.",
+          "gameURL": "https://playgama.com/export/game/candy-cascade?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/candy-cascade",
+          "genres": [
+            "arcade",
+            "puzzle",
+            "match-3",
+            "kids"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "addictive-games",
+            "casual-games",
+            "color-matching-games",
+            "crush-games",
+            "jewel-games",
+            "brain-training-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/candy-cascade/big_preview/7417bd6888964e618658b2f1e1526188?width=448",
+            "https://static.playgama.com/p-img/pg/candy-cascade/icon/e56cde4cacfc470191048e08eb8d32eb?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/candy-cascade?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125637",
+          "slug": "wall-rush-3d",
+          "title": "Wall Rush 3D",
+          "description": "Run as fast as wind and race against all best runner in the world. Leap from buildings and vault over wall. Only the 1st winner can reach to the top of victory.",
+          "howToPlayText": "- Swipe left and right to control the runner.\n- Avoid obstacles and dangerous gaps.\n- Stay on the course. You can jump onto rooftops and run along wall edges, but don’t fall.\n- Collect coins while running.\n- Beat your opponents by reaching the finish line first.",
+          "gameURL": "https://playgama.com/export/game/wall-rush-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/wall-rush-3d",
+          "genres": [
+            "arcade",
+            "runner",
+            "skill",
+            "3d",
+            "running",
+            "parkour"
+          ],
+          "tags": [
+            "1-player-games",
+            "agility-games",
+            "avoid-games",
+            "dash-games",
+            "fast-paced-games",
+            "jumping-games",
+            "race-games",
+            "reaction-games",
+            "speed-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/wall-rush-3d/big_preview/a2ad8613e36a4391adf99bb3504571f9?width=448",
+            "https://static.playgama.com/p-img/pg/wall-rush-3d/icon/be00afb1d90344c19dff4641a6d9daa8?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/wall-rush-3d?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125634",
+          "slug": "panellka-build-a-tower",
+          "title": "Panellka: Build a Tower",
+          "description": "A crane swings a floor on its cable — release it at the right moment so it lands squarely on the tower. Floors are never trimmed: every miss shifts the center of mass, and the tower starts to tilt and sway. Every build is a new combo: pick ability cards, unlock special sections like concrete, magnets and counterweights, and take your tower to the sky before it collapses.",
+          "howToPlayText": "Tap the screen or press Space or Enter to release the floor from the crane.\nThe floor keeps the cable's momentum, so release it a little before it's above the tower. If a floor hangs more than halfway over the edge, it falls and you lose a life. If the tower tilts too far, it collapses — straighten it by placing the next floors shifted the other way.\nFloors give XP: on each new level pick one of three ability cards. Gold from every build is spent in the Workshop on permanent upgrades.",
+          "gameURL": "https://playgama.com/export/game/panellka-build-a-tower?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/panellka-build-a-tower",
+          "genres": [
+            "arcade",
+            "puzzle",
+            "skill",
+            "physics",
+            "blocks"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "2d-games",
+            "addictive-games",
+            "building-games",
+            "casual-games",
+            "stacking-games",
+            "timing-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/panellka-build-a-tower/big_preview/b4a55d127c7c47799ea96339ed59bc35?width=448",
+            "https://static.playgama.com/p-img/pg/panellka-build-a-tower/icon/ca25e6986a7b47ab94303b0571a51aba?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/panellka-build-a-tower?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125633",
+          "slug": "backrooms-exit-protocol-0",
+          "title": "Backrooms: Exit Protocol 0",
+          "description": "Backrooms: Exit Protocol 0 — a terrifying horror survival game! Explore Level 0, find the keycard, solve puzzles, avoid the monster, and escape the backrooms!",
+          "howToPlayText": "PC Controls:\nMove — W, A, S, D or Arrow Keys;\nJump — Space;\nRun — Shift;\nCrouch — C;\nInteract — E;\nDrop item — R;\nOpen Menu — Tab;\nZoom Camera — Right Mouse Button (RMB);\n\nMobile Controls:\nMove — Joystick;\nJump — Jump Button;\nRun — Run Button;\nDrop item - Drop Button;\nCrouch — Crouch Button;\nRotate Camera — Right side of the screen;\nInteract — Button with the \"E\" icon;\nOpen Menu — Button in the top-right corner.",
+          "gameURL": "https://playgama.com/export/game/backrooms-exit-protocol-0?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/backrooms-exit-protocol-0",
+          "genres": [
+            "horror",
+            "adventure",
+            "running",
+            "survival",
+            "puzzle",
+            "monster",
+            "escape",
+            "scary"
+          ],
+          "tags": [
+            "1-player-games",
+            "3d-horror",
+            "backrooms",
+            "horror-escape",
+            "survival-horror",
+            "webgl-games",
+            "desktop-games",
+            "action-adventure",
+            "brain-training-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/backrooms-exit-protocol-0/big_preview/4f691ad7fdbb4ec3a0a45c781c0feea7?width=448",
+            "https://static.playgama.com/p-img/pg/backrooms-exit-protocol-0/icon/fc9ad24bf5164259a21dc9ad61d78d25?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "60c9d220c3d84df194de4368f427a1dd",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/backrooms-exit-protocol-0?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125632",
+          "slug": "bike-rivals",
+          "title": "Bike Rivals",
+          "description": "Race through traffic in Bike Rivals! Dodge obstacles, overtake opponents and chase victory. Earn coins, unlock bikes and upgrade your ride as you conquer challenging races and climb the road to glory.",
+          "howToPlayText": "Hold the screen or left mouse button to accelerate, then drag left or right to steer. Keyboard: hold Space or Enter and steer with A/D or arrow keys. Release to slow down, dodge traffic and win races.",
+          "gameURL": "https://playgama.com/export/game/bike-rivals?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/bike-rivals",
+          "genres": [
+            "racing",
+            "arcade",
+            "3d",
+            "bike",
+            "motorbike",
+            "driving"
+          ],
+          "tags": [
+            "1-player-games",
+            "bike-racing-games",
+            "casual-games",
+            "challenge-games",
+            "collecting-games",
+            "dodge-games",
+            "fast-paced-games",
+            "race-games",
+            "speed-games",
+            "stunt-games",
+            "traffic-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/bike-rivals/big_preview/9f78bd20a1234de5a4bd0f06721653fe?width=448",
+            "https://static.playgama.com/p-img/pg/bike-rivals/icon/110e43e2d5e2478986b035f7ed65e370?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/bike-rivals?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125631",
+          "slug": "the-last-company",
+          "title": "The Last Company",
+          "description": "The Last Company is a 3D fantasy strategy RPG where you recruit heroes, build your party, and see how long your company can survive. Prepare in the village, choose your next battle, and watch your decisions unfold in automatic combat. Gold is scarce, enemies grow more dangerous, and fallen heroes are gone for good.",
+          "howToPlayText": "Left mouse button: select buildings, heroes, equipment, and menu options.\nClick and drag in the village or character previews: rotate the view.\nMouse wheel in the village or character previews: zoom in or out.\nBefore battle: drag hero portraits onto the 3x3 grid, or click a portrait and then a square.\nDuring battle: use the on-screen buttons to pause, resume, or change battle speed.\nEsc: close menus or return from a building to the village.\n\nBattles are automatic. You prepare and position your heroes before combat; you do not move or attack manually.\n",
+          "gameURL": "https://playgama.com/export/game/the-last-company?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/the-last-company",
+          "genres": [
+            "arcade",
+            "action",
+            "strategy",
+            "rpg",
+            "3d",
+            "adventure",
+            "management"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "action-rpg",
+            "arena-games",
+            "decision-games",
+            "dungeon-games",
+            "fantasy-games",
+            "heroes-games",
+            "tactical-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/the-last-company/big_preview/00813fee7350430cae07f35f1028f07b?width=448",
+            "https://static.playgama.com/p-img/pg/the-last-company/icon/af858110b9364242986df433f1ef75f1?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "a623179468cb46c7bac8d49d34411ba4",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "fr-FR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/the-last-company?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125621",
+          "slug": "basketball-rush",
+          "title": "Basketball Rush",
+          "description": "You have two minutes. A ball appears somewhere on the court, you drag to set the top of its arc and let go. A new ball is waiting as soon as the last one leaves your hand.\n\nA make is worth the length of the shot, measured to the centimetre, times your multiplier. A clean swish adds 1 to it, a bank shot adds 0.5, and every make in a row adds another 1, up to ×10. One miss and the streak is gone. A shot released before 0:00 that drops after the buzzer gets 5 extra points.\n\nThe ball flies in 3D and spins. The rim gives a little when it's hit, so a shot that clips the iron can still roll in, or rattle out.\n\nRanked games go on the global leaderboard and count toward your league, and you can be relegated from a league too. Practice has no clock and counts for nothing, so that's the place to learn the long ones.",
+          "howToPlayText": "Score as many points as you can before the two minutes run out.\n\nMouse or touch: press anywhere on the screen and drag. The circle is the highest point the ball will reach, and the dotted line shows how it gets there. Let go to shoot. If you let go without dragging, the throw is cancelled.\n\nKeyboard: the arrow keys move the circle, Space shoots.\n\nLonger shots score more. Clean swishes, bank shots and makes in a row raise your multiplier, and a miss resets the streak. P or Esc pauses the game. On a phone, play in landscape.\n",
+          "gameURL": "https://playgama.com/export/game/basketball-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/basketball-rush",
+          "genres": [
+            "arcade",
+            "skill",
+            "sports",
+            "basketball",
+            "physics",
+            "ball"
+          ],
+          "tags": [
+            "1-player-games",
+            "addictive-games",
+            "agility-games",
+            "arcade-shooter",
+            "casual-games",
+            "competitive-games",
+            "fast-paced-games",
+            "reaction-games",
+            "desktop-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/basketball-rush/big_preview/18b35b1800694950afdb037ccbdc2109?width=448",
+            "https://static.playgama.com/p-img/pg/basketball-rush/icon/4b0b98aefc734ee6994ef947e52bc314?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "ce62e525bd8048aa9034ff8b9c3e50d2",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/basketball-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125619",
+          "slug": "2048-cube-runner-3d-merge",
+          "title": "2048 Cube Runner: 3D Merge",
+          "description": "2048 Cube Runner is a fast-paced 3D runner that combines obstacle-course action with satisfying 2048-style merging. Guide a growing chain of numbered cubes, collect matching cubes to create higher values, pass through helpful gates, and avoid saws, spikes, and moving obstacles. Reach the finish with as many powerful cubes as possible and keep building your ultimate 2048 collection!",
+          "howToPlayText": "Desktop: Click to start. Hold the left mouse button and drag left or right to steer.\n\nMobile: Tap to start. Swipe or drag left and right to steer.",
+          "gameURL": "https://playgama.com/export/game/2048-cube-runner-3d-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/2048-cube-runner-3d-merge",
+          "genres": [
+            "arcade",
+            "3d",
+            "running",
+            "merge",
+            "runner"
+          ],
+          "tags": [
+            "1-player-games",
+            "addictive-games",
+            "avoid-games",
+            "cube-games",
+            "fast-paced-games",
+            "hyper-casual-games",
+            "obstacles-games",
+            "stacking-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/2048-cube-runner-3d-merge/big_preview/27525dce39b949b086558697c3e6dae2?width=448",
+            "https://static.playgama.com/p-img/pg/2048-cube-runner-3d-merge/icon/6de9092ba37442cfbe1fa00ad3873257?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/2048-cube-runner-3d-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125616",
+          "slug": "supernova-the-charon-protocol",
+          "title": "Supernova: The \"Charon\" Protocol",
+          "description": "Supernova: The \"Charon\" Protocol is a vertical space shoot 'em up where the screen floods with fire and you thread your ship between hundreds of bullets. The last fleet is making its run — and you are flying point.\n\nFight through eleven sectors, from Earth orbit to the void rift. At the end of each one waits an enemy flagship: a multi-phase machine with turrets you can shoot off one by one and attacks of its own. It forgives one mistake. Never two.\n\nBetween sorties there is the hangar. Pick your hull and your gun, add drones, a bomb bay and a wing of escorts, paint the ship your way and fly back stronger. Every credit you earn in battle goes into the next upgrade.\n\nFeatures\n- 11 sectors with their own skies, obstacles and enemy waves\n- 11 flagship battles against multi-phase bosses with turrets you can shoot off\n- 9 weapons that power up mid-fight: pulse, spread, laser, missiles, plasma, arc, wave, boomerang and railgun\n- A hangar with 6 hulls, drones, a bomb bay, an escort wing and 6 paint jobs\n- 20 medals and orders for skill, awarded right in the heat of battle\n- 3 difficulty levels and a two-player mode on one keyboard\n- Plays on desktop and mobile, progress saves automatically\n\nClear the campaign and see what waits past the final sector.",
+          "howToPlayText": "Survive the waves, shoot down the enemy flagship at the end of each sector and spend your credits in the hangar between sorties.\n\nPC\nArrow keys or WASD = move\nThe ship fires on its own (autofire is on; Space = fire when you switch it off)\nRight Shift = focus: half speed, hitbox shown\n/ = bomb, clears enemy fire off the screen\nHold the left mouse button = the ship follows the cursor\nP or Esc = pause\nM = sound on / off\n\nTwo players on one keyboard\nPlayer 1: arrow keys, Space, Right Shift, /\nPlayer 2: WASD, F, Left Shift, Q\n\nMobile / Tablet\nDrag anywhere on the screen = move (the ship follows the movement of your finger, not its position)\nThe ship fires on its own\nButtons on the left edge: pause at the top, bomb at the bottom; a fire button appears when autofire is off\n\nEvery key can be remapped in Controls.",
+          "gameURL": "https://playgama.com/export/game/supernova-the-charon-protocol?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/supernova-the-charon-protocol",
+          "genres": [
+            "space",
+            "arcade",
+            "shooting",
+            "action",
+            "two-player",
+            "skill",
+            "gun"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "2-player-arcade",
+            "2d-games",
+            "action-adventure",
+            "arcade-shooter",
+            "bullet-games",
+            "desktop-games",
+            "fast-paced-games",
+            "mission-games",
+            "sci-fi-games",
+            "shoot-em-up-games",
+            "space-shooter"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/supernova-the-charon-protocol/big_preview/01e886cf305a46b09285be84280d1c69?width=448",
+            "https://static.playgama.com/p-img/pg/supernova-the-charon-protocol/icon/9edb959f462347be8cfa833e8d6d2c15?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "fed266a663084a209e51d8472a77f64c",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "ru-RU",
+            "en-US",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/supernova-the-charon-protocol?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125615",
+          "slug": "obby-1-jump-with-brainrot",
+          "title": "Obby: +1 Jump with Brainrot",
+          "description": "Welcome to jump obby with brainrots! You run around the arena, and every jump earns agility: the higher your level, the higher you jump — from a meter to the skies.\n\nAhead stand five tall walls like a staircase. Reach the top — a coin plate waits there: step on it, collect your coins and return to start for the next one.\n\nSpend coins wisely: buy 15 brainrots (from Tralalero Tralala to Bobrito Bandito), cool skins and pets that boost your coins. The cooler the brainrot, the faster you progress.\n\nRebirth to raise your level cap and jump even higher — all the way to level 300. Open portals to the frost and fire worlds, climb ever taller walls and collect plates worth hundreds of thousands.\n\nCompete on the agility, coins and time leaderboards, come back every day for rewards and grab playtime gifts. Jumped — reach the top!",
+          "howToPlayText": "PC controls:\nMove: WASD or arrows\nCamera: mouse\nJump: Space\nInteract: hold E (stands, portals)\nCamera zoom: mouse wheel\n\nPhone controls:\nMove: left joystick\nCamera: swipe on the right side\nJump: jump button\nInteract: hold the action button\nInventory, shop and rewards: on-screen buttons\n\nHow to play:\n1. Jump around the arena — every jump gives agility and new levels.\n2. Reach the top of a wall, step on the coin plate and collect coins.\n3. Spend them on your first brainrot at a stand, a skin at the shop or a pet from an egg.\n4. Repeat: higher level — taller walls and richer plates.\n5. Rebirth for a new level cap and unlock the frost, then the fire world.",
+          "gameURL": "https://playgama.com/export/game/obby-1-jump-with-brainrot?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/obby-1-jump-with-brainrot",
+          "genres": [
+            "arcade",
+            "obby",
+            "simulation",
+            "platform",
+            "clicker",
+            "3d",
+            "idle"
+          ],
+          "tags": [
+            "1-player-games",
+            "67-obby",
+            "agility-games",
+            "casual-games",
+            "collecting-games",
+            "incremental-games",
+            "jumping-games",
+            "meme-games",
+            "obstacles-games",
+            "parkour-minecraft",
+            "pet-games",
+            "roblox-games",
+            "addictive-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/obby-1-jump-with-brainrot/big_preview/00790a20a6224f22a66239a27f1088f1?width=448",
+            "https://static.playgama.com/p-img/pg/obby-1-jump-with-brainrot/icon/a2f45902804248a2a49745cff2032a8c?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "b2138be82a47468d99ded1159baff05c",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "Yes",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/obby-1-jump-with-brainrot?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125613",
+          "slug": "quick-maths",
+          "title": "Quick Maths",
+          "description": "Quick Maths is a fast-paced arcade runner where your brain is the controller. Solve quick math problems to clear obstacles, build streaks, enter FLOW, and push for a new high score as the game gets faster and harder.",
+          "howToPlayText": "Solve each math problem by choosing the correct answer before the timer runs out. Tap or click one of the three answers, or use the 1, 2, and 3 keys on desktop. Correct answers automatically make your runner jump, slide, dodge, or smash through obstacles. Keep your streak alive and survive as long as possible to set a new high score.",
+          "gameURL": "https://playgama.com/export/game/quick-maths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/quick-maths",
+          "genres": [
+            "arcade",
+            "math",
+            "running",
+            "stickman",
+            "runner",
+            "educational"
+          ],
+          "tags": [
+            "1-player-games",
+            "brain-training-games",
+            "casual-games",
+            "challenge-games",
+            "challenging-games",
+            "endless-games",
+            "fast-paced-games",
+            "mind-games",
+            "obstacles-games",
+            "reaction-games",
+            "speed-games",
+            "timing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/quick-maths/big_preview/04205b5b2117408bb02242c921eeab28?width=448",
+            "https://static.playgama.com/p-img/pg/quick-maths/icon/dab8ff720f8347e6bd7c1415a44ce52a?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "id-ID",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/quick-maths?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125611",
+          "slug": "chessvola-puzzles",
+          "title": "CHESSVOLA Puzzles",
+          "description": "CHESSVOLA is a chess puzzle training game built for quick daily practice and long-term improvement. Solve tactical positions from a database of 30,000 unique puzzles, complete daily challenges, improve your training rating, build streaks, earn rewards, and compete on leaderboards. With multiple difficulty levels and themed puzzle categories, every session gives you a clear goal and a new way to sharpen your chess skills.",
+          "howToPlayText": "Solve each chess puzzle by finding the best move or sequence of moves from the given position. Click or tap a piece, then click or tap the destination square to make your move. If your move is correct, the puzzle continues automatically; if it is wrong, try again or use a hint.\n\nComplete the 5 Daily Puzzles to build your streak and earn rewards, or play from the full puzzle library to improve your training rating and leaderboard position.\n\nControls:\n\nMouse: click a piece, then click the target square\nTouchscreen: tap a piece, then tap the target square\nHint button: shows the next correct move\nReset button: restarts the current puzzle\nSkip button: moves past the current puzzle when available",
+          "gameURL": "https://playgama.com/export/game/chessvola-puzzles?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/chessvola-puzzles",
+          "genres": [
+            "chess",
+            "puzzle",
+            "strategy",
+            "logic",
+            "brain",
+            "educational"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "brain-training-games",
+            "challenge-games",
+            "mind-games",
+            "2-player-board",
+            "2d-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/chessvola-puzzles/big_preview/2901eef108ee4818be7fe02e4c250f35?width=448",
+            "https://static.playgama.com/p-img/pg/chessvola-puzzles/icon/83e8fe11494243b5bc787550cbc4c78e?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "de-DE",
+            "es-ES",
+            "fr-FR",
+            "ru-RU",
+            "uk-UA"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/chessvola-puzzles?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125610",
+          "slug": "horizon-racer",
+          "title": "Horizon Racer",
+          "description": "HORIZON RACER\n\nIt's right behind you!\n\nYou don't escape a black hole, you just delay the inevitable.\n\nThis isn't a straight line with obstacles bolted on. The track corkscrews through full barrel rolls, wraps up walls and across ceilings, and throws hills at you at the speed of light. \n\nRuns straight in your browser. Global leaderboard included, so when you beat your friend's score, they'll know.\n",
+          "howToPlayText": "A and D to steer\nTouch controls also work\n\nSwitch lanes to dodge the obstacles in TAP mode or steer the car with more precision in STEER mode. \n\nGame is designed to work on all platforms with support for mouse, keyboard, touch and controllers",
+          "gameURL": "https://playgama.com/export/game/horizon-racer?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/horizon-racer",
+          "genres": [
+            "arcade",
+            "driving",
+            "space",
+            "runner",
+            "action",
+            "racing",
+            "running",
+            "3d"
+          ],
+          "tags": [
+            "1-player-games",
+            "fast-paced-games",
+            "race-games",
+            "speed-games",
+            "webgl-games",
+            "action-adventure",
+            "addictive-games",
+            "avoid-games",
+            "reaction-games",
+            "desktop-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/horizon-racer/big_preview/5f558a014f894ff7abd2e5fdffb13d36?width=448",
+            "https://static.playgama.com/p-img/pg/horizon-racer/icon/31db75e703064b6cb0d2ca0e94d11143?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "705596c1f4a347bfb29d15a17a513a29",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/horizon-racer?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125609",
+          "slug": "rocket-rush",
+          "title": "Rocket Rush",
+          "description": "Take control of a rocket in a 3D arcade flying challenge! Navigate 20 handcrafted levels, dodge obstacles, manage your fuel, and hit your target. Fly through forests, buildings, and industrial tunnels, earn stars, and unlock different rockets and equipment to tackle increasingly demanding routes.",
+          "howToPlayText": "Guide your rocket to the target before running out of fuel. Avoid obstacles, collect fuel cans, and improve your completion time to earn more stars. Spend earned credits on rockets and equipment.\nKeyboard & mouse: Press Enter to launch. Steer with WASD or ZQSD, move the mouse to look around, hold Space to boost, and hold E to use an equipped parachute.\nController: Steer with the left stick, look around with the right stick, hold RT/R2 to boost, and hold B/Circle to use an equipped parachute. Use A/Cross to confirm menu selections.\nTouch: Tap to launch, steer with the on-screen joystick, drag to look around, and hold the boost or parachute buttons.",
+          "gameURL": "https://playgama.com/export/game/rocket-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/rocket-rush",
+          "genres": [
+            "arcade",
+            "action",
+            "simulation",
+            "3d",
+            "flying",
+            "skill"
+          ],
+          "tags": [
+            "1-player-games",
+            "avoid-games",
+            "challenge-games",
+            "dodge-games",
+            "obstacles-games",
+            "rocket-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/rocket-rush/big_preview/b125c2e46c53416a829b84732a7418d5?width=448",
+            "https://static.playgama.com/p-img/pg/rocket-rush/icon/ebab66b424474433af64c017ea4518d8?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/rocket-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125606",
+          "slug": "bee-rise",
+          "title": "Bee Rise",
+          "description": "Bee Rise is an idle colony building game where you guide a queen bee and grow a lively hive. Gather nectar and pollen, hatch workers to bring resources home, and train guards to protect the hive from wasps and hornets. Spend honey on upgrades, finish quests, claim daily gifts, and use prestige to make each new colony stronger.",
+          "howToPlayText": "Move the queen with WASD or the arrow keys on desktop, or drag the on screen joystick on mobile. Press Space or J, or tap Gather near a flower, to collect nectar. Tap or click the upgrade tabs and buttons to grow your hive. Recruit guards to defend against invaders. Open Settings with Esc or the gear button. Optional rewarded ads grant boosts only after the video is completed.",
+          "gameURL": "https://playgama.com/export/game/bee-rise?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/bee-rise",
+          "genres": [
+            "arcade",
+            "strategy",
+            "adventure",
+            "idle",
+            "management",
+            "animals",
+            "tower-defense"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "building-games",
+            "casual-games",
+            "defense-games",
+            "incremental-games",
+            "quests-games",
+            "resource-management-games",
+            "addictive-games",
+            "brain-training-games",
+            "desktop-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/bee-rise/big_preview/5f13c4bf8aca4a319e82711c18654641?width=448",
+            "https://static.playgama.com/p-img/pg/bee-rise/icon/265e681081784baba03356336992323a?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/bee-rise?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125604",
+          "slug": "blockivo",
+          "title": "Blockivo",
+          "description": "Blockivo is a simple block puzzle game. Place colorful shapes on an 8×8 board, complete full rows and columns, and try to score as many points as possible. Plan your moves carefully, use boosters when you get stuck, and climb the global leaderboard.",
+          "howToPlayText": "Drag one of the available shapes onto an empty space on the board. A full row or column disappears and gives you points. After you place all three shapes, a new set appears.\nIf the board gets too crowded, use Line Breaker to remove two selected rows or columns. Undo lets you take back your last move. The game ends when none of the available shapes can be placed. Try to beat your best score and move higher in the leaderboard.",
+          "gameURL": "https://playgama.com/export/game/blockivo?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/blockivo",
+          "genres": [
+            "arcade",
+            "blocks",
+            "puzzle",
+            "logic",
+            "brain"
+          ],
+          "tags": [
+            "1-player-games",
+            "2-player-arcade",
+            "2d-games",
+            "addictive-games",
+            "brain-training-games",
+            "casual-games",
+            "color-matching-games",
+            "cube-games",
+            "mind-games",
+            "simple-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/blockivo/big_preview/2b2cc3e1cfb348d680453ae2232ce372?width=448",
+            "https://static.playgama.com/p-img/pg/blockivo/icon/486b1f6f37424038969f25d460c953db?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "d2e5ea05cfd04642976b87426187e426",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ar-EG",
+            "az-AZ",
+            "zh-CN",
+            "de-DE",
+            "nl-NL",
+            "es-ES",
+            "fr-FR",
+            "hi-IN",
+            "id-ID",
+            "it-IT",
+            "ja-JP",
+            "ko-KR",
+            "kk-KZ",
+            "pl-PL",
+            "pt-PT",
+            "ru-RU",
+            "th-TH",
+            "tr-TR",
+            "uk-UA",
+            "uz-UZ",
+            "vi-VN"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/blockivo?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125603",
+          "slug": "veggie-harvest",
+          "title": "Veggie Harvest",
+          "description": "\"Veggie Harvest\" - fast farming clicker! Grow veggies, harvest with drag mechanic, upgrade crops and discover new ones! Grow your perfect idle farm!",
+          "howToPlayText": "- Harvesting: Hold left mouse button (or finger on mobile) and drag across ripe vegetables on the grid. Faster harvesting = more bonuses!\n\n- Buying upgrades: Click buttons in the right panel - sale price, growth speed, planting frequency\n\n- Switching tabs: Use bottom buttons to switch between crop upgrades, passive bonuses, and crop properties",
+          "gameURL": "https://playgama.com/export/game/veggie-harvest?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/veggie-harvest",
+          "genres": [
+            "arcade",
+            "clicker",
+            "farm",
+            "idle",
+            "management"
+          ],
+          "tags": [
+            "1-player-games",
+            "casual-games",
+            "incremental-games",
+            "addictive-games",
+            "desktop-games",
+            "collecting-games",
+            "android-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/veggie-harvest/big_preview/c47fbf892dde4bf7a49513c0178c520b?width=448",
+            "https://static.playgama.com/p-img/pg/veggie-harvest/icon/56deb411f027417092fab8108cfa116e?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "98cb69bcc3dd44a3af4e6c9fe361c560",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/veggie-harvest?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125600",
+          "slug": "nonograms-pixel-garden",
+          "title": "Nonograms: Pixel Garden",
+          "description": "Every puzzle solves by logic alone, no guessing, no timer, no competition.\n\nFill cells by coloured numbers along rows and columns, and a picture emerges from the very cells you filled, then settles onto its bed in the garden. 168 pictures from 5×5 to 30×30 in 14 garden corners, plus a new daily 10×10. Large high-contrast numbers; a big grid opens zoomed in, and \"Whole field\" shows all of it.\n\nTwo more ways to play: \"Endless mode\", a path of black-and-white puzzles growing from 5×5 to 30×30, and \"Random puzzle\" with the size and difficulty of your choice.\n\nCorners open for seeds earned by solved pictures. The \"With mistake checking\" mode corrects a wrong cell at once and takes one of three leaves; \"Classic\" has no checking at all. Undo is unlimited, and an unfinished grid is saved after every move.",
+          "howToPlayText": "A number next to a row or column is the length of a run of filled cells, and its colour is the colour of that run. Several numbers mean several runs in that order; runs of the same colour have at least one empty cell between them.\n\n• Tap a cell to fill it with the selected colour; drag to fill a line.\n• Pick a colour with the buttons below; \"×\" marks cells that are surely empty.\n• Undo takes a move back, any number of times.\n• The \"+1 cell for 3 seeds\" hint reveals a correct cell.\n• \"Zoom\" or a pinch zooms in: one finger paints, two fingers pan. A big grid opens zoomed in; \"Whole field\" shows all of it.\n• On a computer: arrows move the cursor, Space or Enter fills, X crosses, 1–5 pick a colour, Z undoes, +, − and 0 zoom, Esc opens settings; the wheel pans a big grid.\n\nA finished line greys out its numbers. Start with lines whose numbers nearly fill them. With mistake checking on, a mistake costs a leaf; out of three, restart, take three more for an ad or play on without checking.",
+          "gameURL": "https://playgama.com/export/game/nonograms-pixel-garden?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/nonograms-pixel-garden",
+          "genres": [
+            "arcade",
+            "skill",
+            "puzzle",
+            "drawing",
+            "logic",
+            "brain"
+          ],
+          "tags": [
+            "1-player-games",
+            "brain-training-games",
+            "casual-games",
+            "mind-games",
+            "relaxing-games",
+            "2d-games",
+            "addictive-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/nonograms-pixel-garden/big_preview/0a492eefe8cf4666a990908983e36404?width=448",
+            "https://static.playgama.com/p-img/pg/nonograms-pixel-garden/icon/e018f55954d04321845fd1d2965c4498?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "b87b420de183433ba063f614aa51c6ba",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/nonograms-pixel-garden?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125598",
+          "slug": "sunny-farm-match-3",
+          "title": "Sunny Farm: Match 3",
+          "description": "Sunny Farm is a cozy match-3 puzzle about a year in the countryside: from summer garden beds through golden autumn to the winter fair. 100 levels in 10 chapters on a living farm map, with seasons that change as you go. Harvest crops, clear hay, crates, weeds, ice and chains, dig up turf, break boulders and bring baskets down. Build rakes, beehives, barrels and the magic watering can, and swap two specials for a double blast. A new fair every week: race the cat, dog, duck and hedgehog for prizes. Daily orders, a wheel of fortune and farm friends with bonuses. Relaxing, cute and free to play.",
+          "howToPlayText": "Swap two neighbouring fruits (drag, or tap one and then its neighbour) to line up 3 or more of the same kind. Complete the level goal shown at the top before you run out of moves: collect fruits, reach a score, clear the board, dig up turf (match right on it) or bring baskets down (match below them). 4 in a row makes a rake, a 2x2 square a beehive, an L or T shape a barrel, 5 in a row the magic watering can. Moves left at the end turn into points - finish fast to earn three stars. Controls: mouse or touch.",
+          "gameURL": "https://playgama.com/export/game/sunny-farm-match-3?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/sunny-farm-match-3",
+          "genres": [
+            "arcade",
+            "match-3",
+            "puzzle",
+            "farm",
+            "cozy",
+            "matching"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "casual-games",
+            "collecting-games",
+            "color-matching-games",
+            "cute-games",
+            "relaxing-games",
+            "addictive-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/sunny-farm-match-3/big_preview/c8a9bae67b3a4856b6750dd8c6add097?width=448",
+            "https://static.playgama.com/p-img/pg/sunny-farm-match-3/icon/10b8ad074bf54018a025973a7dc7f627?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "2f6e174e62284267a3a0bae139fa2f71",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU",
+            "tr-TR"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/sunny-farm-match-3?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125591",
+          "slug": "police-mom-simulator",
+          "title": "Police Mom Simulator",
+          "description": "Experience the busy life of a mother and police officer in Police Mom Simulator! Manage your family responsibilities while protecting the city, solving criminal cases, chasing gangsters, and completing exciting police missions.\n\nStart your day by preparing breakfast and dropping the kids at school before heading to the police station. Attend meetings with the police chief, investigate criminals, chase suspects, make arrests, and drive police cars through the city.\n\nAfter completing your police duties, spend time with your virtual family, go shopping, enjoy outings with your husband and kids, and complete different household activities.\n\nFeatures\n* Play as a police officer and virtual mom\n* Complete family and police missions\n* Solve criminal cases and investigations\n* Chase and arrest gangsters\n* Drive police cars around the city\n* Attend meetings at the police station\n* Take care of your virtual family\n* Go shopping and enjoy family outings\n* Explore a detailed 3D city\n* Smooth and easy controls\n\nBalance your family life with your police career and keep the city safe in Police Mom Simulator!\n",
+          "howToPlayText": "Desktop\nWASD = Movement\nLeft Shift = Sprint\nCtrl = Settings\nP = Pause\nF = Action\nI = Instruction\n\nMobile:\nOn-Screen Joystick: Move in all directions by dragging the joystick.",
+          "gameURL": "https://playgama.com/export/game/police-mom-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/police-mom-simulator",
+          "genres": [
+            "arcade",
+            "simulation",
+            "action",
+            "police",
+            "3d",
+            "car",
+            "driving"
+          ],
+          "tags": [
+            "1-player-games",
+            "action-adventure",
+            "crime-games",
+            "life-simulation-games",
+            "mission-games",
+            "mom-games",
+            "virtual-games",
+            "addictive-games",
+            "desktop-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/police-mom-simulator/big_preview/8471fb27d4254288b9f5d3b43a8822e9?width=448",
+            "https://static.playgama.com/p-img/pg/police-mom-simulator/icon/7b861fd0f1e44c18974f4aa96b5c7277?width=448"
+          ],
+          "videos": [
+            {
+              "playgama_id": "06dde62902e846cfb56b64af66f5faa9",
+              "external_url": "",
+              "type": "gameplay"
+            }
+          ],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/police-mom-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125590",
+          "slug": "solitaire-the-collection",
+          "title": "Solitaire The Collection",
+          "description": "33 card game variants in one collection. Play familiar solitaires, discover new rules and pick the difficulty — from a calm deal to a real puzzle.\n\nModes include Klondike with draw one or three; Spider with one, two or four suits; FreeCell; Pyramid; Vegas; Yukon, Russian Solitaire and Alaska; Scorpion; Forty Thieves and Josephine; Tri Peaks; Golf; Eight Off; Double Klondike and Easthaven; Spiderette and Simple Simon; Memory on a normal or large board.\n\nTake daily challenges, journeys with quests, collect keys, postcards and achievements. Customize card faces, backs and backgrounds, enable dark mode and left-handed layout. Hints, undo and auto-collect help mid-game; progress saves automatically. Winning deals greet you with sounds and a card dance.",
+          "howToPlayText": "How to play\n\n- Pick a solitaire from the collection and a difficulty level.\n- Lay out cards by the rules of the mode: build sequences, pairs or tableaus as required.\n-In Klondike-style games, build foundations by suit from ace up; on the tableau, build down by alternating colors when the rules say so.\n-In Spider, assemble full same-suit sequences and remove them from the board.\n-In Pyramid, clear pairs that match the mode’s sum rule.\n-In Memory, flip cards and find matching pairs.\n\nUse hints, undo and auto-collect when stuck. Choose random or solvable deals where supported. Games save automatically so you can return later. Resize cards, drag with mouse or finger, or move with a single tap.",
+          "gameURL": "https://playgama.com/export/game/solitaire-the-collection?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/solitaire-the-collection",
+          "genres": [
+            "cards",
+            "solitaire",
+            "puzzle",
+            "brain",
+            "classic",
+            "logic"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-games",
+            "brain-training-games",
+            "memory-games",
+            "mind-games",
+            "relaxing-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/solitaire-the-collection/big_preview/c84b321790284d9196e415def1f52692?width=448",
+            "https://static.playgama.com/p-img/pg/solitaire-the-collection/icon/2c7b1176c3ca40019583c9ffe6d94c6e?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ru-RU"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": false
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/solitaire-the-collection?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125588",
+          "slug": "hole-feast",
+          "title": "Hole Feast",
+          "description": "Hole Feast is a bite-sized .io-style munch-fest! Drag to glide your glowing hole across colorful low-poly picnics, cities and farms. Snacks, cars, cows and whole buildings tumble in as you grow: SIZE UP! Chain gulps into combos, outgrow three hungry rival holes in 90-second battles or clear 100% of the map. Earn coins, upgrade size, speed and time, and unlock 8 dazzling rim skins.",
+          "howToPlayText": "Drag anywhere on the screen (or use WASD / arrow keys) to move your hole. Objects smaller than the hole fall in and make it grow. Swallow smaller rival holes and avoid bigger ones. Finish first in the 90-second battle or clear 100% of the map to win coins, then upgrade your start size, speed and time.",
+          "gameURL": "https://playgama.com/export/game/hole-feast?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/hole-feast",
+          "genres": [
+            "arcade",
+            "io",
+            "skill",
+            "3d",
+            "animals"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "addictive-games",
+            "arena-games",
+            "casual-games",
+            "collecting-games",
+            "competitive-games",
+            "grow-games",
+            "hole-io",
+            "hyper-casual-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/hole-feast/big_preview/fe5b65f98b23479ca6dfae40229d91c6?width=448",
+            "https://static.playgama.com/p-img/pg/hole-feast/icon/8131b45d533e4a629a68e567bb64cf61?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ja-JP",
+            "ru-RU",
+            "es-ES",
+            "pt-BR",
+            "de-DE",
+            "fr-FR",
+            "tr-TR",
+            "it-IT",
+            "pl-PL",
+            "id-ID",
+            "ko-KR",
+            "zh-CN"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/hole-feast?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125587",
+          "slug": "crowd-rush",
+          "title": "Crowd Rush",
+          "description": "Lead a tiny crowd on a colourful sky track and turn it into an unstoppable army! Swipe to pick the best gates (+, x, -, /), dodge spinning saws, sweeping bars, pushers and gaps, and crush rival crowds in quick battles. At the finish, stack your crowd into a tower and climb the x1-x10 stairs, or take down a giant boss. Earn coins, upgrade your crowd and income, and unlock 8 fun skins!",
+          "howToPlayText": "Drag left or right (or use A/D or the arrow keys) to steer your crowd. Run through the better gate to multiply your runners, avoid saws, sweepers, pushers and gaps, and beat enemy crowds by having more runners. Reach the finish with as many runners as possible to climb the bonus stairs or defeat the boss and earn coins.",
+          "gameURL": "https://playgama.com/export/game/crowd-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/crowd-rush",
+          "genres": [
+            "arcade",
+            "puzzle",
+            "skill",
+            "action",
+            "running",
+            "3d",
+            "math",
+            "runner"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "2d-games",
+            "addictive-games",
+            "avoid-games",
+            "casual-games",
+            "fast-paced-games",
+            "hyper-casual-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/crowd-rush/big_preview/6739d21daf0147a09d2c2f39cd782464?width=448",
+            "https://static.playgama.com/p-img/pg/crowd-rush/icon/a218ef0a00ff49448c61f5bae66f85ae?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ja-JP",
+            "ru-RU",
+            "es-ES",
+            "pt-BR",
+            "de-DE",
+            "fr-FR",
+            "tr-TR",
+            "it-IT",
+            "pl-PL",
+            "id-ID",
+            "ko-KR",
+            "zh-CN"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/crowd-rush?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125586",
+          "slug": "hot-barrel-cats",
+          "title": "Hot Barrel Cats",
+          "description": "Only the cats standing on the wall can shoot — and shooting makes them overheat.\n\nA cat that fires long enough jams, goes silent, and needs time to cool. So you are always deciding who holds the wall: drag a hot cat down to the spawn zone to cool, send a fresh one up, and drop two matching cats together to merge them into a stronger tier. Merging resets the heat, which makes it a rescue as well as an upgrade.\n\nThe Mildews — a damp fungus horde — walk the road toward your gate, and heat is what dries them out: a cat firing above 80 % scorches spore-carriers before they can splash heat back at your wall.\n\n16 hand-tuned levels, five kinds of Mildew and three bosses, each of which attacks your heat rather than your health: one bursts and heats every pad at once, one shuts a shield and makes you waste fire, one keeps summoning while you rotate. Fifteen tiers of cat to merge toward, four perks to buy, a café shelf to fill, and a new daily challenge every day.\n\nHold the gate. Watch the barrels.",
+          "howToPlayText": "Drag a cat onto a matching cat to merge them into the next tier. The merged cat starts completely cool.\n\nDrag a hot cat down to the spawn zone to cool it, and drag a cool one up to the wall to fire. You can also tap a cat to select it, then tap where it should go.\n\nOnly cats on the wall shoot. The bar under each cat is its burn time — when it runs out the cat jams, stops firing and has to cool before it works again.\n\nCall a cat with the button at the bottom; gold comes from every Mildew you kill.\n\nDon't let them reach the gate. When the gate falls, the level is over.\n\nEsc pauses, M mutes.",
+          "gameURL": "https://playgama.com/export/game/hot-barrel-cats?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/hot-barrel-cats",
+          "genres": [
+            "arcade",
+            "tower-defense",
+            "merge",
+            "cats",
+            "strategy"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-games",
+            "action-adventure",
+            "addictive-games",
+            "arcade-shooter",
+            "casual-games",
+            "challenge-games",
+            "defense-games",
+            "fast-paced-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/hot-barrel-cats/big_preview/8c6147b4a677441d8e328c7b5697f1a8?width=448",
+            "https://static.playgama.com/p-img/pg/hot-barrel-cats/icon/0de43526783749ed860a98c6bc789548?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/hot-barrel-cats?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125585",
+          "slug": "snake-brawl-merge-arena",
+          "title": "Snake Brawl: Merge Arena",
+          "description": "Slither into the arena and grow the mightiest merge snake! Every segment has a number - eat matching orbs to merge them 2048-style and power up. Bite through smaller snakes to steal their segments, dodge the bigger ones, and topple crowned bosses before time runs out. Then tap like crazy in the Power Smash bonus to break multiplier walls for coins. Upgrade power, speed and magnet, and unlock 8 snake skins!",
+          "howToPlayText": "Drag anywhere on the screen to steer your snake. Eat orbs with the same number as your segments to merge them and grow stronger. Bite snakes whose numbers are smaller than your head and avoid bigger ones (green ring = safe, red ring = danger). Defeat the target number of snakes or the boss before the timer ends, then tap fast in Power Smash for bonus coins.",
+          "gameURL": "https://playgama.com/export/game/snake-brawl-merge-arena?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/snake-brawl-merge-arena",
+          "genres": [
+            "arcade",
+            "snake",
+            "merge",
+            "io",
+            "number",
+            "puzzle",
+            "skill"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "2d-games",
+            "addictive-games",
+            "arena-games",
+            "avoid-games",
+            "collecting-games",
+            "crush-games",
+            "dodge-games",
+            "endless-games",
+            "snake-io"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/snake-brawl-merge-arena/big_preview/167553a17e3f480badeee1cce35d0d98?width=448",
+            "https://static.playgama.com/p-img/pg/snake-brawl-merge-arena/icon/6a0713e2671d4e678b631248fd6ac876?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ja-JP",
+            "ru-RU",
+            "es-ES",
+            "pt-BR",
+            "de-DE",
+            "fr-FR",
+            "tr-TR",
+            "it-IT",
+            "pl-PL",
+            "id-ID",
+            "ko-KR",
+            "zh-CN"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/snake-brawl-merge-arena?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125584",
+          "slug": "plugjoy",
+          "title": "PlugJoy",
+          "description": "Put your planning skills to the test in PlugJoy! Drag colorful cables through tricky paths and connect each plug to its matching socket before time runs out. Beat challenging levels, earn coins, unlock avatars, and tackle daily challenges. Need help? Use a hint! Enjoy cheerful cartoon graphics and simple controls on mobile and desktop.",
+          "howToPlayText": "Put your planning skills to the test in PlugJoy! Drag colorful cables through tricky paths and connect each plug to its matching socket before time runs out. Beat challenging levels, earn coins, unlock avatars, and tackle daily challenges. Need help? Use a hint! Enjoy cheerful cartoon graphics and simple controls on mobile and desktop",
+          "gameURL": "https://playgama.com/export/game/plugjoy?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/plugjoy",
+          "genres": [
+            "puzzle",
+            "logic",
+            "brain"
+          ],
+          "tags": [
+            "1-player-games",
+            "2d-games",
+            "addictive-games",
+            "agility-games",
+            "brain-training-games",
+            "casual-games",
+            "challenge-games",
+            "challenging-games",
+            "color-matching-games",
+            "connect-games",
+            "cute-games",
+            "mind-games",
+            "webgl-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/plugjoy/big_preview/82ebb22ab38c405daf6b21358f52053c?width=448",
+            "https://static.playgama.com/p-img/pg/plugjoy/icon/de583d0c398d4f57a357f43db34a585b?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US"
+          ],
+          "screenOrientation": {
+            "horizontal": false,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/plugjoy?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
+        {
+          "id": "125582",
+          "slug": "cosmo-merge",
+          "title": "Cosmo Merge",
+          "description": "Drop, merge, and build a universe! In Cosmo Merge you drop adorable celestial bodies into a glass jar. When two identical ones touch, they merge into something bigger: stardust becomes a comet, a moon, planets, a blazing Sun and finally a Galaxy. Chain merges for combos, use boosters when the jar fills up, and play endless mode or star-rated missions. Unlock 8 skins and complete your cosmic album!",
+          "howToPlayText": "Drag left or right to aim, then release to drop a celestial body into the jar. Two identical bodies that touch merge into the next, bigger tier and give points. Chain merges for combos. Don't let the stack stay above the red danger line for 2 seconds. Use Shake, Pop and Swap boosters when the jar gets crowded.",
+          "gameURL": "https://playgama.com/export/game/cosmo-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
+          "playgamaGameUrl": "https://playgama.com/game/cosmo-merge",
+          "genres": [
+            "arcade",
+            "merge",
+            "puzzle",
+            "skill",
+            "space"
+          ],
+          "tags": [
+            "1-player-games",
+            "ai-games",
+            "casual-games",
+            "collecting-games",
+            "color-matching-games",
+            "cute-games",
+            "endless-games",
+            "hyper-casual-games",
+            "brain-training-games"
+          ],
+          "images": [
+            "https://static.playgama.com/p-img/pg/cosmo-merge/big_preview/2cbf65dfd86c4c78bcecaf87a8b5440c?width=448",
+            "https://static.playgama.com/p-img/pg/cosmo-merge/icon/ebb1b698c8e34c37984f5b9a618aa715?width=448"
+          ],
+          "videos": [],
+          "mobileReady": [
+            "For Android",
+            "For IOS",
+            "For Desktop"
+          ],
+          "gender": [
+            "Male",
+            "Female"
+          ],
+          "inGamePurchases": "No",
+          "supportedLanguages": [
+            "en-US",
+            "ja-JP",
+            "ru-RU",
+            "es-ES",
+            "pt-BR",
+            "de-DE",
+            "fr-FR",
+            "tr-TR",
+            "it-IT",
+            "pl-PL",
+            "id-ID",
+            "ko-KR",
+            "zh-CN"
+          ],
+          "screenOrientation": {
+            "horizontal": true,
+            "vertical": true
+          },
+          "embed": "<iframe src='https://playgama.com/export/game/cosmo-merge?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
+        },
         {
           "id": "125579",
           "slug": "obby-way",
@@ -25,22 +2874,22 @@
           "gameURL": "https://playgama.com/export/game/obby-way?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/obby-way",
           "genres": [
-            "adventure",
+            "obby",
             "3d",
-            "funny",
+            "adventure",
             "platform",
-            "obby"
+            "funny"
           ],
           "tags": [
-            "reaction-games",
-            "meme-games",
-            "avoid-games",
-            "obstacles-games",
-            "jumping-games",
-            "collecting-games",
-            "trap-games",
+            "67-obby",
             "agility-games",
-            "67-obby"
+            "avoid-games",
+            "jumping-games",
+            "obstacles-games",
+            "reaction-games",
+            "trap-games",
+            "meme-games",
+            "collecting-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/obby-way/big_preview/287e4700a5344b40b8c71b88e514bd67?width=448",
@@ -80,26 +2929,26 @@
           "gameURL": "https://playgama.com/export/game/cars-vs-zombies?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/cars-vs-zombies",
           "genres": [
-            "action",
-            "racing",
             "arcade",
-            "3d",
             "car",
             "zombie",
+            "driving",
+            "action",
+            "racing",
             "survival",
-            "driving"
+            "3d"
           ],
           "tags": [
-            "customization-games",
-            "addictive-games",
-            "vehicles-games",
-            "kill-games",
-            "apocalypse-games",
-            "desktop-games",
             "1-player-games",
-            "demolition-games",
+            "action-adventure",
+            "apocalypse-games",
             "arcade-car",
-            "action-adventure"
+            "customization-games",
+            "demolition-games",
+            "kill-games",
+            "vehicles-games",
+            "desktop-games",
+            "addictive-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/cars-vs-zombies/big_preview/5749639b38d74457a4228e4b719dcb85?width=448",
@@ -142,21 +2991,21 @@
           "gameURL": "https://playgama.com/export/game/trimino?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/trimino",
           "genres": [
-            "puzzle",
             "arcade",
+            "puzzle",
             "strategy",
+            "board",
             "matching",
-            "logic",
-            "board"
+            "logic"
           ],
           "tags": [
-            "customization-games",
-            "casual-games",
-            "brain-training-games",
-            "color-matching-games",
-            "challenge-games",
             "1-player-games",
-            "tiles-games"
+            "casual-games",
+            "challenge-games",
+            "customization-games",
+            "tiles-games",
+            "brain-training-games",
+            "color-matching-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/trimino/big_preview/11992646b53743dd8027c71ff3b90ccf?width=448",
@@ -198,22 +3047,22 @@
           "gameURL": "https://playgama.com/export/game/picky-parking?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/picky-parking",
           "genres": [
-            "puzzle",
             "arcade",
+            "puzzle",
             "car",
             "sudoku",
-            "brain",
+            "logic",
             "parking",
-            "logic"
+            "brain"
           ],
           "tags": [
-            "casual-games",
-            "relaxing-games",
-            "brain-training-games",
-            "mind-games",
             "1-player-games",
-            "simple-games",
-            "ai-games"
+            "ai-games",
+            "brain-training-games",
+            "casual-games",
+            "mind-games",
+            "relaxing-games",
+            "simple-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/picky-parking/big_preview/7bd6cc2e7b4d4d77ab7b7972209239dd?width=448",
@@ -249,18 +3098,18 @@
           "playgamaGameUrl": "https://playgama.com/game/not-before-bed-01",
           "genres": [
             "puzzle",
-            "3d",
-            "cozy",
             "matching",
+            "cozy",
+            "3d",
             "logic"
           ],
           "tags": [
-            "casual-games",
-            "addictive-games",
-            "cute-games",
-            "color-matching-games",
-            "collecting-games",
             "1-player-games",
+            "addictive-games",
+            "casual-games",
+            "collecting-games",
+            "color-matching-games",
+            "cute-games",
             "simple-games"
           ],
           "images": [
@@ -304,24 +3153,24 @@
           "gameURL": "https://playgama.com/export/game/bomb-banana?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/bomb-banana",
           "genres": [
+            "arcade",
             "action",
             "puzzle",
-            "arcade",
-            "adventure",
             "3d",
-            "funny",
+            "adventure",
             "monkey",
-            "brain"
+            "brain",
+            "funny"
           ],
           "tags": [
-            "brain-training-games",
-            "addictive-games",
-            "characters-games",
-            "desktop-games",
             "1-player-games",
-            "timing-games",
+            "action-adventure",
             "bomb-games",
-            "action-adventure"
+            "timing-games",
+            "addictive-games",
+            "brain-training-games",
+            "desktop-games",
+            "characters-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/bomb-banana/big_preview/6670c8b595e94e2d8bcfce50697028a9?width=448",
@@ -357,29 +3206,29 @@
           "playgamaGameUrl": "https://playgama.com/game/inkway",
           "genres": [
             "arcade",
-            "car",
-            "physics",
             "drawing",
-            "logic"
+            "car",
+            "logic",
+            "physics"
           ],
           "tags": [
-            "2d-games",
-            "casual-games",
-            "brain-training-games",
-            "hyper-casual-games",
-            "addictive-games",
-            "avoid-games",
-            "creativity-games",
-            "obstacles-games",
-            "challenging-games",
-            "webgl-games",
-            "mind-games",
-            "touchscreen-games",
-            "challenge-games",
-            "agility-games",
             "1-player-games",
+            "2d-games",
+            "addictive-games",
+            "agility-games",
+            "avoid-games",
+            "brain-training-games",
+            "casual-games",
+            "challenge-games",
+            "challenging-games",
+            "creativity-games",
+            "hyper-casual-games",
+            "mind-games",
+            "obstacles-games",
+            "simple-games",
             "timing-games",
-            "simple-games"
+            "touchscreen-games",
+            "webgl-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/inkway/big_preview/04217f5d8d0c470db13d59d62ff87aa6?width=448",
@@ -414,23 +3263,23 @@
           "gameURL": "https://playgama.com/export/game/sheeps-herd-them-all?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/sheeps-herd-them-all",
           "genres": [
-            "puzzle",
             "arcade",
-            "3d",
+            "puzzle",
+            "unblock-puzzles",
             "animals",
-            "cozy",
+            "3d",
             "logic",
-            "unblock-puzzles"
+            "cozy"
           ],
           "tags": [
-            "casual-games",
-            "relaxing-games",
-            "addictive-games",
-            "cute-games",
-            "touchscreen-games",
             "1-player-games",
+            "casual-games",
+            "cute-games",
+            "relaxing-games",
+            "simple-games",
             "swipe-games",
-            "simple-games"
+            "touchscreen-games",
+            "addictive-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/sheeps-herd-them-all/big_preview/a7e9906c4b024fb5bcdcad644575397e?width=448",
@@ -472,23 +3321,23 @@
           "gameURL": "https://playgama.com/export/game/helix-hover?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/helix-hover",
           "genres": [
-            "action",
             "arcade",
-            "skill",
+            "action",
             "3d",
             "running",
-            "runner"
+            "runner",
+            "skill"
           ],
           "tags": [
-            "reaction-games",
-            "fast-paced-games",
+            "1-player-games",
+            "avoid-games",
             "dodge-games",
+            "endless-games",
+            "fast-paced-games",
             "helix-games",
             "hyper-casual-games",
-            "avoid-games",
-            "endless-games",
-            "webgl-games",
-            "1-player-games"
+            "reaction-games",
+            "webgl-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/helix-hover/big_preview/1ea9fbd59ad643579dfaf78e0a915b6b?width=448",
@@ -524,27 +3373,27 @@
           "playgamaGameUrl": "https://playgama.com/game/wildkin-isles",
           "genres": [
             "arcade",
-            "adventure",
-            "strategy",
             "simulation",
             "management",
+            "adventure",
+            "strategy",
             "cozy",
             "crafting"
           ],
           "tags": [
-            "mission-games",
-            "fantasy-games",
-            "voxel-games",
-            "life-simulation-games",
-            "collecting-games",
-            "desktop-games",
             "1-player-games",
-            "mine-games",
-            "sandbox-games",
-            "building-games",
+            "ai-games",
             "open-world-games",
+            "life-simulation-games",
             "action-adventure",
-            "ai-games"
+            "building-games",
+            "collecting-games",
+            "fantasy-games",
+            "mine-games",
+            "mission-games",
+            "sandbox-games",
+            "voxel-games",
+            "desktop-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/wildkin-isles/big_preview/ce3fecf9ecda423198797819afe80a90?width=448",
@@ -579,33 +3428,33 @@
           "gameURL": "https://playgama.com/export/game/avocado-yard-ragdoll-sandbox?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/avocado-yard-ragdoll-sandbox",
           "genres": [
-            "puzzle",
             "arcade",
             "simulation",
-            "boys",
-            "funny",
             "ragdoll",
             "physics",
+            "funny",
+            "boys",
+            "puzzle",
             "easy"
           ],
           "tags": [
+            "1-player-games",
             "2d-games",
-            "reaction-games",
-            "casual-games",
-            "destruction-games",
-            "destroy-games",
-            "hyper-casual-games",
             "addictive-games",
             "blow-up-games",
-            "smash-games",
-            "challenging-games",
-            "webgl-games",
+            "casual-games",
             "challenge-games",
-            "1-player-games",
-            "indie-games",
-            "demolition-games",
-            "sandbox-games",
+            "challenging-games",
             "crush-games",
+            "demolition-games",
+            "destroy-games",
+            "destruction-games",
+            "hyper-casual-games",
+            "indie-games",
+            "reaction-games",
+            "sandbox-games",
+            "smash-games",
+            "webgl-games",
             "ai-games"
           ],
           "images": [
@@ -647,20 +3496,20 @@
             "arcade",
             "skill",
             "3d",
+            "logic",
             "cozy",
-            "brain",
-            "logic"
+            "brain"
           ],
           "tags": [
-            "cube-games",
-            "casual-games",
-            "voxel-games",
-            "relaxing-games",
+            "1-player-games",
             "brain-training-games",
-            "addictive-games",
-            "mind-games",
+            "casual-games",
             "collecting-games",
-            "1-player-games"
+            "cube-games",
+            "mind-games",
+            "relaxing-games",
+            "voxel-games",
+            "addictive-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/voxel-atelier/big_preview/c8f4cb6a64364ffd9129bd1bc1312b26?width=448",
@@ -716,27 +3565,27 @@
           "gameURL": "https://playgama.com/export/game/crowd-runner?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/crowd-runner",
           "genres": [
-            "action",
             "arcade",
-            "skill",
-            "3d",
-            "running",
+            "runner",
             "math",
-            "runner"
+            "skill",
+            "action",
+            "running",
+            "3d"
           ],
           "tags": [
+            "1-player-games",
+            "ai-games",
             "2d-games",
-            "reaction-games",
-            "fast-paced-games",
-            "casual-games",
-            "hyper-casual-games",
             "addictive-games",
             "avoid-games",
+            "casual-games",
             "endless-games",
-            "webgl-games",
-            "1-player-games",
+            "fast-paced-games",
+            "hyper-casual-games",
+            "reaction-games",
             "swipe-games",
-            "ai-games"
+            "webgl-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/crowd-runner/big_preview/8e7ddb75a32349ed9525db651fdbd04d?width=448",
@@ -771,22 +3620,22 @@
           "gameURL": "https://playgama.com/export/game/bus-jam?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/bus-jam",
           "genres": [
-            "puzzle",
             "arcade",
             "bus",
-            "brain",
-            "logic"
+            "puzzle",
+            "logic",
+            "brain"
           ],
           "tags": [
-            "2d-games",
-            "casual-games",
-            "brain-training-games",
-            "addictive-games",
-            "mind-games",
-            "color-matching-games",
             "1-player-games",
-            "traffic-games",
-            "ai-games"
+            "ai-games",
+            "2d-games",
+            "addictive-games",
+            "brain-training-games",
+            "casual-games",
+            "color-matching-games",
+            "mind-games",
+            "traffic-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/bus-jam/big_preview/7021fc7cb3c148e7bcf9fab7f54d4f68?width=448",
@@ -821,25 +3670,25 @@
           "gameURL": "https://playgama.com/export/game/drift-tycoon?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/drift-tycoon",
           "genres": [
-            "racing",
             "arcade",
             "car",
-            "tycoon",
-            "management",
             "drifting",
-            "idle"
+            "idle",
+            "racing",
+            "tycoon",
+            "management"
           ],
           "tags": [
-            "race-games",
-            "casual-games",
-            "addictive-games",
-            "vehicles-games",
-            "car-tuning-games",
-            "collecting-games",
             "1-player-games",
-            "incremental-games",
+            "arcade-car",
             "building-games",
-            "arcade-car"
+            "car-tuning-games",
+            "casual-games",
+            "collecting-games",
+            "incremental-games",
+            "race-games",
+            "vehicles-games",
+            "addictive-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/drift-tycoon/big_preview/25550725b57a404b857d5adff002f90f?width=448",
@@ -881,24 +3730,24 @@
           "playgamaGameUrl": "https://playgama.com/game/mowmentum",
           "genres": [
             "arcade",
-            "simulation",
-            "skill",
             "mouse",
+            "skill",
+            "simulation",
+            "idle",
             "clicker",
-            "management",
             "cozy",
-            "idle"
+            "management"
           ],
           "tags": [
-            "cleaning-games",
-            "casual-games",
-            "relaxing-games",
-            "addictive-games",
-            "collecting-games",
-            "asmr-games",
-            "desktop-games",
             "1-player-games",
-            "incremental-games"
+            "relaxing-games",
+            "casual-games",
+            "collecting-games",
+            "incremental-games",
+            "addictive-games",
+            "asmr-games",
+            "cleaning-games",
+            "desktop-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/mowmentum/big_preview/4144869cf9d5437eb3b30e362b17c5bf?width=448",
@@ -937,21 +3786,21 @@
           "gameURL": "https://playgama.com/export/game/tile-match-guard-baby?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/tile-match-guard-baby",
           "genres": [
-            "puzzle",
             "arcade",
+            "puzzle",
             "match-3",
-            "kids",
+            "matching",
             "cozy",
-            "matching"
+            "kids"
           ],
           "tags": [
-            "casual-games",
-            "brain-training-games",
-            "addictive-games",
-            "cute-games",
-            "color-matching-games",
             "1-player-games",
-            "tiles-games"
+            "casual-games",
+            "color-matching-games",
+            "cute-games",
+            "tiles-games",
+            "addictive-games",
+            "brain-training-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/tile-match-guard-baby/big_preview/513d3d2f7e394cd997922dcaf7eaf4eb?width=448",
@@ -994,18 +3843,18 @@
           "genres": [
             "action",
             "shooting",
-            "retro",
-            "first-person-shooter"
+            "first-person-shooter",
+            "retro"
           ],
           "tags": [
-            "fast-paced-games",
-            "webgl-games",
             "1-player-games",
-            "pixel-games",
             "2d-shooter",
-            "retro-shooter",
             "action-adventure",
-            "fast-paced-action"
+            "fast-paced-action",
+            "fast-paced-games",
+            "pixel-games",
+            "retro-shooter",
+            "webgl-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/hellgate-1993/big_preview/5c3a5b081ff14a16a6ae8a700ae987c9?width=448",
@@ -1043,30 +3892,30 @@
             "action",
             "puzzle",
             "3d",
-            "monster",
-            "physics"
+            "physics",
+            "monster"
           ],
           "tags": [
-            "mission-games",
-            "fast-paced-games",
-            "casual-games",
-            "destruction-games",
-            "destroy-games",
-            "hyper-casual-games",
+            "1-player-games",
             "addictive-games",
             "avoid-games",
-            "stealth-games",
-            "smash-games",
-            "obstacles-games",
-            "challenging-games",
-            "combat-games",
-            "collecting-games",
+            "casual-games",
             "challenge-games",
-            "1-player-games",
-            "indie-games",
+            "challenging-games",
+            "collecting-games",
+            "combat-games",
             "crush-games",
-            "throwing-games",
-            "stealth-action"
+            "destroy-games",
+            "destruction-games",
+            "fast-paced-games",
+            "hyper-casual-games",
+            "indie-games",
+            "mission-games",
+            "obstacles-games",
+            "smash-games",
+            "stealth-action",
+            "stealth-games",
+            "throwing-games"
           ],
           "images": [
             "https://static.playgama.com/p-img/pg/stealth-silent-squid/big_preview/4be66fa2a4f74bafb97235df952bcae5?width=448",
@@ -7702,7 +10551,7 @@
           ],
           "screenOrientation": {
             "horizontal": true,
-            "vertical": false
+            "vertical": true
           },
           "embed": "<iframe src='https://playgama.com/export/game/obby-1-digging-power-per-click?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
         },
@@ -12612,8 +15461,8 @@
           "id": "124594",
           "slug": "up-up-and-oops",
           "title": "Up, Up, and Oops!",
-          "description": "Climb an endless tower of floating tiles in this fast-paced 3D arcade action game. Read the path, choose the correct direction, and move before time runs out. Aim for a high score in Endless mode, race to step 200 in Score Sprint, or compete against up to six players in Online Race. Unlock new characters, tiles, and titles as you climb, and challenge the weekly leaderboards.",
-          "howToPlayText": "Climb the floating path by choosing the correct action for the next tile. If the path continues straight ahead, jump forward. If it turns, press the direction in which the path continues. Make your choice before the gauge runs out.\n\nIn Endless mode, climb as high as possible. In Score Sprint, reach step 200 as quickly as possible. These modes give you three lives, and losing all three ends the run unless you use your one available revive.\n\nIn Online Race, compete for two minutes and reach a higher step than the other racers. Falling returns you to the latest checkpoint, placed every 20 steps.\n\nDesktop Controls:\nW or ↑: Move upward.\nS or ↓: Move downward.\nA or ←: Move left.\nD or →: Move right.\nSpacebar: Jump forward.\n\nMobile Controls:\nUP, DOWN, LEFT, and RIGHT Buttons: Move in the selected screen direction.\nJUMP Button: Jump forward in the direction your character is facing.",
+          "description": "Climb floating paths in this fast-paced 3D arcade action game. Read the path, choose the correct direction, and move before the tiles collapse. Progress through increasingly challenging levels in Classic mode, aim for your highest score in Endless mode, or race against up to six players in Online Race. Earn stars, unlock new characters, tiles, and titles, and compete on the all-time leaderboards.",
+          "howToPlayText": "Climb the floating path by choosing the correct action for the next tile. If the path continues straight ahead, jump forward. If it turns, press the direction in which the path continues. Make your choice before the gauge runs out.\n\nIn Classic mode, clear every step to unlock the next level. Each level becomes longer and more difficult, and your next run starts after the latest level you cleared. You can earn rewards for reaching new steps even if you fail, and you may watch an advertisement to double the reward earned from that run.\n\nIn Endless mode, climb as high as possible and aim for a new high score. Classic and Endless give you three lives. After losing all three, you may use one available revive.\n\nIn Online Race, compete against 2–6 players for two minutes. Reach a higher step than the other racers to finish ahead of them. Falling returns you to your latest checkpoint, placed every 20 steps.\n\nDesktop Controls:\nW or ↑: Move upward.\nS or ↓: Move downward.\nA or ←: Move left.\nD or →: Move right.\nSpacebar: Jump forward.\n\nMobile Controls:\nUP, DOWN, LEFT, and RIGHT Buttons: Move in the selected screen direction.\nJUMP Button: Jump forward in the direction your character is facing.",
           "gameURL": "https://playgama.com/export/game/up-up-and-oops?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/up-up-and-oops",
           "genres": [
@@ -29423,7 +32272,7 @@
           "id": "123399",
           "slug": "drive-crash-sandbox",
           "title": "Drive & Crash Sandbox",
-          "description": "Realistic High-Speed Car Crash Simulator\nLaunch vehicles down massive slopes and crash them into destructible obstacles! Experience thrilling high-speed collisions and realistic crash physics like never before.\n\nCrash cars. Break parts. Feel the impact.\nChoose from a variety of vehicles and watch as they crumble and break apart with ultra-realistic physics and damage simulation.\n\nFeatures:\n-  Online multiplayer mode!\n- Realistic car deformation physics\n- Stunning 3D graphics\n- Authentic driving controls\n- Detailed vehicle damage system\n -Multiple vehicles to choose from",
+          "description": "Realistic High-Speed Car Crash Simulator\nLaunch vehicles down massive slopes and crash them into destructible obstacles! Experience thrilling high-speed collisions and realistic crash physics like never before.\n\nCrash cars. Break parts. Feel the impact.\nChoose from a variety of vehicles and watch as they crumble and break apart with ultra-realistic physics and damage simulation.\n\nFeatures:\n- Online multiplayer mode!\n- Realistic car deformation physics\n- Stunning 3D graphics\n- Authentic driving controls\n- Detailed vehicle damage system\n- Multiple vehicles to choose from",
           "howToPlayText": "Controls:\nTab – Pause\nWASD – Drive\nSpace – Handbrake\nShift – Nitro\nN – Next vehicle\nC – Change camera\nR – Repair car\nV – Slow motion\n\nOn mobile devices, use the on-screen controls.\n\nGame Objective:\nJust drive around and smash cars however you like! ",
           "gameURL": "https://playgama.com/export/game/drive-crash-sandbox?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/drive-crash-sandbox",
@@ -29469,7 +32318,7 @@
           ],
           "screenOrientation": {
             "horizontal": true,
-            "vertical": false
+            "vertical": true
           },
           "embed": "<iframe src='https://playgama.com/export/game/drive-crash-sandbox?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
         },
@@ -71495,7 +74344,7 @@
             "Male",
             "Female"
           ],
-          "inGamePurchases": "Yes",
+          "inGamePurchases": "No",
           "supportedLanguages": [
             "en-US",
             "ru-RU"
@@ -77775,11 +80624,16 @@
           "inGamePurchases": "No",
           "supportedLanguages": [
             "en-US",
+            "zh-CN",
+            "de-DE",
+            "es-ES",
+            "it-IT",
+            "pt-PT",
             "ru-RU"
           ],
           "screenOrientation": {
             "horizontal": true,
-            "vertical": false
+            "vertical": true
           },
           "embed": "<iframe src='https://playgama.com/export/game/destructive-car-crash-simulator?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1' allow='fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics' frameborder='0' width='800' height='450'></iframe>"
         },
@@ -83503,8 +86357,8 @@
             "2-player-board"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/chess-online-multiplayer/big-preview/707189997ec347738adb5c8e33d1e428?width=448",
-            "https://static.playgama.com/p-img/pg/backfill/game-111579/icon/aa413f10d289fb589db39171607a7448af79ebb94b3b653cd342e941138f3f78?width=448"
+            "https://static.playgama.com/p-img/pg/chess-online-multiplayer/big_preview/fa482ae8104646e5b120132cbc4fafdf?width=448",
+            "https://static.playgama.com/p-img/pg/chess-online-multiplayer/icon/6653313e17604d7bbf69c8222484187e?width=448"
           ],
           "videos": [
             {
@@ -83566,8 +86420,8 @@
             "chekers-games"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/english-checkers-online-multiplayer/big-preview/e63c744a78fe442ebe153dc58992e67f?width=448",
-            "https://static.playgama.com/p-img/pg/backfill/game-111547/icon/79f90641adaf3ec8b00296665efccab6ec84a979eecd7f537ab4364b658205fa?width=448"
+            "https://static.playgama.com/p-img/pg/english-checkers-online-multiplayer/big_preview/aa047ac3d68a4136a9b85e9718ad6fad?width=448",
+            "https://static.playgama.com/p-img/pg/english-checkers-online-multiplayer/icon/419c66ff590c4a13a714419119718b80?width=448"
           ],
           "videos": [
             {
@@ -83632,8 +86486,8 @@
             "2-player-board"
           ],
           "images": [
-            "https://static.playgama.com/p-img/pg/domino-online-multiplayer/big-preview/f46c378e5aa94fd0addce72d4822c9fa?width=448",
-            "https://static.playgama.com/p-img/pg/preview/3179d6d137884d24b0259b0db1b13964?width=448"
+            "https://static.playgama.com/p-img/pg/domino-online-multiplayer/big_preview/32bac39e2b05440d855e1dece5701d32?width=448",
+            "https://static.playgama.com/p-img/pg/domino-online-multiplayer/icon/01961cf119e947db849389897676922b?width=448"
           ],
           "videos": [
             {
@@ -107135,7 +109989,7 @@
           "id": "86461",
           "slug": "solitaire-klondike-treasure-island",
           "title": " Solitaire Klondike - Treasure Island",
-          "description": "Dive into the exciting adventure of Solitaire Klondike - Treasure Island, where pirates and treasures await. Help a brave heroine uncover her father''s hidden fortune while outsmarting relentless foes, all set against stunning visuals and captivating animations.",
+          "description": "This game is an ideal choice for those who want to spend time with benefit and pleasure. Relieve fatigue and stress by plunging into the colorful world of pirate adventures. Become the hero of your own story and uncover the secrets hidden on far islands!",
           "howToPlayText": "Your goal is to arrange all the cards into four piles according to suit: from Ace to King. Start with aces, then twos, threes, and so on until you reach the king.\n\nOn the game board, you can move cards between seven piles. You can only start a new pile with a king. You can place a card of a different color and one unit of lower value on a card in the stack. Groups of cards with alternating colors and ranks can be dragged between stacks, adding tactical depth.\n\nYou can review the deck an unlimited number of times, giving you the opportunity to carefully consider each move. The game ends when all the cards are neatly placed in piles.\n\nTest your skills in this exciting solitaire card game and enjoy every victory!",
           "gameURL": "https://playgama.com/export/game/solitaire-klondike-treasure-island?clid=p_a383bcc2-0945-44fa-ad7d-bd13a7ad12e1",
           "playgamaGameUrl": "https://playgama.com/game/solitaire-klondike-treasure-island",
@@ -107164,9 +110018,12 @@
             "Male",
             "Female"
           ],
-          "inGamePurchases": "No",
+          "inGamePurchases": "Yes",
           "supportedLanguages": [
-            "en-US"
+            "en-US",
+            "ru-RU",
+            "tr-TR",
+            "de-DE"
           ],
           "screenOrientation": {
             "horizontal": true,
